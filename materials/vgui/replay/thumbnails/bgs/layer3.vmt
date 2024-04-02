@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/bgs/layer3"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+	"Proxies"
+        {
+            "TextureScroll"
+            {
+                "textureScrollVar" "$basetexturetransform"
+                "textureScrollRate" 0.03
+                "textureScrollAngle" 0
+            }
+        }
+}

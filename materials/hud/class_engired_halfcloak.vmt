@@ -1,0 +1,20 @@
+ "Refract"
+{
+
+ 	"$model" 1
+ 	"$refractamount" ".2"
+ 	"$bluramount" "1"
+	"$scale" "[1 1]"
+ 	"$normalmap" "vgui\replay\thumbnails\chararcters\engi_normal"
+ 	"$dudvmap" "vgui\replay\thumbnails\chararcters\engi_dudv"
+	"$bumpframe" "0"
+	"$translucent" "1"
+	"$ignorez" "1"
+	"$forcerefract" 1
+	"$nofog" "1"
+	"$refracttinttexture" "vgui\replay\thumbnails\chararcters\engi_red_tint"
+	"$nocull" "1"	
+
+}
+
+
