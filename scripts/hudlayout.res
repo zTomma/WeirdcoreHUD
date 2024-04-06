@@ -1,8 +1,9 @@
-#base "..\..\#basefiles\_customization\resolution\drop resolution here\16x9.res"
-#base "..\..\#basefiles\_customization\resolution\drop resolution here\4X3.res"
-#base "..\..\#basefiles\_customization\resolution\drop resolution here\16X10.res"
+
+#base "..\_customization\resolution\drop resolution here\4x3.res"
+#base "..\_customization\resolution\drop resolution here\16x9.res"
 "Resource/HudLayout.res"
 {
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -20,7 +21,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-200"	
+		"xpos"	"c-175"	
 		"zpos"	  "-2"
 		"xpos_minmode"	"c90"	
 		"ypos"	"c-100"	
@@ -28,7 +29,7 @@
 		"wide"	"700"
 		"tall"	"700"
 	}
-	
+
 	HudObjectiveStatus
 	{
 		"fieldName" "HudObjectiveStatus"

@@ -8,8 +8,7 @@
 		"name_width"	"57"
 		"horiz_inset"	"2"
 	}
-
-	"RoundSignModel"
+    "RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"RoundSignModel"
