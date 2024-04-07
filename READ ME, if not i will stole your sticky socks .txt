@@ -57,14 +57,7 @@ if you have trouble, you found bug or you wanna make some suggetion all you need
  https://www.youtube.com/playlist?list=PL5eNrB8RrXXuV3P1nv6NnwF-tCL_KnJIs
  
  
-Furthermore the hud includes, not 1, not 2, NOT 4 but rather 3 intors (the animation that start before the menu appears) respectively the alpha, beta e full release ones
-to enable the intro you want you have to go in 
-weirdcoreHUD\media
-open "startupvids.txt" and add " aplha" or " beta" after "hudintro" to activate corresponding files
 
-example:
-
-media/hudintro alpha.avi
 
 
 
