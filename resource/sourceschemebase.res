@@ -260,12 +260,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$POSIX]
+				"name"		 "Jogan Soft"
 				"tall"		"14" [$LINUX]
 				"tall"		"11" [$OSX]
-				"tall"		 "10"
+				"tall"		 "20"
 				"tall_lodef" "15"
 				"tall_hidef" "20"
 				"weight"	 "0"
@@ -479,12 +477,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$POSIX]
-				"tall"		"11" [$OSX]
-				"tall"		"14" [$LINUX]
-				"tall"		"10"
+				"name"		 "Jogan Soft"
+				"tall"		"20"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -592,11 +586,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$POSIX]
-				"tall"		"11" [$POSIX]
-				"tall"		"10"
+				"name"		 "Jogan Soft" 
+				"tall"		"20"
 				"weight"	"0"
 				"antialias" "1"
 			}
@@ -612,13 +603,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Verdana" [$OSX]
-				"name"		 "Courier" [$LINUX]
-				"tall"		"14" [$LINUX]
-				"tall"		"11" [$POSIX]
-				"tall"		"10"
+				"name"		 "Jogan Soft"
+				"tall"		"20"
 				"weight"	"0"
 				"dropshadow" "1"
 			}
@@ -1283,5 +1269,7 @@ Scheme
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2EP2.ttf"	
 		"3"		"resource/marlett.ttf"
+		"4"		"resource/fonts/JoganSoft-Regular.ttf"
+		"5"		"resource/fonts/clacon2.ttf"
 	}
 }

@@ -1,21 +1,23 @@
- 
  #base "../../_customization/addson/put_here_ur_addson/speedometer.res"
  #base "../../_customization/addson/put_here_ur_addson/lowHP_indicator.res"
  #base "../../_customization/addson/put_here_ur_addson/plusHP_indicator.res"
+#base "../../_customization/addson/put_here_ur_addson/lowHP_indicator_alt.res"
+ #base "../../_customization/addson/put_here_ur_addson/plusHP_indicator_alt.res"
+  #base "../../_customization/resolution/drop resolution here/16x9.res"
+  #base "../../_customization/resolution/drop resolution here/4x3.res"
 
  "Resource/UI/HudPlayerHealth.res"
 {	
 	// player health data
-	"HudPlayerHealth"
+	
+		"HudPlayerHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-300"		[$WIN32]
-		"ypos"			"c-50"	[$WIN32]
-		"xpos_minmode"	"60"		[$WIN32]
-		"ypos_minmode"	"0"	[$WIN32]
-		"xpos"			"43"	[$X360]
-		"ypos"			"124"	[$X360]
+		"xpos"			"c-300"		
+		"ypos"			"c-50"	
+		"xpos_minmode"	"60"		
+		"ypos_minmode"	"0"	
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -24,7 +26,48 @@
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"255 255 255 0"
-	}	
+		"scaleImage"	"1"	
+	}
+
+	"HudPlayerHealthcontainer_minmode"
+	{
+		"ControlName"	"imagePanel"
+		"fieldName"		"HudPlayerHealthcontainer_minmode"	
+		"xpos_minmode"	"c-320"		
+		"ypos_minmode"	"c60"	
+		"zpos"			"0"
+		"wide"			"120"
+		"tall"			"50"
+		"visible"		"0"
+		"enabled"		"0"	
+		"visible_minmode"		"1"
+		"enabled_minmode"		"1"	
+		"scaleImage"			"1"	
+		"fillcolor"			"0 0 0 255"
+		"alpha"			"200"
+	}
+
+	"HudPlayerHealthcontainer_minmodeteam"
+	{
+		"ControlName"	"CTFimagePanel"
+		"fieldName"		"HudPlayerHealthcontainer_minmodeteam"	
+		"xpos_minmode"	"c-320"		
+		"ypos_minmode"	"c108"	
+		"zpos"			"0"
+		"wide"			"120"
+		"tall"			"5"
+		"visible"		"0"
+		"enabled"		"0"	
+		"visible_minmode"		"1"
+		"enabled_minmode"		"1"	
+		"scaleImage"			"1"	
+		"image"			"/replay/thumbnails/border/redborder"
+		"teambg_2"		"/replay/thumbnails/border/redborder"
+		"teambg_3"		"/replay/thumbnails/border/blueborder"
+		
+		
+	}
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -33,11 +76,14 @@
 		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"wide"			"400"
+		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"0"
+		"visible_minmode"		"0"
+		"enabled_minmode"		"0"
 		"scaleImage"	"1"	
+
 	}		
 	"PlayerStatusHealthImageBG"
 	{
@@ -55,15 +101,6 @@
 
 		"scaleImage"	"1"	
 	}	
-	
-
-	 
-	
-
-
-	
-	
-
 
 
 	"LowHpBG" 
@@ -90,7 +127,7 @@
 		"xpos"			"-4"
 		"xpos_minmode"	"61"
 		"ypos"			"165"	[$WIN32]
-		"ypos_minmode"	"c60"	
+		"ypos_minmode"	"c45"	
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"70"
@@ -100,6 +137,7 @@
 		"textAlignment"	"center"	
 		"font"			"JusticeHalf120"
 		"fgcolor"		"purple1"
+		"scaleImage"	"1"	
 	}
 
 
@@ -175,7 +213,7 @@
 		"fieldName"		"PlayerStatusHealthValueBGminmode"
 		"xpos"			"9999"
 		"xpos_minmode"	"63"
-		"ypos_minmode"	"c62"
+		"ypos_minmode"	"c47"
 		"ypos"			"167"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"200"
@@ -198,7 +236,7 @@
 		"fieldName"		"PlayerStatusHealthValueBG1"
 		"xpos"			"999"
 		"xpos_minmode"	"63"
-		"ypos_minmode"	"c62"
+		"ypos_minmode"	"c47"
 		"ypos"			"170"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"200"

@@ -1,4 +1,5 @@
 #base "../../_customization/addson/put_here_ur_addson/UberIndicator.res"
+#base "../../_customization/addson/put_here_ur_addson/UberIndicator_alt.res"
 
 "Resource/UI/HudMedicCharge.res"
 {	

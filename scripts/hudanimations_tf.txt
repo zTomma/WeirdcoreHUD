@@ -212,7 +212,7 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthValueBG		fgcolor		"whuddarkgreen" Spline 0.0 0.0
 	Animate PlayerStatusHealthValueBGminmode		fgcolor		"whuddarkgreen" Spline 0.0 0.0
 	Animate PlayerStatusHealthValueuber		fgcolor		"35 148 61 255"	Linear 0.0 0.0
-	RunEvent HudHealthBonusPulseLoop	0.5
+	RunEvent HudHealthBonusPulseLoop	1.5
 }
 
 // call to loop HudHealthBonusPulse
@@ -235,13 +235,13 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulseCycle1
 {
 	RunEvent HudHealthDyingPulseMain 	0.5
-	RunEvent HudHealthDyingPulseCycle2 	0.75
+	RunEvent HudHealthDyingPulseCycle2 	1.50
 }
 
 event HudHealthDyingPulseCycle2
 {
 	RunEvent HudHealthDyingPulseMain 	0.5
-	RunEvent HudHealthDyingPulseCycle1 	0.75
+	RunEvent HudHealthDyingPulseCycle1 	1.50
 }
 
 event HudHealthDyingPulse
@@ -291,7 +291,7 @@ event HudLowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 	
-	RunEvent HudLowAmmoPulseLoop	0.5
+	RunEvent HudLowAmmoPulseLoop	1.50
 }
 
 // call to loop HudLowAmmoPulse
@@ -471,7 +471,7 @@ event HudMedicCharged
 	Animate	uberready						 	Alpha		"255"		Linear 0.0 0.075
 	Animate	uberready							Alpha		"0"			Linear 0.125 0.075
 
-	RunEvent HudMedicChargedLoop	0.6
+	RunEvent HudMedicChargedLoop	1.5
 }
 
 // call to loop HudHealthBonusPulse
@@ -555,13 +555,13 @@ event HudCartAlarmPulseStop
 event ActiveTimerBGPulse
 {
 	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
+	Animate	ActiveTimerBG 	Alpha		"0"		Linear 0.3 0.1
 	
 	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.7 0.1
+	Animate	ActiveTimerBG 	Alpha		"0"		Linear 0.7 0.1
 	
 	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
-	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
+	Animate	ActiveTimerBG 	Alpha		"0"		Linear 1.1 0.1
 }
 
 event ActiveTimerHighlight

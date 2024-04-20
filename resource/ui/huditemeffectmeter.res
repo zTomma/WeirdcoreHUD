@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"x_offset"		"40"
 		"xpos"			"c-50"	
-		"ypos"			"c155"	
+		"ypos"			"c75"	
 		"xpos_minmode"	"c-60"	
 		"ypos_minmode"	"c-60"	
 		"x_offset_minmode"		"0"	
@@ -16,6 +16,13 @@
 		"tall_minmode"			"220"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+
+		"if_multiple_trains"
+		{
+	
+			"ypos"			"c80"	
+			
+		}
 	}
 	
 	"ItemEffectMeterBG"

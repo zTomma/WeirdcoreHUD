@@ -1961,6 +1961,52 @@
 		
 	}
 
+	
+	"fleek"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"fleek"
+		"xpos"			"180"
+		"ypos"			"100"
+		"zpos"			"2"
+		"wide"			"1"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"4"
+		"labelText"		""
+		"font"			"pixel8"
+		"textAlignment"	"center"
+		"fgcolor_override"		"violet"
+		"armedBgColor_override"		"HUDdarkgray"	
+		"defaultBgColor_override"	"WHUDblack"
+		"sound_depressed"	"UI/1.wav"
+
+		"flekUrl"
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"				"flekurl"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"f0"
+			"tall"					"f0"
+			"font"					"icons25"
+			"labelText"				"D"
+			"enabled"				"1"
+			"visible"				"1"
+			"paintBackground"		"0"
+			"textAlignment"			"est"
+			"fgcolor_override"		"WHUDwhite"
+			"proportionaltoparent"	"1"
+			"urlText"				"https://cdn.discordapp.com/attachments/1004365879384997928/1231217614424899634/06aeb99bf3fdcd24acda39170cb8e9e16070d967r1-1080-656v2_uhq.jpg?ex=66250442&is=6623b2c2&hm=7c87e85bf4f8ac73e5429aa32ec51748b881b538dc41d72f73e631d63dd2d5a3&"
+			
+		}
+		
+	}
+
+
 		"low on/off" ///////// does not work :( i will think about it later
 	{
 		"ControlName"	"CExButton"

@@ -171,7 +171,49 @@
 		"scaleImage"		"1"
 	}
 
-	
+	"mark"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"mark"
+		"xpos"			"-40"
+		"ypos"			"350"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"30"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"4"
+		"labelText"		""
+		"font"			"pixel8"
+		"textAlignment"	"center"
+		"fgcolor_override"		"violet"
+		"armedBgColor_override"		"HUDdarkgray"	
+		"defaultBgColor_override"	"WHUDblack"
+		"sound_depressed"	"UI/1.wav"
+
+		"markUrl"
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"				"fmarkurl"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"f0"
+			"tall"					"f0"
+			"font"					"icons25"
+			"labelText"				"D"
+			"enabled"				"1"
+			"visible"				"1"
+			"paintBackground"		"0"
+			"textAlignment"			"est"
+			"fgcolor_override"		"WHUDwhite"
+			"proportionaltoparent"	"1"
+			"urlText"				"https://markiplier.fandom.com/wiki/WARNING:_SCARIEST_GAME_IN_YEARS/Transcript"
+			
+		}
+		
+	}
 
 	
 	"ClassLabel"
@@ -180,11 +222,11 @@
 		"fieldName"		"ClassLabel"
 		"font"			"pixel40"
 		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"210"
+		"wide"			"f0"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"

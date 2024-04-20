@@ -544,10 +544,10 @@
 				"xpos"				"0"
 				"ypos"				"55"
 				"zpos"				"0"
-				"wide"				"54"
-				"wide_minmode"			"35"				
-				"tall"				"65"
-				"tall_minmode"			"42"
+				"wide"				"0"
+				"wide_minmode"			"0"				
+				"tall"				"0"
+				"tall_minmode"			"0"
 				"visible"			"1"
 				"enabled"			"1"
 				"scaleImage"		"1"
@@ -558,8 +558,8 @@
 				{
 					"xpos"			"0"
 					"ypos"			"0"			
-					"wide"			"35"			
-					"tall"			"42"			
+					"wide"			"0"			
+					"tall"			"0"			
 				}	
 			}
 
@@ -642,13 +642,13 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		""
-				"image"			"../hud/cart_arrow_right"
+				"image"			"replay/thumbnails/payload_icons/cart_arrow_right"
 				"scaleImage"	"1"	
 				
 				"if_multiple_trains"
 				{
 					"xpos"			"8"
-					"ypos"			"8"			
+					"ypos"			"24"			
 					"wide"			"20"			
 					"tall"			"20"			
 				}		

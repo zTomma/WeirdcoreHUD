@@ -50,7 +50,13 @@ if you have trouble, you found bug or you wanna make some suggetion all you need
  weirdcoreHUD\_customization
  you can find:
  -"colors.res"  that control main color of the hud
- - "addson" folder where you can add and remove features like low hp, low ammo, plus health, uber charge indicators and also a speedomoter (why not) to active them keep the files in "put_here_ur_addson" folder, instead remove them to disable
+ - "addson" folder where you can add and remove features:
+  to remove indicator remove the corresponding indicator file from the folder
+  
+  to have indicator at the sides of the screen add _alt in the folder
+  
+  to reduce font sizes put "tiny_fonts" in the folder and remove "normal_fonts"
+
  -"resolution" still working on this :/
  
  and if you wanna go EVEN FUTHER:

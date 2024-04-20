@@ -9,8 +9,9 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"-20"
+		"xpos"	"c-448"
 		"ypos"	"-15"
+		"ypos_minmode"	"0"
 		"xpos_minmode"	"15"
 		"wide"	"f0"
 		"tall"	"f0"
@@ -30,6 +31,18 @@
 		"tall"	"700"
 	}
 
+	CurrencyStatusPanel
+	{
+		"ControlName"	"CCurrencyStatusPanel"
+		"fieldName"		"CurrencyStatusPanel"
+		"xpos"					"0"
+		"ypos"					"r100"
+		"ypos_minmode"			"-8"
+		"wide"					"100"
+		"tall"					"100"
+		"enabled"				"1"
+		"visible"				"1"
+	}
 	HudObjectiveStatus
 	{
 		"fieldName" "HudObjectiveStatus"
@@ -52,9 +65,9 @@
 		"wide"	"200"
 		"tall"	"160"
 		
-		"blue_active_xpos"			"16"
+		"blue_active_xpos"			"999"
 	
-		"red_active_xpos"			"106"
+		"red_active_xpos"			"999"
 	}	
 
 	HudItemEffectMeter
@@ -567,10 +580,12 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" "1"
+		"ypos" "-80"
+		
 
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
+		"TextFont"				"pixel10"
+		"ItemFont"				"pixel10"
+		"ItemFontPulsing"		"pixel10"
 	}
 
 	HudSpellMenu
@@ -722,8 +737,6 @@
 		"enabled" "1"
 		"xpos" "r42" 	[$WIN32]
 		"ypos" "355"	[$WIN32]
-		"xpos" "r75"	[$X360]
-		"ypos" "375"	[$X360]
 		"wide" "32"
 		"tall" "32"
 	}
@@ -735,8 +748,6 @@
 		"enabled" "1"
 		"xpos" "r145" [$WIN32]
 		"ypos" "0" [$WIN32]
-		"xpos" "r210" [$X360]
-		"ypos" "0" [$X360]
 		"wide" "145"
 		"tall" "400"
 
@@ -1017,8 +1028,7 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-160"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
+		"zpos"			"5"
 		"wide"			"470"
 		"tall"			"600"	[$WIN32]
 		"tall"			"180"	[$X360]

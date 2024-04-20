@@ -17,7 +17,7 @@ Scheme
 		"WHUDwhite"			"227 227 227 255"
 		"WHUDblack"			"23 23 23 255"
 		"HUDteamred"		"204 110 162 255"
-		"HUDteamblu"		"131 107 160 255"
+		"HUDteamblu"		"160 146 197 255"
 		"HUDfullblack"		"1 1 1 255"
 		"HUDtransparentblack"	"0 0 0 125"
 		"whudgreen"			"133 181 151 255"

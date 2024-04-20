@@ -160,12 +160,12 @@ Scheme
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Orange"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"33 199 55 241"
 
 		Slider.NobColor						"108 108 108 255"
 		Slider.TextColor					"180 180 180 255"
 		Slider.TrackColor					"31 31 31 255"
-		Slider.DisabledTextColor1			"117 117 117 255"
+		Slider.DisabledTextColor1			"77 77 77 255"
 		Slider.DisabledTextColor2			"30 30 30 255"
 
 		TextEntry.TextColor					"TFTextBright"
@@ -203,9 +203,9 @@ Scheme
 		NewGame.SelectionColor				"Orange"
 		NewGame.DisabledColor				"128 128 128 196"
 
-		TFColors.ChatTextYellow				"251 235 202 255"
-		TFColors.ChatTextTeamBlue			"153 204 255 255"
-		TFColors.ChatTextTeamRed			"255 63 53 255"
+		TFColors.ChatTextYellow				"245 211 248 255"
+		TFColors.ChatTextTeamBlue			"180 122 235 255"
+		TFColors.ChatTextTeamRed			"221 97 159 255"
 	}
 
 	//////////////////////// BITMAP FONT FILES /////////////////////////////
@@ -227,24 +227,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"40"
+				"name"		"Jogan Soft"
+				"tall"		"30"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"40"
+				"name"		"Jogan Soft"
+				"tall"		"30"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"40"
+				"name"		"Jogan Soft"
+				"tall"		"30"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -252,8 +252,8 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"40"
+				"name"		"Jogan Soft"
+				"tall"		"30"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -261,8 +261,8 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"40"
+				"name"		"Jogan Soft"
+				"tall"		"30"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -321,7 +321,7 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"7"
+				"tall"		"10"
 				"weight"	"0"
 				"yres"		"480 599"
 				"symbol"	"1"
@@ -345,7 +345,7 @@ Scheme
 			"4"
 			{
 				"name"		"Marlett"
-				"tall"		"13"
+				"tall"		"20"
 				"weight"	"0"
 				"yres"		"1024 1199"
 				"symbol"	"1"
@@ -364,40 +364,40 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"25"	
+				"name"		"Jogan Soft"
+				"tall"		"20"	
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"25"	
+				"name"		"Jogan Soft"
+				"tall"		"20"	
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"25"	
+				"name"		"Jogan Soft"
+				"tall"		"20"	
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"25"	
+				"name"		"Jogan Soft"
+				"tall"		"20"	
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"25"	
+				"name"		"Jogan Soft"
+				"tall"		"20"	
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
@@ -423,7 +423,7 @@ Scheme
 		FrameBorder
 		{
 			// rounded corners for frames
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		DepressedBorder
@@ -433,7 +433,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Border.Dark"
+					"color" "Whudwhite"
 					"offset" "0 0"
 				}
 			}
@@ -507,17 +507,17 @@ Scheme
 		
 		TitleButtonBorder
 		{
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		TitleButtonDisabledBorder
 		{
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		TitleButtonDepressedBorder
 		{
-			"backgroundtype" "0"
+			"backgroundtype" "2"
 		}
 
 		ScrollBarButtonBorder
@@ -813,3 +813,6 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"		
 	}
 }
+
+
+////////////////////////// https://www.youtube.com/watch?v=DYpooJFMEL4&ab_channel=Leot //////////////////////////////

@@ -6,12 +6,11 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	
-		"ypos"			"175"
-		"ypos_hidef"		"245"
-		"wide"	 		"280"
-		"tall"	 		"128"
-		"PaintBackgroundType"	"2"
+		"xpos"			"5"	
+		"ypos"			"210"
+		"wide"	 		"220"
+		"tall"	 		"110"
+		"PaintBackgroundType"	"0"
 	}
 	
 
@@ -25,7 +24,7 @@
 		"xpos"			"42"	[$X360]
 		"ypos"			"395"
 		"wide"	 		"260"
-		"tall"	 		"2"
+		"tall"	 		"0"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -33,8 +32,8 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ChatFiltersButton"
-		"xpos"			"225"
-		"ypos"			"2"
+		"xpos"			"170"
+		"ypos"			"87"
 		"wide"			"45"
 		"tall"			"15"
 		"autoResize"		"1"
@@ -53,11 +52,9 @@
 	{
 		"ControlName"		"RichText"
 		"fieldName"		"HudChatHistory"
-		"xpos"			"10"	[$WIN32]
-		"ypos"			"17"	[$WIN32]
-		"xpos"			"10"	[$X360]
-		"ypos"			"10"	[$X360]
-		"wide"	 		"260"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"	 		"220"
 		"tall"			"75"
 		"wrap"			"1"
 		"autoResize"		"1"
