@@ -47,28 +47,56 @@
 		"tabPosition"	"0"
 	}
 	
-\\\\almost copyed from zeed hud, sorry Zeesastrous but im lazy (☞ ͡° ͜ʖ ͡°)☞\\\\\\
-	
+	"EditLoadoutButtonLetter"  
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"EditLoadoutButtonLetter"
+		"xpos"			"c220"
+		"ypos"			"368"
+		"zpos"			"6"
+		"wide"			"0"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&E"
+		"textAlignment"	"east"
+		"Command"		"openloadout"
+		"font"			"Jost16Shadow"
 
-	"ScoutImage"
+		"image_drawcolor"	"235 245 255 0"
+		"image_armedcolor"	"22 22 22 0"
+
+		"defaultFgColor_override" "235 245 255 255"
+		"armedFgColor_override" "22 22 22 255"
+		"depressedFgColor_override" "235 245 255 255"
+			
+		"defaultBgColor_override" "22 22 22 0"
+		"armedBgColor_override" "235 245 255 0"
+		"depressedBgColor_override" "22 22 22 0"
+		
+		"border"		"ComboBoxBorder"
+	}
+	
+\\\\almost copyed from zeed hud, sorry Zeesastrous but im lazy (☞ ͡° ͜ʖ ͡°)☞\\\\\\
+	"ScoutButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"ScoutImage"
+		"fieldName"		"ScoutButton"
 		"xpos"			"30"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"19"
 		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
-		"Command"		"joinclass scout"
 		"enabled"		"1"
+		"Command"		"select 1"
 		"paintbackground"	"0"
 		"labelText"			""
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/buttons/scout"
 		"image_armed"			"replay/thumbnails/buttons/scout_sel"
 		"image_default"			"replay/thumbnails/buttons/scout"
-		
 
 		"SubImage"
 		{
@@ -90,28 +118,28 @@
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
-
 	
 
-	"SoldierImage"
+
+	"SoldierButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"SoldierImage"
+		"fieldName"		"SoldierButton"
 		"xpos"			"0"
 		"ypos"			"-90"
-		"zpos"			"2"
+		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
-		"Command"		"joinclass soldier"
 		"enabled"		"1"
+		"Command"		"select 3"
 		"paintbackground"	"0"
 		"labelText"			""
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/buttons/soldier"
-		"image_armed"			"replay/thumbnails/buttons/soldier_sel"
-		"image_default"			"replay/thumbnails/buttons/soldier"
-		"pin_to_sibling" "scoutimage"
+		"image_armed"	"replay/thumbnails/buttons/soldier_sel"
+		"image_default"	"replay/thumbnails/buttons/soldier"
+		"pin_to_sibling" "ScoutButton"
 
 		"SubImage"
 		{
@@ -135,17 +163,17 @@
 	}
 
 	
-"pyroImage"
+"PyroButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"pyroImage"
+		"fieldName"		"PyroButton"
 		"xpos"			"0"
 		"ypos"			"-180"
-		"zpos"			"3"
+		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
-		"Command"		"joinclass pyro"
+		"Command"		"select 7"
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"labelText"			""
@@ -153,7 +181,7 @@
 		"image"			"replay/thumbnails/buttons/pyro"
 		"image_armed"			"replay/thumbnails/buttons/pyro_sel"
 		"image_default"			"replay/thumbnails/buttons/pyro"
-		"pin_to_sibling" "scoutimage"
+		"pin_to_sibling" "ScoutButton"
 
 		"SubImage"
 		{
@@ -176,17 +204,17 @@
 		"pin_to_sibling_corner" "0"
 	}
 	
-	"demoImage"
+	"DemoButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"demoImage"
+		"fieldName"		"DemoButton"
 		"xpos"			"0"
 		"ypos"			"-270"
-		"zpos"			"4"
+		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
-		"Command"		"joinclass demoman"
+		"Command"		"select 4"
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"labelText"			""
@@ -194,7 +222,7 @@
 		"image"			"replay/thumbnails/buttons/demo"
 		"image_armed"			"replay/thumbnails/buttons/demo_sel"
 		"image_default"			"replay/thumbnails/buttons/demo"
-		"pin_to_sibling" "scoutimage"
+		"pin_to_sibling" "ScoutButton"
 
 		"SubImage"
 		{
@@ -217,17 +245,17 @@
 		"pin_to_sibling_corner" "0"
 	}
 
-"heavyImage"
+"HeavyButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"heavyImage"
+		"fieldName"		"HeavyButton"
 		"xpos"			"0"
 		"ypos"			"-360"
-		"zpos"			"5"
+		"zpos"			"20"
 		"wide"			"210"
 		"tall"			"105"
 		"visible"		"1"
-		"Command"		"joinclass heavyweapons"
+		"Command"		"select 6"
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"labelText"			""
@@ -235,7 +263,7 @@
 		"image"			"replay/thumbnails/buttons/heavy"
 		"image_armed"			"replay/thumbnails/buttons/heavy_sel"
 		"image_default"			"replay/thumbnails/buttons/heavy"
-		"pin_to_sibling" "scoutimage"
+		"pin_to_sibling" "ScoutButton"
 
 		"SubImage"
 		{
@@ -250,25 +278,25 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/buttons/heavy"
-				"image_armed"			"replay/thumbnails/buttons/heavy_sel"
+				"image_armed"			"replay/thumbnails/buttons/heavy"
+				"image"			"replay/thumbnails/buttons/heavy_sel"
 				"image_default"			"replay/thumbnails/buttons/heavy"
 		}
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
 
-	"engiImage"
+	"EngiButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"engiImage"
+		"fieldName"		"EngiButton"
 		"xpos"			"600"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"20"
 		"wide"			"240"
 		"tall"			"120"
 		"visible"		"1"
-		"Command"		"joinclass engineer"
+		"Command"		"select 9"
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"labelText"			""
@@ -299,17 +327,17 @@
 		"pin_to_sibling_corner" "0"
 	}
 
-	"medicImage"
+	"MedicButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"medicImage"
+		"fieldName"		"MedicButton"
 		"xpos"			"0"
 		"ypos"			"-90"
-		"zpos"			"2"
+		"zpos"			"20"
 		"wide"			"240"
 		"tall"			"120"
 		"visible"		"1"
-		"Command"		"joinclass medic"
+		"Command"		"select 5"
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"labelText"			""
@@ -317,7 +345,7 @@
 		"image"			"replay/thumbnails/buttons/medic"
 		"image_armed"			"replay/thumbnails/buttons/medic_sel"
 		"image_default"			"replay/thumbnails/buttons/medic"
-		"pin_to_sibling" "engiimage"
+		"pin_to_sibling" "EngiButton"
 
 		"SubImage"
 		{
@@ -340,17 +368,17 @@
 		"pin_to_sibling_corner" "0"
 	}
 
-	"sniperImage"
+	"SniperButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"sniperImage"
+		"fieldName"		"SniperButton"
 		"xpos"			"0"
 		"ypos"			"-180"
-		"zpos"			"3"
+		"zpos"			"20"
 		"wide"			"240"
 		"tall"			"120"
 		"visible"		"1"
-		"Command"		"joinclass sniper"
+		"Command"		"select 2"
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"labelText"			""
@@ -358,7 +386,7 @@
 		"image"			"replay/thumbnails/buttons/sniper"
 		"image_armed"			"replay/thumbnails/buttons/sniper_sel"
 		"image_default"			"replay/thumbnails/buttons/sniper"
-		"pin_to_sibling" "engiimage"
+		"pin_to_sibling" "EngiButton"
 
 		"SubImage"
 		{
@@ -382,17 +410,17 @@
 	}
 
 
-"spyImage"
+"SpyButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"spyImage"
+		"fieldName"		"SpyButton"
 		"xpos"			"0"
 		"ypos"			"-270"
-		"zpos"			"4"
+		"zpos"			"20"
 		"wide"			"240"
 		"tall"			"120"
 		"visible"		"1"
-		"Command"		"joinclass spy"
+		"Command"		"select 8"
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"labelText"			""
@@ -400,7 +428,7 @@
 		"image"			"replay/thumbnails/buttons/spy"
 		"image_armed"			"replay/thumbnails/buttons/spy_sel"
 		"image_default"			"replay/thumbnails/buttons/spy"
-		"pin_to_sibling" "engiimage"
+		"pin_to_sibling" "EngiButton"
 
 		"SubImage"
 		{
@@ -423,17 +451,377 @@
 		"pin_to_sibling_corner" "0"
 	}
 
-"randomImage"
+	"Scout"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"randomImage"
+		"fieldName"		"scout"
+		"xpos"			"30"
+		"ypos"			"0"
+		"zpos"			"6"
+		"wide"			"200"
+		"tall"			"100"
+		"visible"		"1"
+		"Command"		"select 1"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"Default"		"0"
+		"scaleImage"	"1"
+		
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+		
+		"image"			"replay/thumbnails/buttons/scout"
+		"image_armed"	"replay/thumbnails/buttons/scout_sel"
+		"image_default"	"replay/thumbnails/buttons/scout"
+		
+		"stayselectedonclick"	"1"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"			
+	}
+	
+
+	"Soldier"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"soldier"
+		"xpos"			"0"
+		"ypos"			"-90"
+		"zpos"			"6"
+		"wide"			"200"
+		"tall"			"100"
+		"visible"		"1"
+		"Command"		"select 3"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/buttons/soldier"
+		"image_armed"			"replay/thumbnails/buttons/soldier_sel"
+		"image_default"			"replay/thumbnails/buttons/soldier"
+		"pin_to_sibling" "scout"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"100"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/soldier"
+				"image_armed"			"replay/thumbnails/buttons/soldier_sel"
+				"image_default"			"replay/thumbnails/buttons/soldier"
+		}
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+
+	
+"pyro"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"pyro"
+		"xpos"			"0"
+		"ypos"			"-180"
+		"zpos"			"3"
+		"wide"			"200"
+		"tall"			"100"
+		"visible"		"1"
+		"Command"		"select 7"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/buttons/pyro"
+		"image_armed"			"replay/thumbnails/buttons/pyro_sel"
+		"image_default"			"replay/thumbnails/buttons/pyro"
+		"pin_to_sibling" "scout"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"100"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/pyro"
+				"image_armed"			"replay/thumbnails/buttons/pyro_sel"
+				"image_default"			"replay/thumbnails/buttons/pyro"
+		}
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+	
+	"demoman"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"demoman"
+		"xpos"			"0"
+		"ypos"			"-270"
+		"zpos"			"4"
+		"wide"			"200"
+		"tall"			"100"
+		"visible"		"1"
+		"Command"		"select 4"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/buttons/demo"
+		"image_armed"			"replay/thumbnails/buttons/demo_sel"
+		"image_default"			"replay/thumbnails/buttons/demo"
+		"pin_to_sibling" "scout"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"100"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/demo"
+				"image_armed"			"replay/thumbnails/buttons/demo_sel"
+				"image_default"			"replay/thumbnails/buttons/demo"
+		}
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+
+"heavyweapons"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"heavyweapons"
+		"xpos"			"0"
+		"ypos"			"-360"
+		"zpos"			"5"
+		"wide"			"210"
+		"tall"			"105"
+		"visible"		"1"
+		"Command"		"select 6"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/buttons/heavy"
+		"image_armed"			"replay/thumbnails/buttons/heavy_sel"
+		"image_default"			"replay/thumbnails/buttons/heavy"
+		"pin_to_sibling" "scout"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"105"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image_armed"			"replay/thumbnails/buttons/heavy"
+				"image"			"replay/thumbnails/buttons/heavy_sel"
+				"image_default"			"replay/thumbnails/buttons/heavy"
+		}
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+
+	"engineer"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"engineer"
+		"xpos"			"600"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"120"
+		"visible"		"1"
+		"Command"		"select 9"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/buttons/engi"
+		"image_armed"			"replay/thumbnails/buttons/engi_sel"
+		"image_default"			"replay/thumbnails/buttons/engi"
+	
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/engi"
+				"image_armed"			"replay/thumbnails/buttons/engi_sel"
+				"image_default"			"replay/thumbnails/buttons/engi"
+		}
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+
+	"medic"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"medic"
+		"xpos"			"0"
+		"ypos"			"-90"
+		"zpos"			"2"
+		"wide"			"240"
+		"tall"			"120"
+		"visible"		"1"
+		"Command"		"select 5"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/buttons/medic"
+		"image_armed"			"replay/thumbnails/buttons/medic_sel"
+		"image_default"			"replay/thumbnails/buttons/medic"
+		"pin_to_sibling" "engineer"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/engi"
+				"image_armed"			"replay/thumbnails/buttons/engi_sel"
+				"image_default"			"replay/thumbnails/buttons/engi"
+		}
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+
+	"sniper"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"sniper"
+		"xpos"			"0"
+		"ypos"			"-180"
+		"zpos"			"3"
+		"wide"			"240"
+		"tall"			"120"
+		"visible"		"1"
+		"Command"		"select 2"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/buttons/sniper"
+		"image_armed"			"replay/thumbnails/buttons/sniper_sel"
+		"image_default"			"replay/thumbnails/buttons/sniper"
+		"pin_to_sibling" "engineer"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/sniper"
+				"image_armed"			"replay/thumbnails/buttons/sniper_sel"
+				"image_default"			"replay/thumbnails/buttons/sniper"
+		}
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+
+
+"spy"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"spy"
+		"xpos"			"0"
+		"ypos"			"-270"
+		"zpos"			"4"
+		"wide"			"240"
+		"tall"			"120"
+		"visible"		"1"
+		"Command"		"select 8"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/buttons/spy"
+		"image_armed"			"replay/thumbnails/buttons/spy_sel"
+		"image_default"			"replay/thumbnails/buttons/spy"
+		"pin_to_sibling" "engineer"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/spy"
+				"image_armed"			"replay/thumbnails/buttons/spy_sel"
+				"image_default"			"replay/thumbnails/buttons/spy"
+		}
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+	
+	"random"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"random"
 		"xpos"			"0"
 		"ypos"			"-360"
 		"zpos"			"5"
 		"wide"			"240"
 		"tall"			"120"
 		"visible"		"1"
-		"Command"		"joinclass random"
+		"Command"		"select 12"
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"labelText"			""
@@ -441,7 +829,49 @@
 		"image"			"replay/thumbnails/buttons/random"
 		"image_armed"			"replay/thumbnails/buttons/random_sel"
 		"image_default"			"replay/thumbnails/buttons/random"
-		"pin_to_sibling" "engiimage"
+		"pin_to_sibling" "engineer"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"0"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/random"
+				"image_armed"			"replay/thumbnails/buttons/random_sel"
+				"image_default"			"replay/thumbnails/buttons/random"
+		}
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+
+
+"RandomButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RandomButton"
+		"xpos"			"0"
+		"ypos"			"-360"
+		"zpos"			"20"
+		"wide"			"240"
+		"tall"			"120"
+		"visible"		"1"
+		"Command"		"select 12"
+		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/buttons/random"
+		"image_armed"			"replay/thumbnails/buttons/random_sel"
+		"image_default"			"replay/thumbnails/buttons/random"
+		"pin_to_sibling" "EngiButton"
 
 		"SubImage"
 		{
@@ -812,7 +1242,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
-		"pin_to_sibling" "scoutimage"
+		"pin_to_sibling" "scout"
 		"font"			"Justicehalf120"
 		"fgcolor"		"violet"
 	}	
@@ -853,7 +1283,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
-		"pin_to_sibling" "soldierimage"
+		"pin_to_sibling" "soldier"
 		"font"			"Justicehalf120"
 		"fgcolor"		"violet"
 	}	
@@ -894,7 +1324,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numpyro%"
 		"textAlignment"	"center"
-		"pin_to_sibling" "pyroimage"
+		"pin_to_sibling" "pyro"
 		"font"			"Justicehalf120"
 		"fgcolor"		"violet"
 	}	
@@ -935,7 +1365,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numdemoman%"
 		"textAlignment"	"center"
-		"pin_to_sibling" "demoimage"
+		"pin_to_sibling" "demoman"
 		"font"			"Justicehalf120"
 		"fgcolor"		"violet"
 	}	
@@ -975,7 +1405,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
-		"pin_to_sibling" "Heavyimage"
+		"pin_to_sibling" "heavyweapons"
 		"font"			"Justicehalf120"
 		"fgcolor"		"violet"
 	}	
@@ -1015,7 +1445,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numengineer%"
 		"textAlignment"	"center"
-		"pin_to_sibling" "engiimage"
+		"pin_to_sibling" "engineer"
 		"font"			"Justicehalf120"
 		"fgcolor"		"violet"
 	}	
@@ -1056,7 +1486,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
-		"pin_to_sibling" "Medicimage"
+		"pin_to_sibling" "medic"
 		"font"			"Justicehalf120"
 		"fgcolor"		"violet"
 	}	
@@ -1097,7 +1527,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
-		"pin_to_sibling" "Sniperimage"
+		"pin_to_sibling" "sniper"
 		"font"			"Justicehalf120"
 		"fgcolor"		"violet"
 	}	
@@ -1138,7 +1568,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
-		"pin_to_sibling" "Spyimage"
+		"pin_to_sibling" "spy"
 		"font"			"Justicehalf120"
 		"fgcolor"		"violet"
 	}	
