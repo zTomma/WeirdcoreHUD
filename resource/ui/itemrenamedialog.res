@@ -322,7 +322,7 @@
 		"bgcolor_override"	"46 43 42 255"
 		"paintbackgroundtype" "0"
 		"labelText"			""
-		"font"				"pixe20"
+		"font"				"pixel20"
 		"textAlignment"		"west"
 	}
 	
