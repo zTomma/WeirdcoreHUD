@@ -121,7 +121,7 @@
 				"ypos"			"4"
 				"wide"			"35"
 				"tall"			"10"
-				"font"			"Digital20"
+				"font"			"Digital15"
 			
 			}
 		}	
