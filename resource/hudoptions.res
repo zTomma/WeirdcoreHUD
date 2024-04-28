@@ -266,7 +266,7 @@
 		"Command"		"engine sv_cheats 1;  map itemtest"
 		"actionsignallevel"		"4"
 		"labelText"		"Itemtest"
-		"font"			"pixel10"
+		"font"			"pixel15"
 		"textAlignment"	"center"
 		"fgcolor_override"		"violet"
 		"armedBgColor_override"		"HUDdarkgray"	
@@ -399,7 +399,7 @@
 		"Command"		"engine toggle tf_spectator_target_location"
 		"actionsignallevel"		"4"
 		"labelText"		"target.pos."
-		"font"			"pixel8"
+		"font"			"pixel10"
 		"textAlignment"	"center"
 		"fgcolor_override"		"violet"
 		"armedBgColor_override"		"HUDdarkgray"	
@@ -853,7 +853,7 @@
 			"command"	"engine toggle crosshair"	
 			"actionsignallevel"	"4"
 			
-			"labeltext"	"ON/OFF"	
+			"labeltext"	"Toggle"	
 			"textAlignment"	"center"	
 			
 			"sound_depressed"	"UI/buttonclick.wav"	
