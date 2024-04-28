@@ -40,7 +40,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"digital20"
+			"font"			"digital15"
 			"fgcolor"		"hudteamblu"
 			"xpos"			"23"
 			"ypos"			"110"
@@ -94,14 +94,14 @@
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"digital20"
+			"delta_item_font"		"digital15"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"digital20"
+			"font"			"digital15"
 			"fgcolor"		"HUDteamred"
 			"xpos"			"23"
 			"ypos"			"110"
