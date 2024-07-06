@@ -361,30 +361,6 @@
 			"visible"		"0"
 		}
 	}
-	"ServerLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ServerLabel"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"%server%"
-		"textAlignment"		"west"
-		"xpos"			"11"
-		"xpos_hidef"	"31"
-		"ypos"			"60"
-		"ypos_lodef"	"62"
-		"wide"			"300"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"ypos"			"0"
-			"visible"		"1"
-		}
-	}
 	"TimerBG"
 	{
 		"ControlName"		"EditablePanel"
@@ -895,11 +871,11 @@
 		"font"			"pixel15"
 		"labelText"		"%server%"
 		"fgcolor"		"255 255 255 255"
-		"textAlignment"		"east"
-		"xpos"			"210"
+		"textAlignment"		"center"
+		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"3"
-		"wide"			"265"
+		"wide"			"fullscreen"
 		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -922,7 +898,7 @@
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"265"
-		"tall"			"12"
+		"tall"			"33"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
