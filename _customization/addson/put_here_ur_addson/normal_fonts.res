@@ -307,26 +307,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-			"pixel2"
-		{
-			"1"
-			{
-				"name"		"Upheaval TT -BRK-"
-				"tall"		"2"
-				"antialias" "1"
-			}
-		}
-			
-			"pixel5"
-		{
-			"1"
-			{
-				"name"		"Upheaval TT -BRK-"
-				"tall"		"5"
-				"antialias" "1"
-			}
-		}
-			
 			"pixel6"
 		{
 			"1"

@@ -548,7 +548,7 @@
 		"xpos"		"0"
 		"ypos"		"200"
 		"wide"		"563"
-		"tall"		"400"
+		"tall"		"340"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -2598,67 +2598,6 @@
 				
 				"border_default"	"noborder"
 			}
-
-			//MARK: VIEWMODEL TOGGLE
-			"vmodelToggle"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"vmodelToggle"
-			
-			"xpos"	"1"	
-			"ypos"	"350"	
-			"zpos"	"16"	
-			"wide"	"70"	
-			"tall"	"26"
-			
-			"font"	"pixel6"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine toggle r_drawviewmodel"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	"VIEWMODEL TOGGLE"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/1.wav"	
-			
-			"armedBgColor_override"		"HUDdarkgray"	
-			"defaultBgColor_override"	"WHUDBlack"	
-
-			"fgcolor_override"		"violet"
-		}
-
-		//MARK: MIN VIEWMODEL
-			"minVmodelToggle"
-		{
-			"ControlName"	"CExButton"	
-			"fieldname"	"minVmodelToggle"
-			
-			"xpos"	"10"	
-			"ypos"	"0"	
-			"zpos"	"16"	
-			"wide"	"70"	
-			"tall"	"26"
-			
-			"font"	"pixel6"	
-			"visible"	"1"
-			"enabled"	"1"	
-			"command"	"engine toggle tf_use_min_viewmodel"	
-			"actionsignallevel"	"4"
-			
-			"labeltext"	"MIN VIEWMODELS"	
-			"textAlignment"	"center"	
-			
-			"sound_depressed"	"UI/1.wav"	
-			
-			"armedBgColor_override"		"HUDdarkgray"	
-			"defaultBgColor_override"	"WHUDBlack"	
-
-			"fgcolor_override"		"violet"
-
-			"pin_to_sibling"		"vmodelToggle"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
-		}
 		
 		}
 

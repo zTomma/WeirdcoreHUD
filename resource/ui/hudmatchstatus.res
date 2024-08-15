@@ -337,10 +337,10 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"c-40"
-				"ypos"			"0"
+				"xpos"			"c-16"
+				"ypos"			"22"
 				"zpos"			"5"
-				"tall"			"16"
+				"tall"			"20"
 				"wide"			"40"
 				"font"			"Digital15"
 				"font_minmode"	"Digital15"

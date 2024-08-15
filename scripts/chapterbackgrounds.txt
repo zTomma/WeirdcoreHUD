@@ -1,0 +1,14 @@
+"chapters"
+{
+	1	"background_scout"
+	2	"background_spy"
+	3	"background_hud"
+	4	"background_demo"
+}
+"BackgroundMaps"
+{
+	1	"background_scout"
+	2	"background_spy"
+	3	"background_hud"
+	4	"background_demo"
+}
