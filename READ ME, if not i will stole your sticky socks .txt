@@ -34,6 +34,10 @@
 duuhhh just copy the hud folder and paste in 
 C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom
 
+or if you're a linux nerd (btw) copy the hud folder and paste in
+~/.local/share/Steam/steamapps/common/Team Fortress 2/tf/custom
+
+if the hud isn't loading, make sure hud's folder name is in all lowercase
 maybe the hud can conflict with other mods (especially if they involve gui elements, yes u can keep big tits and ass pyro [unfortunately])
 
             
