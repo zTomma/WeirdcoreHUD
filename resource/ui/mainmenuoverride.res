@@ -1,4 +1,8 @@
 #base "../../resource/hudoptions.res"
+#base "../../_welcome/welcome_screen.res"
+#base "../../_version/version_title.res"
+#base "../../_customizations/friends/friends.res"
+#base "mainmenuoverride_backgrounds.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -79,6 +83,52 @@
 			}		
 		}
 		
+
+		"friendsboxbutton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"friendsboxbutton"
+		"xpos"			"0"
+		"ypos"			"-90"
+		"zpos"		"19"
+		"wide"		"21"
+		"tall"		"80"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"
+		"paintbackground"	"0"
+		"labelText"			""
+		"command"		"engine hud_friends_on; hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials"
+		"sound_depressed"	"UI/sound5.wav"
+		
+		
+		"image_default"		"replay/thumbnails/friends_on"
+		"image_armed"		"replay/thumbnails/friends_on_sel"
+
+		"pin_to_sibling"		"FriendsContainer"
+		"pin_to_sibling_corner"     "PIN_BOTTOMLEFT"
+
+		
+		
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"		"21"
+				"tall"		"80"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/friends_on"
+				
+				"image_default"		"replay/thumbnails/friends_on"
+				"image_armed"		"replay/thumbnails/friends_on_sel"
+			}
+	}
+
 		"SaxxySettings"
 		{
 			"xpos"			"0"
@@ -245,8 +295,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-400"
-		"ypos"			"10"
+		"xpos"			"-100"
+		"ypos"			"80"
 		"zpos"			"1"
 		"wide"			"260"
 		"tall"			"130"
@@ -255,6 +305,8 @@
 		"image"			"replay/thumbnails/logos/logo_tf"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
+		"pin_to_sibling" "RankPanel"
+		"pin_corner_to_sibling" "PIN_topleft"
 		
 	}	
 	
@@ -276,8 +328,8 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"cs-0.5-200"
-		"ypos"			"cs-0.5-100"
+		"xpos"			"-800"
+		"ypos"			"-560"
 
 		"zpos"			"-51"
 		"wide"			"1000"
@@ -288,6 +340,9 @@
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
 
+		"pin_to_sibling" "RankPanel"
+		"pin_corner_to_sibling" "PIN_Bottomright"
+		
 		"show_progress"	"0"
 	}
 
@@ -297,8 +352,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"cs-0.5-150"
-		"ypos"			"150"
+		"xpos"			"0"
+		"ypos"			"15"
 		"wide"			"15"
 		"tall"			"15"
 		"visible"		"1"
@@ -313,6 +368,10 @@
 		"border_default" "WEIRDBorderblack"
 	"border" "WEIRDBorderblack"
     "border_armed" "WEIRDBorderblack"
+
+	"pin_to_sibling" "MOTD_ShowButtonPanel"
+		"pin_corner_to_sibling" "PIN_Bottomright"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -359,8 +418,8 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"c-500"
-		"ypos"			"90"
+		"xpos"			"120"
+		"ypos"			"80"
 		"zpos"			"3"
 		"wide"			"320"
 		"tall"			"100"
@@ -369,6 +428,9 @@
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"pin_to_sibling" "CharacterSetupButton"
+		"pin_corner_to_sibling" "PIN_topleft"
 
 		"show_model"	"0"
 		"show_type"		"1"
@@ -486,8 +548,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c-387"
-		"ypos"			"-40"
+		"xpos"			"-30"
+		"ypos"			"-55"
 		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"32"
@@ -497,9 +559,8 @@
 		"enabled"		"1"
 		"image"		"replay/thumbnails/icons/items"
 
-		"pin_to_sibling" "CharacterSetupButton"
-		"pin_corner_to_sibling" "PIN_TOPRIGHT"
-		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		"pin_to_sibling" "MOTD_ShowButtonPanel"
+		"pin_corner_to_sibling" "PIN_Bottomright"
 		
 		"SubImage"
 		{
@@ -734,8 +795,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"contracts"
-		"xpos"		"c-400"
-		"ypos"		"425"
+		"xpos"		"0"
+		"ypos"		"-85"
 		"zpos"		"6"
 		"wide"		"35"
 		"tall"		"35"
@@ -753,6 +814,8 @@
 		"border_default"	""
 		"border_armed"		""
 		
+		"pin_to_sibling" "HudsetButton"
+		"pin_corner_to_sibling" "PIN_Bottomleft"
 			
 	}
 	
@@ -760,8 +823,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c-160"
-		"ypos"			"190"
+		"xpos"			"-263"
+		"ypos"			"-50"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -775,6 +838,9 @@
 		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
 		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
 		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
+
+		"pin_to_sibling" "CharacterSetupButton"
+		"pin_corner_to_sibling" "PIN_Bottomright"
 		
 		"MOTD_ShowButtonPanel_SB"
 		{
@@ -806,6 +872,8 @@
 			"paintbackground" "0"
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
+
+			
 
 			"SubImage"
 			{
@@ -1401,144 +1469,7 @@
 		"visible"		"0"
 	}
 
-	"FriendsContainer" /////////////////i copyed this because im lazy ;) ////////////////
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"FriendsContainer"
-			"xpos"			"300"
-			"ypos"			"r220"
-			"zpos"			"20"
-			"wide"			"130"
-			"tall"			"150"
-			"visible"		"1"
-			"bgcolor_override"	"HUDnull"
-
-			"TitleLabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"TitleLabel"
-				"font"			"pixel20"
-				"labelText"		"#TF_Competitive_Friends"
-				"textAlignment"	"center"
-				"xpos"			"0"
-				"ypos"			"0"
-				"wide"			"260"
-				"tall"			"20"
-				"visible"		"0"
-				"enabled"		"0"
-				"fgcolor_override"	"HUDgray"
-			}
-
-			"InnerShadow"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"InnerShadow"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"501"
-				"wide"			"130"
-				"tall"			"150"
-				"visible"		"0"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-
-				"paintborder"	"0"
-				"border"		"InnerShadowBorder"
-			}
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/friends_box"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
-
-			"SteamFriendsList"
-			{
-				"ControlName"	"CSteamFriendsListPanel"
-				"fieldname"		"SteamFriendsList"
-				"xpos"			"2"
-				"ypos"			"25"
-				"zpos"			"500"
-				"wide"			"150"
-				"tall"			"115"
-				"visible"		"1"
-				"proportionaltoparent"	"1"
-
-				"columns_count"	"1"
-				"inset_x"		"5"
-				"inset_y"		"0"
-				"row_gap"		"5"
-				"column_gap"	"5"
-				"restrict_width"	"0"
-
-				"friendpanel_kv"
-				{
-					"wide"			"110"
-					"tall"			"20"
-					"border"		"WEIRDBorderFriends"
-				}
-
-				"ScrollBar"
-				{
-					"ControlName"	"ScrollBar"
-					"FieldName"		"ScrollBar"
-					"xpos"			"c47"
-					"ypos"			"0"
-					"tall"			"f0"
-					"wide"			"3"
-					"zpos"			"1000"
-					"nobuttons"		"1"
-					"proportionaltoparent"	"1"
-
-					"Slider"
-					{
-						"fgcolor_override"	"WHUDblack"
-					}
-
-					"UpButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"UpButton"
-						"visible"		"0"
-					}
-
-					"DownButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"DownButton"
-						"visible"		"0"
-					}
-				}
-			}
-
-			"BelowDarken"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldname"		"BelowDarken"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"499"
-				"wide"			"130"
-				"tall"			"150"
-				"visible"		"1"
-				"PaintBackgroundType"	"0"
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"bgcolor_override"	"0 0 0 100"
-			}
-		}
-
+	
 	
 
 	"ShowPromoCodesButton"
@@ -1598,17 +1529,19 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-175"
-		"ypos"			"435"
+		"xpos"		"-25"
+		"ypos"		"-9"
 		"zpos"			"11"
-		"wide"			"35"
-		"tall"			"35"
+		"wide"			"27"
+		"tall"			"20"
 		"visible"		"1"
 
 		"navLeft"		"ResumeGameButton"
 		"navRight"		"CallVoteButton"
 		"navDown"		"QuickplayChangeButton"
 		"navToRelay"	"SubButton"
+		"pin_to_sibling" "Infobutton"
+		"pin_corner_to_sibling" "PIN_topleft"
 
 		"SubButton"
 		{
@@ -1656,11 +1589,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-155"
-		"ypos"			"435"
+		"xpos"		"-30"
+		"ypos"		"0"
 		"zpos"			"12"
-		"wide"			"35"
-		"tall"			"35"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 
 		"navLeft"		"ReportPlayerButton"
@@ -1668,11 +1601,14 @@
 		"navRight"		"MutePlayersButton"
 		"navToRelay"	"SubButton"
 
+		"pin_to_sibling" "ReportPlayerButton"
+		"pin_corner_to_sibling" "PIN_topleft"
+
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"0"
+			"xpos"			"-10"
 			"ypos"			"0"
 			"wide"			"40"
 			"tall"			"20"
@@ -1724,11 +1660,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-125"
-		"ypos"			"432"
+		"xpos"		"-22"
+		"ypos"		"0"
 		"zpos"			"12"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 
 		"navLeft"		"CallVoteButton"
@@ -1736,12 +1672,15 @@
 		"navRight"		"RequestCoachButton"
 		"navToRelay"	"SubButton"
 
+		"pin_to_sibling" "CallVoteButton"
+		"pin_corner_to_sibling" "PIN_topleft"
+
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"-3"
 			"wide"			"p1"
 			"tall"			"25"
 			"autoResize"	"0"
@@ -1792,8 +1731,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"c-100"
-		"ypos"			"432"
+		"xpos"		"-45"
+		"ypos"		"0"
 		"zpos"			"12"
 		"wide"			"25"
 		"tall"			"25"
@@ -1803,6 +1742,9 @@
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navDown"		"QuickplayChangeButton"
 		"navToRelay"	"SubButton"
+
+		"pin_to_sibling" "CallVoteButton"
+		"pin_corner_to_sibling" "PIN_topleft"
 
 		"SubButton"
 		{
@@ -1881,7 +1823,7 @@
 		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"WHUDwhite"
+		"bgcolor_override"		"Purple1"
 		"scaleImage"	"1"
 	}	
 
@@ -1889,7 +1831,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterSetupButton"
-		"xpos"			"c-390"
+		"xpos"			"40"
 		"ypos"			"170"
 		"zpos"		"2"
 		"wide"		"220"
@@ -1926,9 +1868,7 @@
 				"image_armed"		"replay/thumbnails/items_sel"
 			}
 			
-		"pin_to_sibling" "ButtonAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
 		
 	}
 
@@ -1975,7 +1915,8 @@
 
 		"sound_depressed"	"UI/sound5.wav"
 		
-			
+		
+		
 		"paintbackground"	"1"
 				
 		"image_drawcolor"	"235 226 202 255"
@@ -1999,8 +1940,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ShopButton"
-		"xpos"			"c-390"
-		"ypos"			"205"
+		"xpos"			"0"
+		"ypos"			"-95"
 		"zpos"		"2"
 		"wide"		"220"
 		"tall"		"60"
@@ -2012,6 +1953,8 @@
 		"command"		"engine open_store"
 		"sound_depressed"	"UI/sound5.wav"
 
+		"pin_to_sibling" "CharacterSetupButton"
+		"pin_corner_to_sibling" "PIN_Bottomleft"
 		
 		"image_default"		"replay/thumbnails/texts/shop"
 		"image_armed"		"replay/thumbnails/texts/shop_sel"
@@ -2037,9 +1980,7 @@
 				"image_armed"		"replay/thumbnails/texts/shop_sel"
 			}
 			
-		"pin_to_sibling" "ButtonAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
 		
 	}		
 
@@ -2072,6 +2013,9 @@
 		"navRight"		"TF2SettingsButton"
 
 		"sound_depressed"	"UI/sound5.wav"
+
+		"pin_to_sibling" "ShopButton"
+		"pin_corner_to_sibling" "PIN_Bottomleft"
 		
 		
 		"image_drawcolor"	"235 226 202 255"
@@ -2095,8 +2039,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"OptionsButton"
-		"xpos"			"c-390"
-		"ypos"			"253"
+		"xpos"			"0"
+		"ypos"			"-95"
 		"zpos"		"2"
 		"wide"		"240"
 		"tall"		"45"
@@ -2131,9 +2075,8 @@
 				"image_armed"		"replay/thumbnails/texts/options_sel"
 			}
 			
-		"pin_to_sibling" "ButtonAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling" "ShopButton"
+		"pin_corner_to_sibling" "PIN_Bottomleft"
 		
 	}	
 	
@@ -2141,8 +2084,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AdvancedOptionsButton"
-		"xpos"			"c-392"
-		"ypos"			"290"
+		"xpos"			"0"
+		"ypos"			"-90"
 		"zpos"		"2"
 		"wide"		"245"
 		"tall"		"50"
@@ -2178,9 +2121,8 @@
 				"image_armed"		"replay/thumbnails/texts/advanced_sel"
 			}
 			
-		"pin_to_sibling" "ButtonAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling" "OptionsButton"
+		"pin_corner_to_sibling" "PIN_Bottomleft"
 		
 	}	
 
@@ -2286,8 +2228,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"Achivements"
-		"xpos"		"c-370"
-		"ypos"		"430"
+		"xpos"		"-28"
+		"ypos"		"-4"
 		"zpos"		"6"
 		"wide"		"35"
 		"tall"		"35"
@@ -2320,9 +2262,8 @@
 				"antialias" "1"
 			}
 			
-			"pin_to_sibling" "buttonsAnchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+			"pin_to_sibling" "contracts"
+			"pin_corner_to_sibling" "PIN_topleft"
 	}
 	
 	"AchievementsButton"
@@ -2375,6 +2316,8 @@
 
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"0 0 0 255"
+
+			
 
 			"SubImage"
 			{
@@ -2490,8 +2433,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TeachButton"
-		"xpos"		"c-285"
-		"ypos"		"430"
+		"xpos"		"-25"
+		"ypos"		"3"
 		"zpos"		"6"
 		"wide"		"35"
 		"tall"		"35"
@@ -2507,6 +2450,8 @@
 		"border_default"	""
 		"border_armed"		""
 		
+		"pin_to_sibling" "replay"
+		"pin_corner_to_sibling" "PIN_topleft"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2534,8 +2479,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"consoleButton"
-		"xpos"		"c-257"
-		"ypos"		"425"
+		"xpos"		"-25"
+		"ypos"		"4"
 		"zpos"		"6"
 		"wide"		"35"
 		"tall"		"35"
@@ -2552,6 +2497,8 @@
 		"image_armed"		"replay/thumbnails/icons/console"
 		"border_default"	""
 		"border_armed"		""
+		"pin_to_sibling" "TeachButton"
+		"pin_corner_to_sibling" "PIN_topleft"
 		
 	}
 
@@ -2559,17 +2506,16 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"DiscordLink"
-		"xpos"					"c-224"
-		"ypos"					"426"
+		"xpos"		"-30"
+		"ypos"		"0"
 		"zpos"					"6"
 		"wide"					"25"
 		"tall"					"35"
 		"visible"				"1"
 		"PaintBackgroundType"	"0"
 
-		"pin_to_sibling"		"GitLink"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		"pin_to_sibling" "consoleButton"
+		"pin_corner_to_sibling" "PIN_topleft"
 
 		"DiscordUrl"
 		{
@@ -2597,27 +2543,41 @@
 
 	"Infobutton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"Infobutton"
-		"xpos"		"c-200"
-		"ypos"		"425"
+		"xpos"		"-25"
+		"ypos"		"0"
 		"zpos"		"6"
 		"wide"		"35"
 		"tall"		"35"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"0"
-		"command"            "engine OpenSteamWorkshopDialog"
-		"labeltext"		"E"
-		"font"					"icons25"
-		"textAlignment"			"est"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"image_default"		"replay/thumbnails/icons/console"
-		"image_armed"		"replay/thumbnails/icons/console"
-		"border_default"	""
-		"border_armed"		""
 		
+		"pin_to_sibling" "DiscordLink"
+		"pin_corner_to_sibling" "PIN_topleft"
+		
+		"donationUrl"
+
+		{
+			"ControlName"			"URLLabel"
+			"fieldName"				"donationLinkUrl"
+			"xpos"					"0"
+			"ypos"					"0"
+			"zpos"					"2"
+			"wide"					"f0"
+			"tall"					"f0"
+			"font"					"icons25"
+			"labelText"				"g"
+			"enabled"				"1"
+			"visible"				"1"
+			"paintBackground"		"0"
+			"textAlignment"			"est"
+			"fgcolor_override"		"WHUDwhite"
+			"proportionaltoparent"	"1"
+			"urlText"				"https://linktr.ee/zTomma"
+			
+		}
 	}
 
 	"nothing"
@@ -2671,8 +2631,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudsetButton"
-		"xpos"			"c-390"
-		"ypos"			"365"
+		"xpos"			"0"
+		"ypos"			"-90"
 		"zpos"		"2"
 		"wide"		"260"
 		"tall"		"50"
@@ -2706,9 +2666,8 @@
 				"image_armed"		"replay/thumbnails/texts/hudset_sel"
 			}
 			
-		"pin_to_sibling" "ButtonAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+			"pin_to_sibling" "MiniModeButton"
+		"pin_corner_to_sibling" "PIN_Bottomleft"
 		
 	}	
 	
@@ -2716,8 +2675,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MiniModeButton"
-		"xpos"			"c-390"
-		"ypos"			"330"
+		"xpos"			"0"
+		"ypos"			"-90"
 		"zpos"		"2"
 		"wide"		"220"
 		"tall"		"50"
@@ -2750,9 +2709,8 @@
 				"image_armed"		"replay/thumbnails/texts/minimode_sel"
 			}
 			
-		"pin_to_sibling" "ButtonAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+			"pin_to_sibling" "AdvancedOptionsButton"
+		"pin_corner_to_sibling" "PIN_Bottomleft"
 		
 	}
 
@@ -2807,8 +2765,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"replay"
-		"xpos"		"c-310"
-		"ypos"		"432"
+		"xpos"		"-30"
+		"ypos"		"-8"
 		"zpos"		"6"
 		"wide"		"35"
 		"tall"		"35"
@@ -2841,9 +2799,8 @@
 				"antialias" "1"
 			}
 			
-			"pin_to_sibling" "buttonsAnchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+		"pin_to_sibling" "reportbug"
+		"pin_corner_to_sibling" "PIN_topleft"
 	}
 	
 	"ReportBugButton"
@@ -2896,8 +2853,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"reportbug"
-		"xpos"		"c-343"
-		"ypos"		"425"
+		"xpos"		"-24"
+		"ypos"		"5"
 		"zpos"		"6"
 		"wide"		"35"
 		"tall"		"35"
@@ -2910,6 +2867,8 @@
 		"textAlignment"			"est"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"pin_to_sibling" "Achivements"
+		"pin_corner_to_sibling" "PIN_topleft"
 		
 		
 		

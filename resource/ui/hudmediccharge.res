@@ -1,5 +1,4 @@
-#base "../../_customization/addson/put_here_ur_addson/UberIndicator.res"
-#base "../../_customization/addson/put_here_ur_addson/UberIndicator_alt.res"
+#base "../../_customizations/uber/uber.res"
 
 "Resource/UI/HudMedicCharge.res"
 {	
@@ -21,7 +20,6 @@
 		"teambg_2"		"replay/thumbnails/uber_bg"
 		"teambg_3"		"replay/thumbnails/uber_bg"				
 	}
-	
 	
 	
 	"ChargeLabel"

@@ -106,7 +106,7 @@
 		"ypos"			"18"	[$WIN32]
 		"ypos_minmode"	"12"	[$WIN32]
 		"zpos"			"1"
-		"wide"			"280"
+		"wide"			"f0"
 		"disabledfgcolor2_override"	"0 0 0 255"
 		"tall"			"15"
 		"autoResize"		"0"

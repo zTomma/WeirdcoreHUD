@@ -1,8 +1,33 @@
 
-#base "..\_customization\resolution\drop resolution here\4x3.res"
-#base "..\_customization\resolution\drop resolution here\16x9.res"
+#base "../_customizations/weapontransparency/weapontransparency.res"
+#base "../_customizations/speedometer/speedometer.res"
+#base "../_customizations/crosshair/crosshair.res"
+#base "../_customizations/crosshair/crosshairsize.res"
+#base "../_customizations/crosshair/crosshaircolor.res"
+#base "../_customizations/crosshair/crosshairresolution.res"
+#base "../_customizations/hitmarker/hitmarker.res"
+#base "../_customizations/hitmarker/hitmarkersize.res"
+#base "../_customizations/hitmarker/hitmarkercolor.res"
+#base "../_customizations/hitmarker/hitmarkerresolution.res"
+
+
 "Resource/HudLayout.res"
 {
+
+
+
+
+	CDamageAccountPanel
+	{
+		"fieldName"				"CDamageAccountPanel"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"480"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"2"
+	}
 	
 	HudPlayerStatus
 	{
@@ -236,18 +261,7 @@
 		"PaintBackgroundType"	"2"
 	}
 	
-	CDamageAccountPanel
-	{
-		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-	
+
 	
 	DisguiseStatus
 	{
@@ -269,7 +283,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"275"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -306,7 +320,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"280"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -1026,12 +1040,12 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-160"
+		"xpos"			"c100"
+		"ypos"			"c-100"
 		"zpos"			"5"
-		"wide"			"470"
-		"tall"			"600"	[$WIN32]
-		"tall"			"180"	[$X360]
+		"wide"			"200"
+		"tall"			"300"	
+
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -1506,6 +1520,10 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+
+
+
+
 }
 
 

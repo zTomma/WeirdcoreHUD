@@ -43,6 +43,7 @@ Scheme
 		"SelectionBG2"						"69 64 57 255"
 		"ListBG"							"39 36 34 0"
 		"Green"								"63 185 73 255"
+		
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -261,6 +262,7 @@ Scheme
 			}
 			"5"
 			{
+				"isproportional" "only"
 				"name"		"Nexa Heavy"
 				"tall"		"18"
 				"weight"	"0"
@@ -400,12 +402,14 @@ Scheme
 			}
 			"5"
 			{
+				"isproportional" "only"
 				"name"		"Nexa Heavy"
 				"tall"		"17"	[$WIN32]
 				"tall"		"25"	[$X360]
-				"weight"	"700"
+				"weight"	"300"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
+				"antialias" "1"
 			}
 		}
 

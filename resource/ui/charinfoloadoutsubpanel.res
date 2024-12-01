@@ -51,7 +51,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"scout_button"
-		"xpos"		"70"
+		"xpos"		"c-350"
 		"ypos"		"0"
 		"zpos"		"6"
 		"wide"		"90"
@@ -94,8 +94,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"soldier_button"
-		"xpos"		"-30"
-		"ypos"		"0"
+		"xpos"		"-100"
+		"ypos"		"-90"
 		"zpos"		"6"
 		"wide"		"90"
 		"tall"		"90"
@@ -127,17 +127,16 @@
 				"image_armed"		"replay/thumbnails/icon_soldier_sel"
 			}
 			
-			"pin_to_sibling" "classanchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+			"pin_to_sibling" "scout_button"
+		"pin_corner_to_sibling" "PIN_bottomleft"
 	}
 	
 	"pyro_button"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"pyro_button"
-		"xpos"		"-130"
-		"ypos"		"0"
+		"xpos"		"-100"
+		"ypos"		"-90"
 		"zpos"		"6"
 		"wide"		"90"
 		"tall"		"90"
@@ -169,16 +168,15 @@
 				"image_armed"		"replay/thumbnails/icon_pyro_sel"
 			}
 			
-			"pin_to_sibling" "classanchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+			"pin_to_sibling" "soldier_button"
+		"pin_corner_to_sibling" "PIN_bottomleft"
 	}
 	
 	"demo_button"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"demo_button"
-		"xpos"		"70"
+		"xpos"		"0"
 		"ypos"		"-100"
 		"zpos"		"6"
 		"wide"		"90"
@@ -211,17 +209,16 @@
 				"image_armed"		"replay/thumbnails/icon_demo_sel"
 			}
 			
-			"pin_to_sibling" "classanchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+			"pin_to_sibling" "scout_button"
+		"pin_corner_to_sibling" "PIN_topleft"
 	}
 	
 	"heavy_button"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"heavy_button"
-		"xpos"		"-30"
-		"ypos"		"-100"
+		"xpos"		"-100"
+		"ypos"		"-90"
 		"zpos"		"6"
 		"wide"		"90"
 		"tall"		"90"
@@ -253,17 +250,16 @@
 				"image_armed"		"replay/thumbnails/icon_heavy_sel"
 			}
 			
-			"pin_to_sibling" "classanchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+			"pin_to_sibling" "demo_button"
+		"pin_corner_to_sibling" "PIN_bottomleft"
 	}
 	
 	"engy_button"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"engy_button"
-		"xpos"		"-130"
-		"ypos"		"-100"
+		"xpos"		"-100"
+		"ypos"		"-90"
 		"zpos"		"6"
 		"wide"		"90"
 		"tall"		"90"
@@ -295,17 +291,16 @@
 				"image_armed"		"replay/thumbnails/icon_engi_sel"
 			}
 			
-			"pin_to_sibling" "classanchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+			"pin_to_sibling" "heavy_button"
+		"pin_corner_to_sibling" "PIN_bottomleft"
 	}
 	
 	"medic_button"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"medic_button"
-		"xpos"		"70"
-		"ypos"		"-200"
+		"xpos"		"0"
+		"ypos"		"-100"
 		"zpos"		"6"
 		"wide"		"90"
 		"tall"		"90"
@@ -337,17 +332,16 @@
 				"image_armed"		"replay/thumbnails/icon_medic_sel"
 			}
 			
-			"pin_to_sibling" "classanchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+			"pin_to_sibling" "demo_button"
+		"pin_corner_to_sibling" "PIN_topleft"
 	}
 	
 	"sniper_button"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"sniper_button"
-		"xpos"		"-30"
-		"ypos"		"-200"
+		"xpos"		"-100"
+		"ypos"		"-90"
 		"zpos"		"6"
 		"wide"		"90"
 		"tall"		"90"
@@ -379,17 +373,16 @@
 				"image_armed"		"replay/thumbnails/items/icon_sniper_sel"
 			}
 			
-			"pin_to_sibling" "classanchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+			"pin_to_sibling" "medic_button"
+		"pin_corner_to_sibling" "PIN_bottomleft"
 	}
 	
 	"spy_button"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"spy_button"
-		"xpos"		"-130"
-		"ypos"		"-200"
+		"xpos"		"-100"
+		"ypos"		"-90"
 		"zpos"		"6"
 		"wide"		"90"
 		"tall"		"90"
@@ -421,9 +414,8 @@
 				"image_armed"		"replay/thumbnails/icon_spy_sel"
 			}
 			
-			"pin_to_sibling" "classanchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+			"pin_to_sibling" "sniper_button"
+		"pin_corner_to_sibling" "PIN_bottomleft"
 	}
 	
 	"buttonsAnchor"
@@ -443,8 +435,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"backpackAlt"
-		"xpos"		"0"
-		"ypos"		"140"
+		"xpos"		"c80"
+		"ypos"		"30"
 		"zpos"		"6"
 		"wide"		"f0"
 		"tall"		"70"
@@ -476,17 +468,15 @@
 				"image_armed"		"replay/thumbnails/items_sel"
 			}
 			
-			"pin_to_sibling" "buttonsAnchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+			
 	}
 	
 	"craftingAlt"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"craftingAlt"
-		"xpos"		"4"
-		"ypos"		"65"
+		"xpos"		"0"
+		"ypos"		"-70"
 		"zpos"		"6"
 		"wide"		"f0"
 		"tall"		"70"
@@ -518,17 +508,16 @@
 				"image_armed"		"replay/thumbnails/crafting_sel"
 			}
 			
-			"pin_to_sibling" "buttonsAnchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+			"pin_to_sibling" "backpackAlt"
+		"pin_corner_to_sibling" "PIN_topleft"
 	}
 	
 	"catalogAlt"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"catalogAlt"
-		"xpos"		"0"
-		"ypos"		"0"
+		"xpos"		"-5"
+		"ypos"		"-70"
 		"zpos"		"6"
 		"wide"		"f0"
 		"tall"		"70"
@@ -560,16 +549,15 @@
 				"image_armed"		"replay/thumbnails/catalog_sel"
 			}
 			
-			"pin_to_sibling" "buttonsAnchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+				"pin_to_sibling" "craftingAlt"
+		"pin_corner_to_sibling" "PIN_topleft"
 	}
 	
 	"tradingAlt"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"tradingAlt"
-		"xpos"		"-10"
+		"xpos"		"-5"
 		"ypos"		"-50"
 		"zpos"		"6"
 		"wide"		"f0"
@@ -602,17 +590,16 @@
 				"image_armed"		"replay/thumbnails/trading_sel"
 			}
 			
-			"pin_to_sibling" "buttonsAnchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+				"pin_to_sibling" "catalogAlt"
+		"pin_corner_to_sibling" "PIN_topleft"
 	}
 	
 	"wpAlt"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"wpAlt"
-		"xpos"		"-10"
-		"ypos"		"-110"
+		"xpos"		"0"
+		"ypos"		"-60"
 		"zpos"		"6"
 		"wide"		"f0"
 		"tall"		"80"
@@ -642,9 +629,8 @@
 				"image_armed"		"replay/thumbnails/warpaint_sel"
 			}
 			
-			"pin_to_sibling" "buttonsAnchor"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+				"pin_to_sibling" "tradingAlt"
+		"pin_corner_to_sibling" "PIN_topleft"
 	}
 	
 	"NoSteamLabel"

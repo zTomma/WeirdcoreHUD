@@ -20,176 +20,7 @@ Scheme
 	Colors
 	{
 		
-		
-		"HUDgray"				"112 112 112 255"
-		"HUDdarkgray"			"79 79 79 255"	
-		"WHUDgray"				"128 128 128 255"
-		
 	
-		
-		
-		"HUDnull"			"0 0 0 0"
-		"WHUDwhite"			"227 227 227 255"
-		"WHUDblack"			"23 23 23 255"
-		"HUDteamred"		"204 110 162 255"
-		"HUDteamblu"		"160 146 197 255"
-		"HUDfullblack"		"1 1 1 255"
-		"HUDtransparentblack"	"0 0 0 125"
-		"whudgreen"			"133 181 151 255"
-		"whuddarkgreen"		"57 93 58 255"
-		"whudred"			"178 77 99 255"
-		"whuddarkred"		"81 49 50 255"
-
-		 
-
-		////////the color down here are used for the statsummary_embedded.resolution
-		
-		"color1"			"218 97 199 255"
-		"color2"			"216 100 201 255"
-		"color3"			"207 112 204 255"
-		"color4"			"198 122 208 255"
-		"color5"			"181 137 214 255"
-		"color6"			"159 152 221 255"
-		"color7"			"136 164 226 255"
-		"color8"			"108 175 232 255"
-		"color9"			"138 175 232 255"	
-
-		////////damage colors////// EDIT DAMAGE1 FOR CUSTOM COLOR
-		"damage1"		"255 255 255 255"
-		"damage2"		"0 0 0 255"
-		"damage3"		"178 77 99 255"
-		"damage4"		"160 146 197 255"	
-		"damage5"		"251 147 252 255"
-		"damage6"		"50 12 66 255"
-		"damage7"		"76 76 76 255"
-		"damage9"		"112 112 112 255"
-		"damage10"		"200 200 200 255"
-		"damage11"		"218 97 199 255"
-		"damage12"		"181 137 214 255"
-		"damage13"		"131 175 232 255"
-		"damage14"		"241 14 51 255"
-		"damage15"		"241 14 136 255"
-		"damage16"		"232 14 241 255"	
-		"damage17"		"148 14 241 255"	
-		"damage18"		"30 14 241 255"	
-		"damage19"		"14 94 241 255"
-		"damage20"		"14 215 241 255"
-		"damage21"		"14 241 190 255"
-		"damage22"		"14 241 68 255"	
-		"damage23"		"126 241 14 255"	
-		"damage24"		"241 237 14 255"
-		"damage25"		"241 152 14 255"	
-		"damage26"		"149 65 79 255"
-		"damage27"		"149 65 111 255"
-		"damage28"		"146 65 149 255"
-		"damage29"		"115 65 149 255"
-		"damage30"		"71 65 149 255"
-		"damage31"		"65 94 149 255"
-		"damage32"		"65 140 149 255"
-		"damage33"		"65 149 130 255"
-		"damage34"		"65 149 85 255"
-		"damage35"		"106 149 65 255"
-		"damage36"		"149 148 65 255"
-		"damage37"		"149 116 65 255"
-		"damage38"		"54 31 35 255"	
-		"damage39"		"51 31 43 255"	
-		"damage40"		"53 31 54 255"	
-		"damage41"		"44 31 54 255"	
-		"damage42"		"33 31 54 255"
-		"damage43"		"31 39 54 255"	
-		"damage44"		"31 51 54 255"
-		"damage45"		"31 54 49 255"	
-		"damage46"		"31 54 36 255"
-		"damage47"		"42 54 31 255"	
-		"damage48"		"54 54 31 255"	
-		"damage49"		"54 45 31 255"
-		"WHUDdarkpurple"		"50 12 66 255"    
-				"violet"			"251 147 252 255"
-	"Purple1"		"163 134 180 255"  
-
-
-		"hudcolor1"			"255 0 0 255"
-		"hudcolor2"			"255 0 96 255"
-		"hudcolor3"			"255 0 156 255"	
-		"hudcolor4"			"255 0 192 255"	
-		"hudcolor5"			"252 0 255 255"
-		"hudcolor6"			"174 0 255 255"	
-		"hudcolor7"			"108 0 255 255"	
-		"hudcolor9"			"18 0 255 255"
-		"hudcolor10"		"0 78 255 255"	
-		"hudcolor11"		"0 132 255 255"
-		"hudcolor12"		"0 192 255 255"	
-		"hudcolor13"		"0 216 255 255"	
-		"hudcolor14"		"0 192 255 255"	
-		"hudcolor15"		"0 228 255 255"
-		"hudcolor16"		"0 255 144 255"
-		"hudcolor17"		"0 255 24 255"
-		"hudcolor18"		"120 255 0 255"	
-		"hudcolor19"		"246 255 0 255"
-		"hudcolor20"		"255 192 0 255"	
-		"hudcolor21"		"255 126 0 255"	
-		"hudcolor22"		"110 0 0 255"	
-		"hudcolor23"		"110 0 41 255"	
-		"hudcolor24"		"110 0 67 255"
-		"hudcolor25"		"110 0 82 255"	
-		"hudcolor26"		"109 0 110 255"	
-		"hudcolor27"		"75 0 110 255"	
-		"hudcolor28"		"47 0 110 255"	
-		"hudcolor29"		"8 0 110 255"
-		"hudcolor30"		"0 34 110 255"
-		"hudcolor31"		"0 57 110 255"
-		"hudcolor32"		"1 70 94 255"
-		"hudcolor33"		"0 93 110 255"
-		"hudcolor34"		"0 82 110 255"
-		"hudcolor35"		"0 98 110 255"	
-		"hudcolor36"		"0 110 62 255"
-		"hudcolor37"		"0 110 10 255"
-		"hudcolor38"		"52 110 0 255"
-		"hudcolor39"		"106 110 0 255"
-		"hudcolor40"		"110 82 0 255"
-		"hudcolor41"		"110 54 0 255"
-		"hudcolor42"		"67 0 0 255"
-		"hudcolor43"		"67 0 25 255"
-		"hudcolor44"		"67 0 21 255"
-		"hudcolor45"		"67 0 50 255"
-		"hudcolor46"		"66 0 67 255"	
-		"hudcolor47"		"46 0 67 255"
-		"hudcolor48"		"28 0 67 255"
-		"hudcolor49"		"5 0 34 255"
-		"hudcolor50"		"0 20 67 255"
-		"hudcolor51"		"0 35 67 255"	
-		"hudcolor52"		"0 50 67 255"
-		"hudcolor53"		"0 40 60 255"
-		"hudcolor54"		"0 50 60 255"
-		"hudcolor55"		"0 37 49 255"
-		"hudcolor56"		"0 67 38 255"	
-		"hudcolor57"		"0 67 6 255"
-		"hudcolor58"		"32 67 0 255"	
-		"hudcolor59"		"65 67 0 255"
-		"hudcolor60"		"67 50 0 255"
-		"hudcolor61"		"67 33 0 255"
-		"hudcolor62"		"23 0 0 255"
-		"hudcolor63"		"23 0 9 255"
-		"hudcolor64"		"23 0 14 255"
-		"hudcolor65"		"23 0 17 255"	
-		"hudcolor66"		"23 0 23 255"
-		"hudcolor67"		"16 0 23 255"
-		"hudcolor68"		"10 0 23 255"
-		"hudcolor69"		"2 0 23 255"
-		"hudcolor70"		"0 7 23 255"
-		"hudcolor71"		"0 12 23 255"
-		"hudcolor72"		"0 17 24 255"
-		"hudcolor73"		"0 19 23 255"
-		"hudcolor74"		"0 17 23 255"
-		"hudcolor75"		"0 21 23 255"
-		"hudcolor76"		"0 23 13 255"
-		"hudcolor77"		"0 23 2 255"
-		"hudcolor78"		"11 23 0 255"	
-		"hudcolor79"		"22 23 0 255"	
-		"hudcolor80"		"23 17 0 255"
-		"hudcolor81"		"23 11 0 255"
-
-
 		
 
 		// base colors
@@ -685,7 +516,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -765,7 +596,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -820,7 +651,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -866,7 +697,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"30"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -946,7 +777,7 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
 				"yres"	"1200 10000"
 			}
@@ -994,7 +825,7 @@ Scheme
 			"5"
 			{
 				"name"		"Upheaval TT -BRK-"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1074,16 +905,25 @@ Scheme
 			}
 		}
 		"HudFontMediumSecondary"
-		{
-			"1"
-			{
-				"name"		"Upheaval TT -BRK-"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
+        {
+            "1"
+            {
+                "name"        "Upheaval TT -BRK-"
+                "tall"        "24"
+                "weight"    "500"
+                "yres"        "1 1199"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "2" // Misyl: Proportional
+            {
+                "name"        "Upheaval TT -BRK-"
+                "tall"        "10"
+                "weight"    "500"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
 		"HudFontMediumBold"
 		{
 			"1"
@@ -3228,7 +3068,6 @@ Scheme
 				"name"		"OpenBrush"
 				"tall"		"100"
 				"antialias" "1"
-				"yres"            "0 10000"
 			} 
 		}
 		"OpenBrushRegular5"
@@ -3257,7 +3096,6 @@ Scheme
 				"name"		"OpenBrush"
 				"tall"		"50"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}
 		"OpenBrushRegular32"
@@ -3314,7 +3152,6 @@ Scheme
 				"name"		"OpenBrush"
 				"tall"		"80"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}
 		"OpenBrushRegular15"
@@ -3406,7 +3243,6 @@ Scheme
 				"name"		"Dogica bold"
 				"tall"		"17"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}
 			"pixelbolt10"
@@ -3446,7 +3282,6 @@ Scheme
 				"name"		"Dogica bold"
 				"tall"		"30"
 				"antialias" "1"
-				
 			}
 		}
 			"pixelbolt40"
@@ -3456,7 +3291,6 @@ Scheme
 				"name"		"Dogica bold"
 				"tall"		"40"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}
 		
@@ -3506,7 +3340,6 @@ Scheme
 				"name"		"DS-Digital Bold Italic"
 				"tall"		"40"
 				"antialias" "1"
-				
 			}
 		}
 		
@@ -3517,7 +3350,6 @@ Scheme
 				"name"		"DS-Digital Bold Italic"
 				"tall"		"100"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}
 		
@@ -3667,7 +3499,7 @@ Scheme
 			"1"
 			{
 				"name"		"Upheaval TT -BRK-"
-				"tall"		"80"
+				"tall"		"60"
 				"outline"	"1"
 			}
 		}
@@ -3719,7 +3551,6 @@ Scheme
 				"name"		"Upheaval TT -BRK-"
 				"tall"		"60"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}
 		
@@ -3728,9 +3559,8 @@ Scheme
 			"1"
 			{
 				"name"		"Upheaval TT -BRK-"
-				"tall"		"50"
+				"tall"		"80"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}
 		
@@ -3739,9 +3569,8 @@ Scheme
 			"1"
 			{
 				"name"		"Upheaval TT -BRK-"
-				"tall"		"60"
+				"tall"		"120"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}
 
@@ -4062,7 +3891,6 @@ Scheme
 				"name"		"Hot Rush Sans Striped Italic"
 				"tall"		"100"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}	
 	"HotRushStripped200"
@@ -4072,7 +3900,6 @@ Scheme
 				"name"		"Hot Rush Sans Striped Italic"
 				"tall"		"200"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}	
 		"HotRushStripped500"
@@ -4080,9 +3907,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hot Rush Sans Striped Italic"
-				"tall"		"150"
+				"tall"		"500"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}
 		
@@ -4193,7 +4019,6 @@ Scheme
 				"name"		"Hot Rush Sans Italic"
 				"tall"		"100"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}	
 		
@@ -4202,9 +4027,8 @@ Scheme
 			"1"
 			{
 				"name"		"Hot Rush Sans Italic"
-				"tall"		"150"
+				"tall"		"500"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}	
 		
@@ -4227,14 +4051,13 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	"Radwave100"
+		"Radwave100"
 		{
 			"1"
 			{
 				"name"		"Hot Rush Sans Italic"			
 				"tall"		"100"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}	
 		
@@ -4278,8 +4101,117 @@ Scheme
 				"antialias" "1"
 			}
 		}		
+
+			"JusticeLaser10"
+		{
+			"1"
+			{
+				"name"		"Justice Laser"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}	
 		
+		"JusticeLaser20"
+		{
+			"1"
+			{
+				"name"		"Justice Laser"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}	
 		
+			"JusticeLaser30"
+		{
+			"1"
+			{
+				"name"		"Justice Laser"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}	
+		
+				"JusticeLaser40"
+		{
+			"1"
+			{
+				"name"		"Justice Laser"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+
+					"JusticeLaser50"
+		{
+			"1"
+			{
+				"name"		"Justice Laser"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+
+					"JusticeLaser60"
+		{
+			"1"
+			{
+				"name"		"Justice Laser"
+				"tall"		"60"
+				"antialias" "1"
+			}
+		}
+
+					"JusticeLaser70"
+		{
+			"1"
+			{
+				"name"		"Justice Laser"
+				"tall"		"70"
+				"antialias" "1"
+			}
+		}
+
+					"JusticeLaser80"
+		{
+			"1"
+			{
+				"name"		"Justice Laser"
+				"tall"		"80"
+				"antialias" "1"
+			}
+		}
+
+					"JusticeLaser90"
+		{
+			"1"
+			{
+				"name"		"Justice Laser"
+				"tall"		"90"
+				"antialias" "1"
+			}
+		}
+
+				"JusticeLaser100"
+		{
+			"1"
+			{
+				"name"		"Justice Laser"
+				"tall"		"100"
+				"antialias" "1"
+			}
+		}
+
+			"JusticeLaser110"
+		{
+			"1"
+			{
+				"name"		"Justice Laser"
+				"tall"		"110"
+				"antialias" "1"
+			}
+		}
+
 		"JusticeLaser120"
 		{
 			"1"
@@ -4287,7 +4219,6 @@ Scheme
 				"name"		"Justice Laser"
 				"tall"		"120"
 				"antialias" "1"
-				"yres"            "0 10000"
 			}
 		}		
 		
@@ -4312,34 +4243,134 @@ Scheme
 			}
 		}	
 
-		"JusticeLaser30"
+		"Justicehalf10"
 		{
 			"1"
 			{
-				"name"		"Justice Laser"
+				"name"		"Justice Halftone"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}	
+		
+		"Justicehalf20"
+		{
+			"1"
+			{
+				"name"		"Justice Halftone"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}	
+		
+			"Justicehalf30"
+		{
+			"1"
+			{
+				"name"		"Justice Halftone"
 				"tall"		"30"
 				"antialias" "1"
 			}
 		}	
 		
-		"JusticeLaser30"
+				"Justicehalf40"
 		{
 			"1"
 			{
-				"name"		"Justice Laser"
-				"tall"		"30"
+				"name"		"Justice Halftone"
+				"tall"		"40"
 				"antialias" "1"
 			}
-		}	
+		}
 
-	"JusticeHalf120"
+					"Justicehalf50"
+		{
+			"1"
+			{
+				"name"		"Justice Halftone"
+				"tall"		"50"
+				"antialias" "1"
+			}
+		}
+
+					"Justicehalf60"
+		{
+			"1"
+			{
+				"name"		"Justice Halftone"
+				"tall"		"60"
+				"antialias" "1"
+			}
+		}
+
+					"Justicehalf70"
+		{
+			"1"
+			{
+				"name"		"Justice Halftone"
+				"tall"		"70"
+				"antialias" "1"
+			}
+		}
+
+					"Justicehalf80"
+		{
+			"1"
+			{
+				"name"		"Justice Halftone"
+				"tall"		"80"
+				"antialias" "1"
+			}
+		}
+
+					"Justicehalf90"
+		{
+			"1"
+			{
+				"name"		"Justice Halftone"
+				"tall"		"90"
+				"antialias" "1"
+			}
+		}
+
+				"Justicehalf100"
+		{
+			"1"
+			{
+				"name"		"Justice Halftone"
+				"tall"		"100"
+				"antialias" "1"
+			}
+		}
+
+			"Justicehalf110"
+		{
+			"1"
+			{
+				"name"		"Justice Halftone"
+				"tall"		"110"
+				"antialias" "1"
+			}
+		}
+
+		"Justicehalf120"
 		{
 			"1"
 			{
 				"name"		"Justice Halftone"
 				"tall"		"120"
 				"antialias" "1"
-				"yres"            "0 10000"
+			}
+		}		
+	
+
+	"JusticeHalf120"
+		{
+			"1"
+			{
+				"name"		"Justice Halftone"
+				"tall"		"50"
+				"antialias" "1"
 			}
 		}		
 
@@ -4348,7 +4379,7 @@ Scheme
 			"1"
 			{
 				"name"		"Justice Halftone Big regular"
-				"tall"		"120"
+				"tall"		"50"
 				"antialias" "1"
 			}
 		}		
@@ -4358,9 +4389,8 @@ Scheme
 			"1"
 			{
 				"name"		"Justice Halftone"
-				"tall"		"120"
+				"tall"		"50"
 				"scanlines"	"2"
-				
 			}
 		}		
 		
@@ -4377,25 +4407,7 @@ Scheme
 		}		
 		
 
-		"JusticeHalf30"
-		{
-			"1"
-			{
-				"name"		"Justice Halftone"
-				"tall"		"30"
-				"antialias" "1"
-			}
-		}	
-		
-		"JusticeHalf30"
-		{
-			"1"
-			{
-				"name"		"Justice Halftone"
-				"tall"		"30"
-				"antialias" "1"
-			}
-		}	
+
 
 		"JusticeItalic10"
 		{

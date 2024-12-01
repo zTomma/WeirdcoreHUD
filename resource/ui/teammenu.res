@@ -1,3 +1,5 @@
+#base "../../_customizations/ratio/teamselectionres.res"
+
 "Resource/UI/TeamMenu.res"
 {
 	"team"
@@ -116,7 +118,6 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RedTeamBG"
-		"xpos"			"400"
 		"ypos"			"57"
 		"zpos"			"0"
 		"wide"			"450"
@@ -148,7 +149,6 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TeamBG"
-		"xpos"			"557"
 		"ypos"			"0"
 		"ypos"			"c0"
 		"zpos"			"0"
@@ -422,4 +422,4 @@
 		"command"		"jointeam spectate"
 	}
 }
-\\\\\\\\\\ https://www.youtube.com/watch?v=VZgtEU4B70o&ab \\\\\\\\\\\
+/////////// https://www.youtube.com/watch?v=VZgtEU4B70o&ab //////////////

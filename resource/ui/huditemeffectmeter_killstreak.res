@@ -1,11 +1,14 @@
+"#base"		"../../_customizations/ratio/ratio_killstreak.res"
+
+
 "Resource/UI/HudItemEffectMeter_Demoman.res"
+
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"150"	
 		"ypos"			"r77"	
 		"xpos_minmode"	"140"	
 		"ypos_minmode"	"r150"	

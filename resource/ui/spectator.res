@@ -218,12 +218,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"				"replay/thumbnails/box-bg"
+			"image"				"replay/thumbnails/border/items"
 			"scaleImage"		"1"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
-			"draw_corner_width"		"10"
-			"draw_corner_height" 	"10"
+
 		}
 	}	
 	"spectator_extras"

@@ -230,58 +230,58 @@ event HudHealthBonusPulseStop
 
 //===========================================
 //Health Dying Pulse
-/// low hp pulse, i didn't know wtf is happening here, i copyed from zees hud because i dont know how to fix it
-
-event HudHealthDyingPulseCycle1
-{
-	RunEvent HudHealthDyingPulseMain 	0.5
-	RunEvent HudHealthDyingPulseCycle2 	1.50
-}
-
-event HudHealthDyingPulseCycle2
-{
-	RunEvent HudHealthDyingPulseMain 	0.5
-	RunEvent HudHealthDyingPulseCycle1 	1.50
-}
 
 event HudHealthDyingPulse
-{	
-	RunEvent HudHealthDyingPulseCycle1 0.01	
-}
-
-event HudHealthDyingPulseMain
 {
 	Animate PlayerStatusHealthValue			fgcolor		"whudred"		 Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBG		fgcolor		"whuddarkred" 		 Linear 0.0 0.0
 	Animate PlayerStatusHealthValueBGminmode		fgcolor		"92 56 57 255" 		 Linear 0.0 0.0
 	Animate PlayerStatusHealthValueuber		fgcolor		"224 100 106 255"		 Linear 0.0 0.0
-	Animate	PlayerStatusHealthBonusImag	Alpha		"0"						 Linear 0.0 0.0
-	Animate	PlayerStatusHealthBonusImag	Alpha		"255"			  		 Linear 0.0 0.0
+	RunEvent HudHealthDyingPulseCycle 0.3
 	
-	RunEvent HudHealthReset 0.2499
+}
+
+event HudHealthDyingPulseCycle
+{
+	RunEvent HudHealthDyingPulse 	0.5
+	Animate	PlayerStatusHealthBonusImag	Alpha		"255"						 Spline 0.0 0.125
+	Animate	PlayerStatusHealthBonusImag	Alpha		"0"			  		 		Spline 0.125 0.3
+	
+}
+
+event HudHealthReset
+{
+	StopEvent HudHealthDyingPulseCycle 0.125
+	StopEvent HudHealthDyingPulse 0.125
+	Animate PlayerStatusHealthValueuber		fgcolor		"0 0 0 255"				Linear 0.000 0.000
+	Animate	PlayerStatusHealthBonusImag		Alpha		"0"						Spline 0.125 0.3
+	Animate PlayerStatusHealthValue			fgcolor		"purple1" 				Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBG		fgcolor		"WHUDdarkpurple" 			Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBGminmode		fgcolor		"WHUDblack" 			Linear 0.000 0.000
 }
 
 event HudHealthDyingPulseStop
 
 {
 	RunEvent HudHealthReset 0.75
-	
+	StopEvent HudHealthDyingPulseCycle 0.125
+	StopEvent HudHealthDyingPulse 0.125
 	Animate PlayerStatusHealthValueuber		fgcolor		"0 0 0 255"				Linear 0.000 0.000
-	Animate	PlayerStatusHealthBonusImag		Alpha		"0"						Linear 0.000 0.000
+	Animate	PlayerStatusHealthBonusImag		Alpha		"0"						Spline 0.125 0.3
 	Animate PlayerStatusHealthValue			fgcolor		"purple1" 				Linear 0.000 0.000
-	Animate PlayerStatusHealthValueBG		fgcolor		"53 1 70 255" 			Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBG		fgcolor		"WHUDdarkpurple" 			Linear 0.000 0.000
 	Animate PlayerStatusHealthValueBGminmode		fgcolor		"WHUDblack" 			Linear 0.000 0.000
 	
-	
-	StopEvent HudHealthDyingPulseCycle1 		0.0
-	StopEvent HudHealthDyingPulseCycle2 		0.0
 }
 
 event HudHealthReset
 {
 
-	Animate	PlayerStatusHealthBonusImag		Alpha			"0"					Linear 0.125 0.075
-	
+	Animate PlayerStatusHealthValueuber		fgcolor		"0 0 0 255"				Linear 0.000 0.000
+	Animate	PlayerStatusHealthBonusImag		Alpha		"0"						Linear 0.000 0.000
+	Animate PlayerStatusHealthValue			fgcolor		"purple1" 				Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBG		fgcolor		"WHUDdarkpurple" 			Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBGminmode		fgcolor		"WHUDblack" 			Linear 0.000 0.000
 }
 
 //===========================================
@@ -805,7 +805,8 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+	Animate	hitmarker 	Alpha		"255"		Linear 0.0 0.0
+	Animate	hitmarker 	Alpha		"0"		Linear 0.0 0.95
 }
 
 //===========================================
@@ -1463,6 +1464,7 @@ event CompetitiveGame_LowerChatWindow
 event CompetitiveGame_RestoreChatWindow
 {
 	Animate HudChat ypos 175 Accel 0 0
+	RunEvent HudHealthReset 0.75
 }
 
 event HudTournament_MoveChatWindow

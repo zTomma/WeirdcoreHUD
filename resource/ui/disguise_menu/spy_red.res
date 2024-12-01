@@ -18,6 +18,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+	
 	}
 
 	"ClassIcon"	
@@ -81,8 +82,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"0"
-		"font"			"pixelbold8"
-		"DisabledFgColor2_override"			"128 128 128 255"
+			"font"			"pixel10"
+		"fgcolor_override" 		"whuddarkred"
 		"labelText"		"spy.exe"
 		"textAlignment"	"Center"
 		"dulltext"		"1"

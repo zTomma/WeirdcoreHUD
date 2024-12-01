@@ -41,11 +41,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			
-			"image"				"replay/thumbnails/box-bg"
+			"image"				"replay/thumbnails/border/items"
 			"scaleImage"		"1"
-			"teambg_1"			"replay/thumbnails/box-bg"
-			"teambg_2"			"replay/thumbnails/box-bg"
-			"teambg_3"			"replay/thumbnails/box-bg"
 			"alpha"				"255"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
@@ -73,7 +70,7 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"			"1"
-			"inventory_image_type"	"1"/
+			"inventory_image_type"	"1"
 		}
 
 		"ItemLabel"

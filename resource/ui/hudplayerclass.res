@@ -1,6 +1,72 @@
+#base "../../_customizations/playermodelbackgroundRED/playermodelbackgroundRED.res"
+#base "../../_customizations/playermodelbackgroundBLUE/playermodelbackgroundBLUE.res"
+#base "../../_customizations/ratio/playermodelbg.res"
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
+
+
+	"classmodelpanelBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"classmodelpanelBG"
+		"xpos_minmode"	"999"		[$WIN32]
+		"ypos"			"c80"	[$WIN32]
+		"ypos_minmode"		"r40"	[$WIN32]
+		"zpos"			"3"		
+		"wide"			"165"
+		"tall"			"140"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/playermodel_red"	
+
+
+	}
+	
+	"classmodelpanelBG2"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"classmodelpanelBG1"
+		"xpos"			"0"		[$WIN32]
+		"ypos"			"-4"	[$WIN32]
+		"zpos"			"40"		
+		"wide"			"165"
+		"tall"			"135"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/playermodel_border"	
+
+		"pin_to_sibling" "classmodelpanelBG"
+		"pin_corner_to_sibling" "PIN_topleft"
+
+	}
+
+	"PlayerStatusClassImageBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusClassImageBG"
+		"xpos"			"-1"		[$WIN32]
+		"xpos_minmode"	"40"		[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"ypos_minmode"		"999"	[$WIN32]
+		"xpos"			"41"	[$X360]
+		"ypos"			"r82"	[$X360]
+		"zpos"			"2"		
+		"wide"			"165"
+		"tall"			"140"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"replay/thumbnails/playermodel_red"	
+		"pin_to_sibling" "classmodelpanelBG"
+		"pin_corner_to_sibling" "PIN_topleft"
+
+	
+		
+	}
+
 	"HudPlayerClass"
 	{
 		"ControlName"	"EditablePanel"
@@ -18,10 +84,10 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"75"	
+		"xpos"			"-15"	
 		"xpos_minmode"	"30"	
-		"ypos"			"305"	
-		"ypos_minmode"	"r88"	
+		"ypos"			"10"	
+		"ypos_minmode"	"9999"	
 		"zpos"			"5"		
 		"wide"			"135"
 		"wide_minmode"	"90"
@@ -33,6 +99,9 @@
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
+		"pin_to_sibling" "classmodelpanelBG"
+		"pin_corner_to_sibling" "PIN_topleft"
+
 	}
 	"PlayerStatusSpyImage"
 	{
@@ -74,102 +143,15 @@
 		"image"			"../hud/class_spy_outline"
 		"scaleImage"	"1"	
 	}		
-	"PlayerStatusClassImageBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"70"		[$WIN32]
-		"xpos_minmode"	"40"		[$WIN32]
-		"ypos"			"c80"	[$WIN32]
-		"ypos_minmode"		"999"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
-		"zpos"			"3"		
-		"wide"			"165"
-		"tall"			"140"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"replay/thumbnails/playermodel_red"	
-		"teambg_2"			"replay/thumbnails/playermodel_red"
-		"teambg_2_lodef"	"replay/thumbnails/playermodel_red"
-		"teambg_3"			"replay/thumbnails/playermodel_blu"
-		"teambg_3_lodef"	"replay/thumbnails/playermodel_blu"
-	}
+	
 
-	"classmodelpanelBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
-		"xpos"			"70"		[$WIN32]
-		"xpos_minmode"	"999"		[$WIN32]
-		"ypos"			"c80"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
-		"zpos"			"3"		
-		"wide"			"165"
-		"tall"			"140"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"replay/thumbnails/playermodel_red"	
-		"teambg_2"			"replay/thumbnails/playermodel_red"
-		"teambg_2_lodef"	"replay/thumbnails/playermodel_red"
-		"teambg_3"			"replay/thumbnails/playermodel_blu"
-		"teambg_3_lodef"	"replay/thumbnails/playermodel_blu"
-	}
-	"classmodelpanelBG2"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
-		"xpos"			"69"		[$WIN32]
-		"xpos_minmode"	"40"		[$WIN32]
-		"ypos"			"c84"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
-		"zpos"			"40"		
-		"wide"			"165"
-		"tall"			"135"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"replay/thumbnails/playermodel_border"	
-		"teambg_2"			"replay/thumbnails/playermodel_borderd"
-		"teambg_2_lodef"	"replay/thumbnails/playermodel_borderd"
-		"teambg_3"			"replay/thumbnails/playermodel_border"
-		"teambg_3_lodef"	"replay/thumbnails/playermodel_border"
-	}
-	"classmodelpanelBG3"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
-		"xpos"			"70"		[$WIN32]
-		"xpos_minmode"	"40"		[$WIN32]
-		"ypos"			"c85"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
-		"zpos"			"45"		
-		"wide"			"165"
-		"tall"			"135"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"
-		"image"				"replay/thumbnails/playermodel_border1"	
-		"teambg_2"			"replay/thumbnails/playermodel_border1"
-		"teambg_2_lodef"	"replay/thumbnails/playermodel_border1"
-		"teambg_3"			"replay/thumbnails/playermodel_border1"
-		"teambg_3_lodef"	"replay/thumbnails/playermodel_border1"
-	}
 
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"75"	
+		"xpos"			"-3"	
 		"xpos_minmode"	"0"	
 		"ypos"			"160"	
 		"ypos_minmode"	"r90"	
@@ -182,6 +164,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling" "classmodelpanelBG"
+		"pin_corner_to_sibling" "PIN_topleft"
 		
 		"render_texture"	"0"
 		"fov"			"12"

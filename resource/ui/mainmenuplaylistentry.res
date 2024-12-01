@@ -96,9 +96,10 @@
 		"enabled"		"1"
 		"labelText"		"%button_token%"
 		"textinsetx"	"4"
-		"textinsety"	"16"
+		"textinsety"	"10"
 		"use_proportional_insets" "1"
 		"font"			"pixel20"
+		
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"

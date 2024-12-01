@@ -41,19 +41,7 @@
 		"drawcolor"		"ZeesMain"
 	}
 
-	"MainBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainBG"
-		"xpos"			"1"
-		"ypos"			"1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/bgs/layer4"
-		"scaleImage"	"1"
-	}
+
 
 
 	"MainBG1"
@@ -61,7 +49,8 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-182"
+		"zpos"			"98"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
@@ -75,7 +64,8 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG2"
 		"xpos"			"1"
-		"ypos"			"1"
+		"ypos"			"-182"
+		"zpos"			"99"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
@@ -88,7 +78,8 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG3"
 		"xpos"			"1"
-		"ypos"			"1"
+		"ypos"			"-182"
+		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
@@ -97,7 +88,7 @@
 		"scaleImage"	"1"
 	}
 
-
+	
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"
@@ -114,7 +105,7 @@
 		"textAlignment"	"west"
 		"xpos"			"5"
 		"ypos"			"5"
-		"zpos"			"40"
+		"zpos"			"120"
 		"wide"			"0"
 		"tall"			"0"
 		"autoResize"	"0"
@@ -145,12 +136,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HotRushStripped100"
+		"font"			"HotRushStripped80"
 		"labelText"		"%maplabel%"
 		"textAlignment"	"CENTER"
 		"xpos"			"0"
 		"ypos"			"c-100"
-		"zpos"			"50"
+		"zpos"			"120"
 		"wide"			"f0"
 		"tall"			"56"
 		"autoResize"	"0"
@@ -163,12 +154,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel2"
-		"font"			"HotRush100"
+		"font"			"HotRush80"
 		"labelText"		"%maplabel%"
 		"textAlignment"	"CENTER"
 		"xpos"			"5"
 		"ypos"			"c-95"
-		"zpos"			"50"
+		"zpos"			"120"
 		"wide"			"f0"
 		"tall"			"56"
 		"autoResize"	"0"
@@ -187,7 +178,7 @@
 		"textAlignment"	"CENTER"
 		"xpos"			"0"
 		"ypos"			"c-50"
-		"zpos"			"50"
+		"zpos"			"150"
 		"wide"			"f0"
 		"tall"			"24"
 		"autoResize"	"0"
@@ -206,7 +197,7 @@
 		"textAlignment"	"CENTER"
 		"xpos"			"3"
 		"ypos"			"c-47"
-		"zpos"			"50"
+		"zpos"			"120"
 		"wide"			"f0"
 		"tall"			"24"
 		"autoResize"	"0"

@@ -290,7 +290,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"EngiButton"
-		"xpos"			"600"
+		"xpos"			"r250"
 		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"240"
@@ -459,7 +459,7 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"200"
-		"tall"			"100"
+		"tall"			"90"
 		"visible"		"1"
 		"Command"		"select 1"
 		"enabled"		"1"
@@ -486,10 +486,10 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"soldier"
 		"xpos"			"0"
-		"ypos"			"-90"
+		"ypos"			"-100"
 		"zpos"			"6"
 		"wide"			"200"
-		"tall"			"100"
+		"tall"			"90"
 		"visible"		"1"
 		"Command"		"select 3"
 		"enabled"		"1"
@@ -528,10 +528,10 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"pyro"
 		"xpos"			"0"
-		"ypos"			"-180"
+		"ypos"			"-193"
 		"zpos"			"3"
 		"wide"			"200"
-		"tall"			"100"
+		"tall"			"90"
 		"visible"		"1"
 		"Command"		"select 7"
 		"enabled"		"1"
@@ -569,10 +569,10 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"demoman"
 		"xpos"			"0"
-		"ypos"			"-270"
+		"ypos"			"-280"
 		"zpos"			"4"
 		"wide"			"200"
-		"tall"			"100"
+		"tall"			"80"
 		"visible"		"1"
 		"Command"		"select 4"
 		"enabled"		"1"
@@ -610,10 +610,10 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"heavyweapons"
 		"xpos"			"0"
-		"ypos"			"-360"
+		"ypos"			"-370"
 		"zpos"			"5"
 		"wide"			"210"
-		"tall"			"105"
+		"tall"			"90"
 		"visible"		"1"
 		"Command"		"select 6"
 		"enabled"		"1"
@@ -650,11 +650,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"engineer"
-		"xpos"			"600"
+		"xpos"			"r250"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"240"
-		"tall"			"120"
+		"tall"			"90"
 		"visible"		"1"
 		"Command"		"select 9"
 		"enabled"		"1"
@@ -692,10 +692,10 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"medic"
 		"xpos"			"0"
-		"ypos"			"-90"
+		"ypos"			"-100"
 		"zpos"			"2"
 		"wide"			"240"
-		"tall"			"120"
+		"tall"			"90"
 		"visible"		"1"
 		"Command"		"select 5"
 		"enabled"		"1"
@@ -733,10 +733,10 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"sniper"
 		"xpos"			"0"
-		"ypos"			"-180"
+		"ypos"			"-190"
 		"zpos"			"3"
 		"wide"			"240"
-		"tall"			"120"
+		"tall"			"90"
 		"visible"		"1"
 		"Command"		"select 2"
 		"enabled"		"1"
@@ -775,10 +775,10 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"spy"
 		"xpos"			"0"
-		"ypos"			"-270"
+		"ypos"			"-280"
 		"zpos"			"4"
 		"wide"			"240"
-		"tall"			"120"
+		"tall"			"90"
 		"visible"		"1"
 		"Command"		"select 8"
 		"enabled"		"1"
@@ -1243,7 +1243,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "scout"
-		"font"			"Justicehalf120"
+		"font"			"Justicehalf60"
 		"fgcolor"		"violet"
 	}	
 	"numScout shadow" [$WIN32]
@@ -1263,7 +1263,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "numscout"
-		"font"			"Justicelaser120"
+		"font"			"Justicelaser60"
 		"fgcolor"		"WHUDdarkpurple"
 	}	
 	
@@ -1284,7 +1284,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "soldier"
-		"font"			"Justicehalf120"
+		"font"			"Justicehalf60"
 		"fgcolor"		"violet"
 	}	
 	"numsoldier shadow" [$WIN32]
@@ -1304,7 +1304,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "numsoldier"
-		"font"			"Justicelaser120"
+		"font"			"Justicelaser60"
 		"fgcolor"		"WHUDdarkpurple"
 	}	
 	
@@ -1325,7 +1325,7 @@
 		"labelText"		"%numpyro%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "pyro"
-		"font"			"Justicehalf120"
+		"font"			"Justicehalf60"
 		"fgcolor"		"violet"
 	}	
 	"numpyro shadow" 
@@ -1345,7 +1345,7 @@
 		"labelText"		"%numpyro%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "numpyro"
-		"font"			"Justicelaser120"
+		"font"			"Justicelaser60"
 		"fgcolor"		"WHUDdarkpurple"
 	}		
 	
@@ -1366,7 +1366,7 @@
 		"labelText"		"%numdemoman%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "demoman"
-		"font"			"Justicehalf120"
+		"font"			"Justicehalf60"
 		"fgcolor"		"violet"
 	}	
 	"numdemo shadow" 
@@ -1386,7 +1386,7 @@
 		"labelText"		"%numdemoman%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "numdemo"
-		"font"			"Justicelaser120"
+		"font"			"Justicelaser60"
 		"fgcolor"		"WHUDdarkpurple"
 	}	
 	"numHeavy" 
@@ -1406,7 +1406,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "heavyweapons"
-		"font"			"Justicehalf120"
+		"font"			"Justicehalf60"
 		"fgcolor"		"violet"
 	}	
 	"numHeavy shadow" 
@@ -1426,7 +1426,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "numHeavy"
-		"font"			"Justicelaser120"
+		"font"			"Justicelaser60"
 		"fgcolor"		"WHUDdarkpurple"
 	}	
 	"numengi" 
@@ -1446,7 +1446,7 @@
 		"labelText"		"%numengineer%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "engineer"
-		"font"			"Justicehalf120"
+		"font"			"Justicehalf60"
 		"fgcolor"		"violet"
 	}	
 	"numengi shadow" 
@@ -1466,7 +1466,7 @@
 		"labelText"		"%numengineer%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "numengi"
-		"font"			"Justicelaser120"
+		"font"			"Justicelaser60"
 		"fgcolor"		"WHUDdarkpurple"
 	}					
 	
@@ -1487,7 +1487,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "medic"
-		"font"			"Justicehalf120"
+		"font"			"Justicehalf60"
 		"fgcolor"		"violet"
 	}	
 	"numMedic shadow" 
@@ -1507,7 +1507,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "numMedic"
-		"font"			"Justicelaser120"
+		"font"			"Justicelaser60"
 		"fgcolor"		"WHUDdarkpurple"
 	}							
 	
@@ -1528,7 +1528,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "sniper"
-		"font"			"Justicehalf120"
+		"font"			"Justicehalf60"
 		"fgcolor"		"violet"
 	}	
 	"numSniper shadow" 
@@ -1548,7 +1548,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "numSniper"
-		"font"			"Justicelaser120"
+		"font"			"Justicelaser60"
 		"fgcolor"		"WHUDdarkpurple"
 	}								
 	
@@ -1569,7 +1569,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "spy"
-		"font"			"Justicehalf120"
+		"font"			"Justicehalf60"
 		"fgcolor"		"violet"
 	}	
 	"numSpy shadow" 
@@ -1589,7 +1589,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
 		"pin_to_sibling" "numSpy"
-		"font"			"Justicelaser120"
+		"font"			"Justicelaser60"
 		"fgcolor"		"WHUDdarkpurple"
 	}							
 	
@@ -1843,7 +1843,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"TFPlayerModel"
 		
-		"xpos"			"250"
+		"xpos"			"c-190"
 		"ypos"			"-20"
 		"zpos"			"6"		
 		"wide"			"480"

@@ -112,11 +112,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HotRush500"
+		"font"			"HotRush80"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
 		"xpos"			"c-400"
-		"ypos"			"-15"
+		"ypos"			"-7"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"70"
@@ -131,11 +131,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabelBG"
-		"font"			"HotRushStripped500"
+		"font"			"HotRushStripped80"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
 		"xpos"			"c-397"
-		"ypos"			"-13"
+		"ypos"			"-5"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"70"
@@ -187,7 +187,7 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		"xpos"			"400"
+		"xpos"			"c-50"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"600"
@@ -281,8 +281,9 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
-		"zpos"			"21"
+		"zpos"			"c120"
 		"xpos"			"150"
+		"ypos"			"150"
 		"wide"			"150"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -333,8 +334,8 @@
     {
         "ControlName"   "CExImageButton"
         "fieldName"     "RedButton"
-        "xpos"              "455"
-		"ypos"				"c-150"
+           "xpos"			"-85"
+		"ypos"				"0"
         "zpos"              "12"    
         "wide"              "25"
         "tall"              "25"
@@ -367,6 +368,9 @@
         "image_drawcolor"       "255 255 255 128"
         "image_armedcolor"      "255 255 255 255"
         "image_selectedcolor"   "255 255 255 255"
+
+		"pin_to_sibling" "TauntLoadoutButton"
+		"pin_corner_to_sibling" "PIN_topleft"
     
         "SubImage"
         {
@@ -389,8 +393,8 @@
     {
         "ControlName"   "CExImageButton"
         "fieldName"     "BlueButton"
-        "xpos"              "427"
-		"ypos"				"c-150"
+        "xpos"			"-56"
+		"ypos"			"0"
         "zpos"              "12"    
         "wide"              "25"
         "tall"              "25"
@@ -423,6 +427,9 @@
         "image_drawcolor"       "255 255 255 128"
         "image_armedcolor"      "255 255 255 255"
         "image_selectedcolor"   "255 255 255 255"
+
+		"pin_to_sibling" "TauntLoadoutButton"
+		"pin_corner_to_sibling" "PIN_topleft"
     
         "SubImage"
         {
@@ -449,7 +456,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
-		"xpos"			"371"
+		"xpos"			"c-56"
 		"ypos"			"c-150"
 		"zpos"			"2"
 		"wide"			"25"
@@ -473,6 +480,7 @@
 
 		"defaultBgColor_override"		"WHUDgray"
 		"depressedBgColor_override" 	"WHUDblack"
+		
 		
 		"SubImage"
 		{
@@ -502,8 +510,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"399"
-		"ypos"			"c-150"
+		"xpos"			"-28"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -518,6 +526,8 @@
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+			"pin_to_sibling" "TauntLoadoutButton"
+		"pin_corner_to_sibling" "PIN_topleft"
 
 		"SubImage"
 		{

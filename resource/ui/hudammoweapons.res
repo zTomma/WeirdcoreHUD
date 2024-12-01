@@ -1,5 +1,8 @@
-#base "../../_customization/addson/put_here_ur_addson/LowAmmo_indicator.res"
-#base "../../_customization/addson/put_here_ur_addson/LowAmmo_indicator_alt.res"
+#base "../../_customizations/lowammo/lowammo.res"
+#base "../../_customizations/ammobackgroundRED/AmmobackgroundRED.res"
+#base "../../_customizations/ammobackgroundBLUE/AmmobackgroundBLUE.res"
+"#base"	"../../_customizations/minmode/bgs_ammo.res"
+"#base"	"../../_customizations/fonts/fonts_ammo.res"
 
 "Resource/UI/HudAmmoWeapons.res"
 
@@ -17,12 +20,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/ammo_bg_blue"
-		"scaleImage"	"3"	
-		"teambg_2"		"replay/thumbnails/ammo_bg_red"
-		"teambg_2_lodef"	"replay/thumbnails/ammo_bg_blue"
-		"teambg_3"		"replay/thumbnails/ammo_bg_blue"
-		"teambg_3_lodef"	"replay/thumbnails/ammo_bg_blue"			
+		"scaleImage"	"3"				
 	}
+
+
 	"HudWeaponAmmoBG2"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -55,8 +56,6 @@
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"	
-		"visible_minmode"		"1"
-		"enabled_minmode"		"1"		
 		"scaleImage"			"1"	
 		"fillcolor"			"0 0 0 255"
 		"alpha"			"200"
@@ -73,8 +72,6 @@
 		"tall"			"5"
 		"visible"		"0"
 		"enabled"		"0"	
-		"visible_minmode"		"1"
-		"enabled_minmode"		"1"		
 		"scaleImage"			"1"	
 		"image"			"/replay/thumbnails/border/redborder"
 		"teambg_2"		"/replay/thumbnails/border/redborder"
@@ -87,7 +84,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"JusticeHalf120"
 		"fgcolor"		"purple1"
 		"xpos"			"341"
 		"xpos_minmode"	"45"				
@@ -107,7 +103,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"JusticeLaser120"
 		"fgcolor"		"WHUDdarkpurple"
 		"fgcolor_minmode"		"WHUDblack"
 		"xpos"			"343"
@@ -133,7 +128,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"JusticeHalf30"
 		"fgcolor"		"purple1"
 		"xpos"			"426"
 		"xpos_minmode"	"130"
@@ -153,7 +147,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"JusticeLaser30"
 		"fgcolor"		"WHUDdarkpurple"
 		"fgcolor_minmode"		"WHUDdarkpurple"
 		"fgcolor_minmode"		"WHUDblack"
@@ -175,7 +168,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"Justicehalf120"
 		"fgcolor"		"purple1"
 		"xpos"			"325"
 		"ypos"			"190"
@@ -195,7 +187,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"JusticeLaser120"
 		"fgcolor"		"WHUDdarkpurple"
 		"fgcolor_minmode"		"WHUDblack"
 		"xpos"			"327"

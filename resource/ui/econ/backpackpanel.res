@@ -171,49 +171,7 @@
 		"scaleImage"		"1"
 	}
 
-	"mark"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"mark"
-		"xpos"			"-40"
-		"ypos"			"350"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"30"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"actionsignallevel"		"4"
-		"labelText"		""
-		"font"			"pixel8"
-		"textAlignment"	"center"
-		"fgcolor_override"		"violet"
-		"armedBgColor_override"		"HUDdarkgray"	
-		"defaultBgColor_override"	"WHUDblack"
-		"sound_depressed"	"UI/1.wav"
-
-		"markUrl"
-		{
-			"ControlName"			"URLLabel"
-			"fieldName"				"fmarkurl"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"2"
-			"wide"					"f0"
-			"tall"					"f0"
-			"font"					"icons25"
-			"labelText"				"D"
-			"enabled"				"1"
-			"visible"				"1"
-			"paintBackground"		"0"
-			"textAlignment"			"est"
-			"fgcolor_override"		"WHUDwhite"
-			"proportionaltoparent"	"1"
-			"urlText"				"https://markiplier.fandom.com/wiki/WARNING:_SCARIEST_GAME_IN_YEARS/Transcript"
-			
-		}
-		
-	}
+	
 
 	
 	"ClassLabel"
@@ -472,48 +430,7 @@
 	 }		
 	 
 	 
-	 "scoutbutton"												////////for some reason is not working 
-	 {
-	 	"ControlName"	"CExImageButton"
-	 	"fieldName"		"scoutbutton_backpack"
-	 	"xpos"			"99999"
-	 	"ypos"			"130"
-	 	"zpos"			"1"
-	 	"wide"			"20"
-		"command" 		"loadout scout"
-	 	"tall"			"20"
-	 	"autoResize"	"0"
-	 	"pinCorner"		"0"
-	 	"visible"		"1"
-	 	"enabled"		"1"
-	 	"tabPosition"	"0"
-	 	"textAlignment"	"center"
-	 	"dulltext"		"0"
-	 	"brighttext"	"0"
-		"paintbackground" "0"
-		"border_default" "WEIRDBorderblack"
-		"border_armed" "WEIRDBorderblack"
-	 	"Command"		"prevpage"
-	 	"sound_depressed"	"UI/buttonclick.wav"
-	 	"sound_released"	"UI/buttonclickrelease.wav"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"170"
-			"tall"			"190"
-			"antialias" 	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"replay/thumbnails/icons/scout"
-			}
-			
-	 }		
-	 
+	
 	 
 	 
 	 "CurPageLabel"
