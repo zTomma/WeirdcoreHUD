@@ -224,7 +224,7 @@
 		"discordbutton"				
 			{
 				"ControlName"			"EditablePanel"
-				"fieldName"				"DiscordLinkUrl"				
+				"fieldName"				"discordbutton"				
 				"xpos"	"438"	
 				"ypos"	"206"
 				"zpos"			"100"	
@@ -235,7 +235,7 @@
 				"DiscordUrl"
 				{
 					"ControlName"			"URLLabel"
-					"fieldName"				"DiscordLinkUrl"
+					"fieldName"				"DiscordUrl"
 					"xpos"					"0"
 					"ypos"					"0"
 					"zpos"					"2"
@@ -254,7 +254,7 @@
 		"donationbutton"				
 			{
 				"ControlName"			"EditablePanel"
-				"fieldName"				"donationLinkUrl"				
+				"fieldName"				"donationbutton"				
 				"xpos"	"415"	
 				"ypos"	"277"
 				"zpos"			"100"	
@@ -265,7 +265,7 @@
 				"tradeUrl"
 				{
 					"ControlName"			"URLLabel"
-					"fieldName"				"doantionLinkUrl"
+					"fieldName"				"tradeurl"
 					"xpos"					"0"
 					"ypos"					"0"
 					"zpos"					"2"

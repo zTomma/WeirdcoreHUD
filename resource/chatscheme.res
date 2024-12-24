@@ -223,7 +223,7 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-
+		"isproportional" "only"
 		"Default"
 		{
 			"1"
@@ -262,12 +262,10 @@ Scheme
 			}
 			"5"
 			{
-				"isproportional" "only"
 				"name"		"Nexa Heavy"
-				"tall"		"18"
+				"tall"		"8"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -275,7 +273,6 @@ Scheme
 		// this is the symbol font
 		"Marlett"
 		{
-
 			"1"
 			{
 				"name"		"Marlett"
@@ -363,7 +360,8 @@ Scheme
 		}
 
 		"ChatFont"
-		{
+		{				
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Nexa Heavy"
@@ -402,12 +400,9 @@ Scheme
 			}
 			"5"
 			{
-				"isproportional" "only"
 				"name"		"Nexa Heavy"
-				"tall"		"17"	[$WIN32]
-				"tall"		"25"	[$X360]
+				"tall"		"8"	[$WIN32]
 				"weight"	"300"
-				"yres"		"1200 10000"
 				"dropshadow"	"1"
 				"antialias" "1"
 			}
