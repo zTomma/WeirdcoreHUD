@@ -687,7 +687,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"vo/null.mp3"
+			"sound_released"	"vo/null.wav"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 				
@@ -807,7 +807,7 @@
 		"command" 		"questlog"
 		"labeltext"		"C"
 		"font"					"icons25"
-		"textAlignment"			"est"
+		"textAlignment"			"east"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"image_default"		"replay/thumbnails/icons/contracter"
