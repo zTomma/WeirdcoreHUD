@@ -1,0 +1,196 @@
+//===========================================
+
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+	Animate	BonusHP						 	Alpha		"255"		Linear 0.0 0.075
+	Animate	BonusHP							Alpha		"0"			Linear 0.125 0.075
+	Animate PlayerStatusHealthValue			fgcolor		"whudgreen" Spline 0.0 0.0
+	Animate PlayerStatusHealthValueBG		fgcolor		"whuddarkgreen" Spline 0.0 0.0
+	Animate PlayerStatusHealthValueBGminmode		fgcolor		"whuddarkgreen" Spline 0.0 0.0
+	Animate PlayerStatusHealthValueuber		fgcolor		"35 148 61 255"	Linear 0.0 0.0
+	RunEvent HudHealthBonusPulseLoop	1.5
+}
+
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+	Animate	BonusHP						 	Alpha		"0"			Linear 0.0 0.0
+}
+
+//===========================================
+//Health Dying Pulse
+
+event HudHealthDyingPulse
+{
+	Animate PlayerStatusHealthValue			        fgcolor		"whudred"		        Linear 0.0 0.0
+	Animate PlayerStatusHealthValueBG		        fgcolor		"whuddarkred" 		    Linear 0.0 0.0
+	Animate PlayerStatusHealthValueBGminmode		fgcolor		"92 56 57 255" 		    Linear 0.0 0.0
+	Animate PlayerStatusHealthValueuber		        fgcolor		"224 100 106 255"		Linear 0.0 0.0
+	RunEvent HudHealthDyingPulseCycle 0.3
+	
+}
+
+event HudHealthDyingPulseCycle
+{
+	RunEvent HudHealthDyingPulse 	0.5
+	Animate	PlayerStatusHealthBonusImag	            Alpha		"255"						 Spline 0.0 0.125
+	Animate	PlayerStatusHealthBonusImag	            Alpha		"0"			  		 		Spline 0.125 0.3
+	
+}
+
+event HudHealthReset
+{
+	StopEvent HudHealthDyingPulseCycle 0.125
+	StopEvent HudHealthDyingPulse 0.125
+	Animate PlayerStatusHealthValueuber		fgcolor		"0 0 0 255"				Linear 0.000 0.000
+	Animate	PlayerStatusHealthBonusImag		Alpha		"0"						Spline 0.125 0.3
+	Animate PlayerStatusHealthValue			fgcolor		"purple1" 				Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBG		fgcolor		"WHUDdarkpurple" 			Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBGminmode		fgcolor		"WHUDblack" 			Linear 0.000 0.000
+}
+
+event HudHealthDyingPulseStop
+
+{
+	RunEvent HudHealthReset 0.75
+	StopEvent HudHealthDyingPulseCycle 0.125
+	StopEvent HudHealthDyingPulse 0.125
+	Animate PlayerStatusHealthValueuber		fgcolor		"0 0 0 255"				Linear 0.000 0.000
+	Animate	PlayerStatusHealthBonusImag		Alpha		"0"						Spline 0.125 0.3
+	Animate PlayerStatusHealthValue			fgcolor		"purple1" 				Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBG		fgcolor		"WHUDdarkpurple" 			Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBGminmode		fgcolor		"WHUDblack" 			Linear 0.000 0.000
+	
+}
+
+event HudHealthReset
+{
+
+	Animate PlayerStatusHealthValueuber		fgcolor		"0 0 0 255"				Linear 0.000 0.000
+	Animate	PlayerStatusHealthBonusImag		Alpha		"0"						Linear 0.000 0.000
+	Animate PlayerStatusHealthValue			fgcolor		"purple1" 				Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBG		fgcolor		"WHUDdarkpurple" 			Linear 0.000 0.000
+	Animate PlayerStatusHealthValueBGminmode		fgcolor		"WHUDblack" 			Linear 0.000 0.000
+}
+
+//===========================================
+
+event HudLowAmmoPulse
+{
+	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+	
+	RunEvent HudLowAmmoPulseLoop	1.50
+}
+
+// call to loop HudLowAmmoPulse
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+}
+
+//===========================================
+
+//====================================
+// Flash the medic charge hud when we have full charge
+
+event HudMedicCharged
+{
+	
+	
+	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	uberready						 	Alpha		"255"		Linear 0.0 0.075
+	Animate	uberready							Alpha		"0"			Linear 0.125 0.075
+
+	RunEvent HudMedicChargedLoop	1.5
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	Animate	uberready							Alpha		"0"			Linear 0.125 0.075
+}
+
+//====================================
+
+event HudSnapShotReminderIn
+{
+    Animate ScreenshotPanel Position "c-83 -50" Linear 0.0 0.001
+    Animate ScreenshotPanel Position "c-83 13" Spline 0.001 0.2
+    RunEvent HudHealthDyingPulseStop 10.0
+    RunEvent HudHealthBonusPulseStop 10.0
+    RunEvent HudLowAmmoPulseStop 10.0
+    RunEvent HudMedicChargedStop 10.0
+}
+
+// Active Timer BG Pulse
+event ActiveTimerBGPulse
+{
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	ActiveTimerBG 	Alpha		"0"		Linear 0.3 0.1
+	
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	ActiveTimerBG 	Alpha		"0"		Linear 0.7 0.1
+	
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	ActiveTimerBG 	Alpha		"0"		Linear 1.1 0.1
+}
+
+event DamagedPlayer
+{
+	Animate	hitmarker 	Alpha		"255"		Linear 0.0 0.0
+	Animate	hitmarker 	Alpha		"0"		Linear 0.0 0.95
+}
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+	RunEvent HudHealthReset 0.75
+}
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  1 0
+	SetVisible SkullPanel  1 0
+	SetVisible respawntime  1 0
+	SetVisible respawntime2  1 0
+
+
+	Animate DeathPanel ypos 19 Accel 0 0.2
+	Animate SkullPanel ypos 20 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate SkullPanel ypos 0 Accel 0 0.2
+
+	SetVisible DeathPanel  0 0.2
+	SetVisible SkullPanel  0 0.2
+	SetVisible respawntime 0 0.2
+	SetVisible respawntime2 0 0.2
+}

@@ -6,8 +6,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-78-1"
-		"ypos"			"c-30-1"
+		"xpos"			"cs-0.5"
+		"ypos"			"c0"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"40"
@@ -15,14 +15,13 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		
 	}
 	"DamageAccountValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValueShadow"
-		"xpos"			"c-78"
-		"ypos"			"c-30"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"40"
@@ -30,7 +29,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-
+		"pin_to_sibling"	"DamageAccountValue"
 	} 	
 
 }

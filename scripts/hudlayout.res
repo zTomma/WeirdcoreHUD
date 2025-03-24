@@ -13,10 +13,6 @@
 
 "Resource/HudLayout.res"
 {
-
-
-
-
 	CDamageAccountPanel
 	{
 		"fieldName"				"CDamageAccountPanel"
