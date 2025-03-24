@@ -55,8 +55,6 @@ you can find many customization options in "hud option" in the main menu of the 
 | (__| | |  __/ (_| | | |_\__ \
  \___|_|  \___|\__,_|_|\__|___/
 
-here is the boring part that no one will read but i write it any way
-
 i wanna thanks all the people from HUDS.TF discord (https://discord.gg/uSuJWY3hFv) to always respond to my annoying quesitons 
 and the people from my discord server (https://discord.gg/5Fct2s9Bfe) for the pacience and the support <3,
  
@@ -67,6 +65,10 @@ I would like to say special thanks to
 		DrinkinTea
 		peaches
 		quickkennedy
+		techno
+		GalaxyBalaxy
+		heaven-piercer
+
 ---to help me with code shit---
 
 		Luciérnaga
@@ -91,6 +93,12 @@ I would like to say special thanks to
 		sarahkittyy
 		
 --- for helping me with my spaghetti code---
+
+		Mp3File
+--- for making a custom menu soundtrack---
+
+		Luigi/thanone
+--- for the help and support given to the community---
 
 
 		Yara
