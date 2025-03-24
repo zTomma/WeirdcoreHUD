@@ -140,6 +140,35 @@
 				}
 			}	
 
+			"helpbutton"				
+			{
+				"ControlName"			"EditablePanel"
+				"fieldName"				"helpLinkUrl"				
+				"xpos"	"c-100"	
+		        "ypos"	"400"
+		        "zpos"			"100"	
+				"wide"	"200"	
+				"tall"	"20"							
+				"PaintBackgroundType"	"0"
+				
+				"DiscordUrl"
+				{
+					"ControlName"			"URLLabel"
+					"fieldName"				"helpLinkUrl"
+					"xpos"					"0"
+					"ypos"					"0"
+					"zpos"					"2"
+					"wide"					"f0"
+					"tall"					"f0"
+					"font"		    	  	"pixel10"
+					"labelText"				"if you are stuck here click me"	
+					"textAlignment"			"center"
+					"fgcolor_override"		"106 88 242 255"
+					"proportionaltoparent"	"1"
+					"urlText"				"https://steamcommunity.com/sharedfiles/filedetails/?id=3451318454"
+			
+				}
+			}	
 
 		"line"				
 			{

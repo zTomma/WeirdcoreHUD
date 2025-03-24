@@ -1,4 +1,3 @@
-   if u r reading this that means your biological bombs aka your socks are safe, well done soldier!
                 __          ________ _      _____ ____  __  __ ______                         
                 \ \        / /  ____| |    / ____/ __ \|  \/  |  ____|                        
                  \ \  /\  / /| |__  | |   | |   | |  | | \  / | |__                           
@@ -31,44 +30,23 @@
 | | | | (_) \ V  V /  | || (_) | | | | | \__ \ || (_| | | |
 |_| |_|\___/ \_/\_/    \__\___/  |_|_| |_|___/\__\__,_|_|_|
 	
-duuhhh just copy the hud folder and paste in 
+first of all unzip the file you just downloaded, copy the folder inside and paste it in:
+
 C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom
 
-maybe the hud can conflict with other mods (especially if they involve gui elements, yes u can keep big tits and ass pyro [unfortunately])
+maybe the hud can conflict with other mods (especially if they involve gui elements)
 
             
-if you have trouble, you found bug or you wanna make some suggetion all you need is the discord serevr https://discord.gg/5Fct2s9Bfe
+if youn have issues: https://discord.gg/5Fct2s9Bfe
+
 			_                        
   ___ _   _| |_ ___  _ __ ___ (_)______ _| |_(_) ___  _ __  ___ 
  / __| | | | __/ _ \| '_ ` _ \| |_  / _` | __| |/ _ \| '_ \/ __|
 | (__| |_| | || (_) | | | | | | |/ / (_| | |_| | (_) | | | \__ \
  \___|\__,_|\__\___/|_| |_| |_|_/___\__,_|\__|_|\___/|_| |_|___/
  
- in the main menu you can find cool buttons u can use for cutomize the hud as u like ;D
+you can find many customization options in "hud option" in the main menu of the hud
  
- and if you wanna go futher in 
- weirdcoreHUD\_customization
- you can find:
- -"colors.res"  that control main color of the hud
- - "addson" folder where you can add and remove features:
-  to remove indicator remove the corresponding indicator file from the folder
-  
-  to have indicator at the sides of the screen add _alt in the folder
-  
-  to reduce font sizes put "tiny_fonts" in the folder and remove "normal_fonts"
-
- -"resolution" still working on this :/
- 
- and if you wanna go EVEN FUTHER:
- https://www.youtube.com/playlist?list=PL5eNrB8RrXXuV3P1nv6NnwF-tCL_KnJIs
- 
- 
-
-
-
-
-if you do not wanna any hud intro, besides the fact that you are a very boring person, you have to go in you steam library > right click on tf2 in the left side game list > propiety > general > and write in "lauch option" "-novid"
-
 
  
                    _ _ _        

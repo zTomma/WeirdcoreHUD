@@ -228,24 +228,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"10"
+				"name"		"Jogan Soft"
+				"tall"		"18"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"12"
+				"name"		"Jogan Soft"
+				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"12"
+				"name"		"Jogan Soft"
+				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -253,8 +253,8 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"12"
+				"name"		"Jogan Soft"
+				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -262,8 +262,8 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"8"
+				"name"		"Jogan Soft"
+				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"antialias"	"1"
@@ -364,44 +364,40 @@ Scheme
 			"isproportional" "only"
 			"1"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"10"	[$WIN32]
-				"tall"		"15"	[$X360]
+				"name"		"Jogan Soft"
+				"tall"		"18"	[$WIN32]
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"11"	[$WIN32]
-				"tall"		"17"	[$X360]
+				"name"		"Jogan Soft"
+				"tall"		"19"	[$WIN32]
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"11"	[$WIN32]
-				"tall"		"18"	[$X360]
+				"name"		"Jogan Soft"
+				"tall"		"19"	[$WIN32]
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[$X360]
+				"name"		"Jogan Soft"
+				"tall"		"23"	[$WIN32]
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		"Nexa Heavy"
-				"tall"		"8"	[$WIN32]
+				"name"		"Jogan Soft"
+				"tall"		"16"	[$WIN32]
 				"weight"	"300"
 				"dropshadow"	"1"
 				"antialias" "1"
