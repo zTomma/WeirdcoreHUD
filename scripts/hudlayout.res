@@ -511,7 +511,7 @@
 		"tall"	 "468"
 
 		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
+		"IconScale"	  "0.55"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
 		"CornerRadius"	  "0"
