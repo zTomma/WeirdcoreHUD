@@ -513,6 +513,24 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
+			"1200"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"27"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1200 1599"
+				"antialias"	"1"
+			}
+			"1600"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"40"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1600 10000"
+				"antialias"	"1"
+			}
 			"5"
 			{
 				"name"		"Upheaval TT -BRK-"
@@ -590,6 +608,24 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
+			"1200"
+			{
+				"name"		"Verdana"
+				"tall"		"27"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"		"1200 1599"
+				"antialias"	"1"
+			}
+			"1600"
+			{
+				"name"		"Verdana"
+				"tall"		"40"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"		"1600 10000"
+				"antialias"	"1"
+			}
 			"5"
 			{
 				"name"		"Verdana"
@@ -645,6 +681,24 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
+			"1200"
+			{
+				"name"		"Verdana"
+				"tall"		"19"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1200 1599"
+				"antialias"	"1"
+			}
+			"1600"
+			{
+				"name"		"Verdana"
+				"tall"		"28"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1600 10000"
+				"antialias"	"1"
+			}
 			"5"
 			{
 				"name"		"Verdana"
@@ -689,6 +743,24 @@ Scheme
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"1200"
+			{
+				"name"		"Verdana"
+				"tall"		"37"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1200 1599"
+				"antialias"	"1"
+			}
+			"1600"
+			{
+				"name"		"Verdana"
+				"tall"		"56"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1600 10000"
 				"antialias"	"1"
 			}
 			"5"
@@ -771,6 +843,20 @@ Scheme
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
+			"1200"
+			{
+				"name"		"Verdana"
+				"tall"		"27"
+				"weight"	"700"
+				"yres"		"1200 1599"
+			}
+			"1600"
+			{
+				"name"		"Verdana"
+				"tall"		"40"
+				"weight"	"700"
+				"yres"		"1600 10000"
+			}
 			"5"
 			{
 				"name"		"Verdana"
@@ -817,6 +903,24 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 				"yres"		"1024 1199"
+			}
+			"1200"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"64"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"1200 1599"
+			}
+			"1600"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"96"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"yres"		"1600 10000"
 			}
 			"5"
 			{
@@ -1315,6 +1419,24 @@ Scheme
 				"yres"		"1024 1199"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
+			"1200"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"28"
+				"weight"	"900"
+				"antialias" 	"1"
+				"yres"		"1200 1599"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+			"1600"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"42"
+				"weight"	"900"
+				"antialias" 	"1"
+				"yres"		"1600 10000"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
 			"5"
 			{
 				"name"		"Upheaval TT -BRK-"
@@ -1748,6 +1870,24 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias" "1"
 			}
+			"1200"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"187"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"1200 1599"
+				"antialias" "1"
+			}
+			"1600"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"280"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"400"
+				"yres"		"1600 10000"
+				"antialias" "1"
+			}
 			"5"
 			{
 				"name"		"Upheaval TT -BRK-"
@@ -1874,6 +2014,22 @@ Scheme
 				"yres"		"1024 1199"
 				"dropshadow"	"0"
 			}
+			"1200"
+			{
+				"name"		"Verdana"
+				"tall"		"27"
+				"weight"	"700"
+				"yres"		"1200 1599"
+				"dropshadow"	"0"
+			}
+			"1600"
+			{
+				"name"		"Verdana"
+				"tall"		"40"
+				"weight"	"700"
+				"yres"		"1600 10000"
+				"dropshadow"	"0"
+			}
 			"5"
 			{
 				"name"		"Verdana"
@@ -1917,6 +2073,22 @@ Scheme
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
+			"1200"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"27"
+				"weight"	"700"
+				"yres"		"1200 1599"
+				"dropshadow"	"1"
+			}
+			"1600"
+			{
+				"name"		"Upheaval TT -BRK-"
+				"tall"		"40"
+				"weight"	"700"
+				"yres"		"1600 10000"
+				"dropshadow"	"1"
+			}
 			"5"
 			{
 				"name"		"Upheaval TT -BRK-"
@@ -1958,6 +2130,22 @@ Scheme
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
+				"dropshadow"	"1"
+			}
+			"1200"
+			{
+				"name"		"Verdana"
+				"tall"		"19"
+				"weight"	"700"
+				"yres"		"1200 1599"
+				"dropshadow"	"1"
+			}
+			"1600"
+			{
+				"name"		"Verdana"
+				"tall"		"28"
+				"weight"	"700"
+				"yres"		"1600 10000"
 				"dropshadow"	"1"
 			}
 			"5"
@@ -2753,6 +2941,24 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
+			"1200"
+			{
+				"name"		"Verdana"
+				"tall"		"19"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1200 1599"
+				"antialias"	"1"
+			}
+			"1600"
+			{
+				"name"		"Verdana"
+				"tall"		"28"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1600 10000"
+				"antialias"	"1"
+			}
 			"5"
 			{
 				"name"		"Verdana"
@@ -2808,6 +3014,24 @@ Scheme
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"1200"
+			{
+				"name"		"Verdana"
+				"tall"		"27"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"		"1200 1599"
+				"antialias"	"1"
+			}
+			"1600"
+			{
+				"name"		"Verdana"
+				"tall"		"40"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"		"1600 10000"
 				"antialias"	"1"
 			}
 			"5"
