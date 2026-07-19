@@ -3,6 +3,7 @@
 "#base"		"../../_customizations/fonts/fonts_health.res"
 "#base"		"../../_customizations/ratio/ratio_health.res"
 "#base"		"../../_customizations/minmode/bgs_health.res"
+"#base"		"../../../../cfg/hud_health_color_bg.txt"
 
 
 
