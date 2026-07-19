@@ -1,2 +1,2 @@
-#base "LowHP_visibility.res"
-#base "LowHp_base.res"
+#base "lowhp_visibility.res"
+#base "lowhp_base.res"

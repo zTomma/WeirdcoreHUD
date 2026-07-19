@@ -1,2 +1,2 @@
-#base "ammobackgroundRED_Mode.res"
-#base "ammobackgroundRED_base.res"
+#base "ammobackgroundred_mode.res"
+#base "ammobackgroundred_base.res"

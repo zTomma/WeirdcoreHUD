@@ -1,2 +1,2 @@
-#base "PlusHP_visibility.res"
-#base "PlusHp_base.res"
+#base "plushp_visibility.res"
+#base "plushp_base.res"

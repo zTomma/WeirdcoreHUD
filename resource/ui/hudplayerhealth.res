@@ -1,5 +1,5 @@
-"#base"		"../../_customizations/LowHP/LowHP.res"
-"#base"		"../../_customizations/Plushp/PlusHP.res"
+"#base"		"../../_customizations/lowhp/lowhp.res"
+"#base"		"../../_customizations/plushp/plushp.res"
 "#base"		"../../_customizations/fonts/fonts_health.res"
 "#base"		"../../_customizations/ratio/ratio_health.res"
 "#base"		"../../_customizations/minmode/bgs_health.res"

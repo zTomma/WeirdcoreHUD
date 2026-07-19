@@ -1,5 +1,5 @@
-#base "../../_customizations/playermodelbackgroundRED/playermodelbackgroundRED.res"
-#base "../../_customizations/playermodelbackgroundBLUE/playermodelbackgroundBLUE.res"
+#base "../../_customizations/playermodelbackgroundred/playermodelbackgroundred.res"
+#base "../../_customizations/playermodelbackgroundblue/playermodelbackgroundblue.res"
 #base "../../_customizations/ratio/playermodelbg.res"
 "Resource/UI/HudPlayerClass.res"
 {
