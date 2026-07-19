@@ -1463,7 +1463,7 @@ event CompetitiveGame_LowerChatWindow
 
 event CompetitiveGame_RestoreChatWindow
 {
-	Animate HudChat ypos 175 Accel 0 0
+	Animate HudChat ypos 200 Accel 0 0
 	RunEvent HudHealthReset 0.75
 }
 

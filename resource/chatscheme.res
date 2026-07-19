@@ -365,7 +365,7 @@ Scheme
 			"1"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"18"	[$WIN32]
+				"tall"		"18"
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
@@ -373,7 +373,7 @@ Scheme
 			"2"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"19"	[$WIN32]
+				"tall"		"19"
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
@@ -381,7 +381,7 @@ Scheme
 			"3"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"19"	[$WIN32]
+				"tall"		"19"
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
@@ -389,7 +389,7 @@ Scheme
 			"4"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"23"	[$WIN32]
+				"tall"		"23"
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
@@ -397,7 +397,7 @@ Scheme
 			"5"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"16"	[$WIN32]
+				"tall"		"16"
 				"weight"	"300"
 				"dropshadow"	"1"
 				"antialias" "1"
