@@ -365,7 +365,7 @@ Scheme
 			"1"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"18"
+				"tall"		"14"
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
@@ -373,7 +373,7 @@ Scheme
 			"2"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"19"
+				"tall"		"15"
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
@@ -381,7 +381,7 @@ Scheme
 			"3"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"19"
+				"tall"		"15"
 				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
@@ -389,7 +389,7 @@ Scheme
 			"4"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"23"
+				"tall"		"18"
 				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
@@ -397,7 +397,7 @@ Scheme
 			"6"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"30"
+				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 1599"
 				"dropshadow"	"1"
@@ -405,7 +405,7 @@ Scheme
 			"7"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"46"
+				"tall"		"37"
 				"weight"	"700"
 				"yres"		"1600 10000"
 				"dropshadow"	"1"
@@ -413,7 +413,7 @@ Scheme
 			"5"
 			{
 				"name"		"Jogan Soft"
-				"tall"		"16"
+				"tall"		"13"
 				"weight"	"300"
 				"dropshadow"	"1"
 				"antialias" "1"
