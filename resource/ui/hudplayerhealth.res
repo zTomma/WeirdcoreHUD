@@ -170,8 +170,6 @@
 		"textAlignment"				"center"
 		"pin_to_sibling"			"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"		"PIN_bottomleft"
-		"font"						"JusticeLaser60"
-		"font_minmode"				"JusticeLaser60"
 		"fgcolor_minmode"			"WHUDblack"
 	}
 
