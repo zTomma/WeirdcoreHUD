@@ -394,6 +394,22 @@ Scheme
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
+			"6"
+			{
+				"name"		"Jogan Soft"
+				"tall"		"30"
+				"weight"	"700"
+				"yres"		"1200 1599"
+				"dropshadow"	"1"
+			}
+			"7"
+			{
+				"name"		"Jogan Soft"
+				"tall"		"46"
+				"weight"	"700"
+				"yres"		"1600 10000"
+				"dropshadow"	"1"
+			}
 			"5"
 			{
 				"name"		"Jogan Soft"
