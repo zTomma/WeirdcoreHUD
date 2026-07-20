@@ -111,7 +111,7 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"			"engine toggle cl_mainmenu_safemode"
+			"Command"			"engine exec hud_customizations.cfg; exec menu_customizations.cfg; exec hud_commands.cfg; toggle cl_mainmenu_safemode"
 			"image_default"		"replay/thumbnails/buttons/x"
 			"image_armed"		"replay/thumbnails/buttons/x_armed"
 			
@@ -509,7 +509,7 @@
 		"border_default"    "noborder"
 		"textAlignment"	"center"
 		"dulltext"		"0"
-		"command"			"engine toggle cl_mainmenu_safemode"
+		"command"			"engine exec hud_customizations.cfg; exec menu_customizations.cfg; exec hud_commands.cfg; toggle cl_mainmenu_safemode"
 		"brighttext"	"0"
 		"default"		"0"
 		"fgcolor_override"		"violet"
