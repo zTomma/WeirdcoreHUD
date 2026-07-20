@@ -37,6 +37,10 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"				"replay/thumbnails/playermodel_border"	
+		"teambg_2"			"replay/thumbnails/playermodel_border"
+		"teambg_2_lodef"		"replay/thumbnails/playermodel_border"
+		"teambg_3"			"replay/thumbnails/playermodel_border"
+		"teambg_3_lodef"		"replay/thumbnails/playermodel_border"
 
 		"pin_to_sibling" "classmodelpanelBG"
 		"pin_corner_to_sibling" "PIN_topleft"

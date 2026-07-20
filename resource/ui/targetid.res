@@ -9,7 +9,7 @@
 		"zpos"				"-1"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/box_3_n_t"
+		"image"				"replay/thumbnails/specred"
 		"scaleImage"		"1"
 		"image"			"replay/thumbnails/specred"
 		"scaleImage"		"1"
