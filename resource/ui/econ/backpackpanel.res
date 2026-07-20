@@ -66,7 +66,7 @@
 				"border_default" "WEIRDBorderblack"
 				"border_armed" "WEIRDBorderblack"
 				"labelText"		"%page%"
-				"font"				"pixelbolt7"
+				"font"				"pixelbolt5"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}

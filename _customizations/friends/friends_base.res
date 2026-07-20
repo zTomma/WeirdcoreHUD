@@ -6,7 +6,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"FriendsContainer"
-			"xpos"			"c-20"
+			"xpos"			"300"
 			"ypos"			"r220"
 			"zpos"			"20"
 			"wide"			"130"
