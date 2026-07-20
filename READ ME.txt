@@ -36,7 +36,20 @@ C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom
 
 maybe the hud can conflict with other mods (especially if they involve gui elements)
 
-            
+
+=====================================================================
+FONTS LOOK WRONG / LIKE THE DEFAULT ONES?  ->  RESTART TF2
+=====================================================================
+If after installing the HUD the fonts show up as plain/default fonts
+(menus, "LETS GO!", HUD numbers, etc.), just RESTART Team Fortress 2 -
+sometimes you need to restart it twice.
+
+TF2 does not always register a HUD's custom fonts on the first launch
+after you install it. This is a limitation of the game itself, not of
+the HUD - the font files ARE included. A restart fixes it.
+=====================================================================
+
+
 if youn have issues: https://discord.gg/5Fct2s9Bfe
 
 			_                        
