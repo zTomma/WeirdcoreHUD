@@ -4597,7 +4597,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Justice Halftone Big regular"
+				"name"		"Justice Halftone Big Regular"
 				"tall"		"50"
 				"antialias" "1"
 			}
