@@ -33,11 +33,11 @@
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
 
-		"page_button_y"	"288"
-		"page_button_x_delta" "3"
+		"page_button_y"	"282"
+		"page_button_x_delta" "2"
 		"page_button_y_delta" "3"
-		"page_button_per_row" "20"
-		"page_button_height" "13"
+		"page_button_per_row" "30"
+		"page_button_height" "10"
 
 		"pagebuttons_kv"
 		{
@@ -54,8 +54,8 @@
 			{
 				"fieldName"		"Button"
 				"ControlName"	"CExButton"
-				"wide"			"25"
-				"tall"			"13"
+				"wide"			"16"
+				"tall"			"10"
 				"visible"		"1"
 				"bgcolor_override"		"violet"
 				"noitem_textcolor"		"120 122 131 255"
