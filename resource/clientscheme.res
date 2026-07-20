@@ -240,7 +240,7 @@ Scheme
 		Econ.Button.BgColor									"TanDark"
 		Econ.Button.FgColor									"TanLight"
 		Econ.Button.ArmedBgColor							"TFOrange"
-		Econ.Button.ArmedFgColor							"TanLight"
+		Econ.Button.ArmedFgColor							"violet"
 		Econ.Button.DepressedBgColor						"TFOrange"
 		Econ.Button.DepressedFgColor						"Black"
 		
