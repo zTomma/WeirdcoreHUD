@@ -10,7 +10,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"image"			"replay/thumbnails/stats_bg"
+		"image"			"replay/thumbnails/bgs/stats_bg"
 	}
 	"MainBackground"
 	{
@@ -22,7 +22,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/stats_bg"
+		"image"			"replay/thumbnails/bgs/stats_bg"
 		"scaleImage"		"1"
 	}
 	

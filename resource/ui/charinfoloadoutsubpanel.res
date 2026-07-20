@@ -369,8 +369,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image_default"		"replay/thumbnails/items/icon_sniper"
-				"image_armed"		"replay/thumbnails/items/icon_sniper_sel"
+				"image_default"		"replay/thumbnails/icon_sniper"
+				"image_armed"		"replay/thumbnails/icon_sniper_sel"
 			}
 			
 			"pin_to_sibling" "medic_button"

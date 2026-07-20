@@ -558,7 +558,7 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"replay/thumbnails/icons/items"
+		"image"		"replay/thumbnails/items"
 
 		"pin_to_sibling" "MOTD_ShowButtonPanel"
 		"pin_corner_to_sibling" "PIN_Bottomright"
@@ -1974,7 +1974,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/shop"
+				"image"			"replay/thumbnails/texts/shop"
 				"scaleimage"	"1"
 				
 				"image_default"		"replay/thumbnails/texts/shop"
