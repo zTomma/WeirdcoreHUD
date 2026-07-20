@@ -6,13 +6,13 @@
 	"$no_fullbright" 1
 	"$ignorez" 1
 	"%keywords" "tf"
-"Proxies"
+	"Proxies"
 	{
 		"AnimatedTexture"
 		{
-			"animatedtexturevar"					"$basetexture"
-			"animatedtextureframenumvar"			"$frame"
-			"animatedtextureframerate"				"9"
+			"animatedtexturevar"			"$basetexture"
+			"animatedtextureframenumvar"		"$frame"
+			"animatedtextureframerate"		"9"
 		}
-
+	}
 }
