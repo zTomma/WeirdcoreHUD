@@ -111,7 +111,7 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"			"engine toggle cl_mainmenu_safemode"
+			"Command"			"engine exec hud_customizations.cfg; exec menu_customizations.cfg; exec hud_commands.cfg; toggle cl_mainmenu_safemode"
 			"image_default"		"replay/thumbnails/buttons/x"
 			"image_armed"		"replay/thumbnails/buttons/x_armed"
 			
@@ -509,7 +509,7 @@
 		"border_default"    "noborder"
 		"textAlignment"	"center"
 		"dulltext"		"0"
-		"command"			"engine toggle cl_mainmenu_safemode"
+		"command"			"engine exec hud_customizations.cfg; exec menu_customizations.cfg; exec hud_commands.cfg; toggle cl_mainmenu_safemode"
 		"brighttext"	"0"
 		"default"		"0"
 		"fgcolor_override"		"violet"
@@ -1037,19 +1037,20 @@
 				
 				"visible"	"1"	
 				"enabled"	"1"	
-				"command"	"engine cl_crosshair_red 0; cl_crosshair_green 0; cl_crosshair_blue 0"	
-				"textinsetx"	"9999"	
-				"actionsignallevel"	"4"	
-				"proportionaltoparent"	"1"	
-				
-				"sound_depressed"	"UI/buttonclick.wav"	
-				"sound_released"	"UI/buttonclickrelease.wav"		
-				
+				"command"	"engine cl_crosshair_red 0; cl_crosshair_green 0; cl_crosshair_blue 0"
+				"textinsetx"	"9999"
+				"actionsignallevel"	"4"
+				"proportionaltoparent"	"1"
+
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
 				"paintbackground"	"1"
-				
-				"defaultBgColor_override"	"0 0 0 255"	
-				
-				
+
+				"defaultBgColor_override"	"0 0 0 255"
+				"armedBgColor_override"	"0 0 0 255"
+				"depressedBgColor_override"	"0 0 0 255"
+
 				"border_default"	"noborder"
 
 				"pin_to_sibling"	"Crosshaircolor 1"

@@ -558,7 +558,7 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"replay/thumbnails/icons/items"
+		"image"		"replay/thumbnails/items"
 
 		"pin_to_sibling" "MOTD_ShowButtonPanel"
 		"pin_corner_to_sibling" "PIN_Bottomright"
@@ -1974,7 +1974,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/shop"
+				"image"			"replay/thumbnails/texts/shop"
 				"scaleimage"	"1"
 				
 				"image_default"		"replay/thumbnails/texts/shop"
@@ -2601,7 +2601,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"engine toggle cl_mainmenu_safemode"
+		"Command"		"engine exec hud_customizations.cfg; exec menu_customizations.cfg; exec hud_commands.cfg; toggle cl_mainmenu_safemode"
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"AchievementsButton"
@@ -2641,7 +2641,7 @@
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"labelText"			""
-		"command"		"engine toggle cl_mainmenu_safemode"
+		"command"		"engine exec hud_customizations.cfg; exec menu_customizations.cfg; exec hud_commands.cfg; toggle cl_mainmenu_safemode"
 		"sound_depressed"	"UI/sound5.wav"
 		
 		

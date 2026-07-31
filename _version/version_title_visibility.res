@@ -1,1 +1,1 @@
-#base "../../../cfg/hud_test_title.txt"
+#base "../../../cfg/hud_version_title.txt"

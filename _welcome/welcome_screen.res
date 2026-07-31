@@ -1,2 +1,2 @@
-#base "WelcomeMenu_visibility.res"
-#base "WelcomeMenu_base.res"
+#base "welcomemenu_visibility.res"
+#base "welcomemenu_base.res"

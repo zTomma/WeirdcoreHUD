@@ -1,2 +1,2 @@
-#base "playermodelbackgroundRED.res_Mode.res"
-#base "playermodelbackgroundRED.res_base.res"
+#base "playermodelbackgroundred.res_mode.res"
+#base "playermodelbackgroundred.res_base.res"

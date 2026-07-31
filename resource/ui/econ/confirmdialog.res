@@ -83,9 +83,9 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"border_default"			"WEIRDBordergray"
-		"border_armed"				"WEIRDBorderblack"
+		"border_armed"				"WEIRDBorderpurple"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
+		"armedFgColor_override"		"WHUDwhite"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}		
@@ -116,9 +116,9 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"border_default"			"WEIRDBordergray"
-		"border_armed"				"WEIRDBorderblack"
+		"border_armed"				"WEIRDBorderpurple"
 		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
+		"armedFgColor_override"		"WHUDwhite"
 		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
 		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 	}			

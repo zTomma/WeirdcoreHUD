@@ -1,5 +1,5 @@
-#base "../../_customizations/playermodelbackgroundRED/playermodelbackgroundRED.res"
-#base "../../_customizations/playermodelbackgroundBLUE/playermodelbackgroundBLUE.res"
+#base "../../_customizations/playermodelbackgroundred/playermodelbackgroundred.res"
+#base "../../_customizations/playermodelbackgroundblue/playermodelbackgroundblue.res"
 #base "../../_customizations/ratio/playermodelbg.res"
 "Resource/UI/HudPlayerClass.res"
 {
@@ -36,7 +36,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"				"replay/thumbnails/playermodel_border"	
+		"image"				"replay/thumbnails/playermodel_border"
+		// Only teambg_1 (spectator) is set here: without it CTFImagePanel asks
+		// for the non-existent playermodel_border1. teambg_2/teambg_3 must stay
+		// in _customizations/playermodelbackground*/ - setting them here would
+		// override the #base and break the background colour options.
+		"teambg_1"			"replay/thumbnails/playermodel_border"
+		"teambg_1_lodef"		"replay/thumbnails/playermodel_border"
 
 		"pin_to_sibling" "classmodelpanelBG"
 		"pin_corner_to_sibling" "PIN_topleft"

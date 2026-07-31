@@ -1,6 +1,6 @@
 #base "../../_customizations/lowammo/lowammo.res"
-#base "../../_customizations/ammobackgroundRED/AmmobackgroundRED.res"
-#base "../../_customizations/ammobackgroundBLUE/AmmobackgroundBLUE.res"
+#base "../../_customizations/ammobackgroundred/ammobackgroundred.res"
+#base "../../_customizations/ammobackgroundblue/ammobackgroundblue.res"
 "#base"	"../../_customizations/minmode/bgs_ammo.res"
 "#base"	"../../_customizations/fonts/fonts_ammo.res"
 
@@ -37,12 +37,12 @@
 		"tall"			"80"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay/thumbnails/ammo_bg2"
-		"scaleImage"	"1"	
-		"teambg_2"		"replay/thumbnails/ammo_bg2"
-		"teambg_2_lodef"	"replay/thumbnails/ammo_bg2"
-		"teambg_3"		"replay/thumbnails/ammo_bg2"
-		"teambg_3_lodef"	"replay/thumbnails/ammo_bg2"			
+		"image"			"replay/thumbnails/ammo_bg_red"
+		"scaleImage"	"1"
+		"teambg_2"		"replay/thumbnails/ammo_bg_red"
+		"teambg_2_lodef"	"replay/thumbnails/ammo_bg_red"
+		"teambg_3"		"replay/thumbnails/ammo_bg_blue"
+		"teambg_3_lodef"	"replay/thumbnails/ammo_bg_blue"
 	}
 		
 		"HudPlayerAmmocontainer_minmode"

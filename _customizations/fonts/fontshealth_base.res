@@ -14,4 +14,11 @@
 		"font"			"JusticeLaser60"
 
 	}
+
+	"PlayerStatusHealthValueBGminmode"
+	{
+
+		"font"			"JusticeLaser60"
+
+	}
 }

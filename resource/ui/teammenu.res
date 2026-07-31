@@ -93,7 +93,7 @@
           "visible"      "1"
           "enabled"      "1"
           "scaleImage"   "1"
-		  "image"    "replay/thumbnails/blue_selection"
+		  "image"    "replay/thumbnails/blue_button"
        }
     }
 	
@@ -189,7 +189,7 @@
           "visible"      "1"
           "enabled"      "1"
           "scaleImage"   "1"
-		  "image"    "replay/thumbnails/red_selection"
+		  "image"    "replay/thumbnails/red_button"
        }
 	}
 	

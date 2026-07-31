@@ -1,4 +1,4 @@
-"Resource/UI/econ/QuestEditorPanel.res"
+"Resource/UI/econ/InspectionPanel.res"
 {
 	"BGImage"
 	{

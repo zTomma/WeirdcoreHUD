@@ -1,8 +1,9 @@
-"#base"		"../../_customizations/LowHP/LowHP.res"
-"#base"		"../../_customizations/Plushp/PlusHP.res"
+"#base"		"../../_customizations/lowhp/lowhp.res"
+"#base"		"../../_customizations/plushp/plushp.res"
 "#base"		"../../_customizations/fonts/fonts_health.res"
 "#base"		"../../_customizations/ratio/ratio_health.res"
 "#base"		"../../_customizations/minmode/bgs_health.res"
+"#base"		"../../../../cfg/hud_health_color_bg.txt"
 
 
 
@@ -137,10 +138,11 @@
 		"enabled_minmode"		"0"
 		"scaleImage"			"1"
 	}
-	"PlayerStatusHealthBonusImag" 
+	"PlayerStatusHealthBonusImag"
 	{
-        "visible"		"1"
-        "enabled"		"1"
+		// visible/enabled live in _customizations/lowhp/lowhp_base.res so the
+		// "turn off low HP" option can override them - keys set here would win
+		// over every #base and make the toggle do nothing.
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImag"
 		"xpos_minmode"	"35"
@@ -170,8 +172,6 @@
 		"textAlignment"				"center"
 		"pin_to_sibling"			"PlayerStatusHealthValue"
 		"pin_corner_to_sibling"		"PIN_bottomleft"
-		"font"						"JusticeLaser60"
-		"font_minmode"				"JusticeLaser60"
 		"fgcolor_minmode"			"WHUDblack"
 	}
 
