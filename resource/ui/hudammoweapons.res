@@ -1,3 +1,4 @@
+#base "../../_customizations/ratio/menus4x3.res"
 #base "../../_customizations/lowammo/lowammo.res"
 #base "../../_customizations/ammobackgroundred/ammobackgroundred.res"
 #base "../../_customizations/ammobackgroundblue/ammobackgroundblue.res"

@@ -1,3 +1,4 @@
+#base "../../_customizations/ratio/menus4x3.res"
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	"CharInfoLoadoutSubPanel"
