@@ -36,11 +36,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"				"replay/thumbnails/playermodel_border"	
-		"teambg_2"			"replay/thumbnails/playermodel_border"
-		"teambg_2_lodef"		"replay/thumbnails/playermodel_border"
-		"teambg_3"			"replay/thumbnails/playermodel_border"
-		"teambg_3_lodef"		"replay/thumbnails/playermodel_border"
+		"image"				"replay/thumbnails/playermodel_border"
+		// Only teambg_1 (spectator) is set here: without it CTFImagePanel asks
+		// for the non-existent playermodel_border1. teambg_2/teambg_3 must stay
+		// in _customizations/playermodelbackground*/ - setting them here would
+		// override the #base and break the background colour options.
+		"teambg_1"			"replay/thumbnails/playermodel_border"
+		"teambg_1_lodef"		"replay/thumbnails/playermodel_border"
 
 		"pin_to_sibling" "classmodelpanelBG"
 		"pin_corner_to_sibling" "PIN_topleft"

@@ -138,10 +138,11 @@
 		"enabled_minmode"		"0"
 		"scaleImage"			"1"
 	}
-	"PlayerStatusHealthBonusImag" 
+	"PlayerStatusHealthBonusImag"
 	{
-        "visible"		"1"
-        "enabled"		"1"
+		// visible/enabled live in _customizations/lowhp/lowhp_base.res so the
+		// "turn off low HP" option can override them - keys set here would win
+		// over every #base and make the toggle do nothing.
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImag"
 		"xpos_minmode"	"35"
