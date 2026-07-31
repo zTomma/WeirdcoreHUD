@@ -1,3 +1,4 @@
+"#base"		"../../_customizations/ratio/menus4x3.res"
 "#base"		"../../_customizations/lowhp/lowhp.res"
 "#base"		"../../_customizations/plushp/plushp.res"
 "#base"		"../../_customizations/fonts/fonts_health.res"
