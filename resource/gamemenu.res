@@ -42,4 +42,11 @@
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
+
+
+	"Background2a"
+	{
+		"command"	"engine "
+		"OnlyAtMenu" "1" //Prevents background from appearing when in game
+	}
 }

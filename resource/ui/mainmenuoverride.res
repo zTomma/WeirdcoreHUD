@@ -2,7 +2,8 @@
 #base "../../_welcome/welcome_screen.res"
 #base "../../_version/version_title.res"
 #base "../../_customizations/friends/friends.res"
-#base "mainmenuoverride_backgrounds.res"
+#base "../../../../cfg/mainmenuoverride_backgrounds.txt"
+#base "mainmenuoverride_bg_def.res"
 #base "preload.res"
 
 "Resource/UI/MainMenuOverride.res"
