@@ -21885,7 +21885,7 @@
 		"ypos"					"30"
 		"zpos"					"99"
 		"wide"					"640"
-		"tall"					"300"
+		"tall"					"415"
 		"autoResize"		"0"
 		"pinCorner"		"1"
 		"visible"		"1"
@@ -22171,6 +22171,184 @@
 				"defaultBgColor_override"	"0 0 0 0"	
 
 				"pin_to_sibling"		"HudBannerImage"
+			}
+
+			// contest backgrounds: row 2 col 3, then a third row
+
+			"PhoxbasImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "PhoxbasImage"
+				"xpos"             "2"
+				"ypos"             "0"
+				"zpos"             "100"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/background_phoxbas"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"HudBannerButton"
+				"pin_to_sibling_corner"		"PIN_topright"
+			}
+
+
+			"PhoxbasButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"PhoxbasButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"command"		"engine menu_bg_phoxbas;hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials"
+				"actionsignallevel"		"6"
+				"labelText"		""
+
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"0 0 0 0"	
+
+				"pin_to_sibling"		"PhoxbasImage"
+			}
+
+			"SaladBluImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "SaladBluImage"
+				"xpos"             "0"
+				"ypos"             "2"
+				"zpos"             "100"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/background_salad_blu"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"SpyImage"
+				"pin_to_sibling_corner"		"PIN_bottomleft"
+			}
+
+
+			"SaladBluButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"SaladBluButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"command"		"engine menu_bg_salad_blu;hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials"
+				"actionsignallevel"		"6"
+				"labelText"		""
+
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"0 0 0 0"	
+
+				"pin_to_sibling"		"SaladBluImage"
+			}
+
+			"SaladRedImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "SaladRedImage"
+				"xpos"             "2"
+				"ypos"             "0"
+				"zpos"             "100"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/background_salad_red"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"SaladBluButton"
+				"pin_to_sibling_corner"		"PIN_topright"
+			}
+
+
+			"SaladRedButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"SaladRedButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"command"		"engine menu_bg_salad_red;hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials"
+				"actionsignallevel"		"6"
+				"labelText"		""
+
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"0 0 0 0"	
+
+				"pin_to_sibling"		"SaladRedImage"
+			}
+
+			"MrsGlitchImage"
+			{
+				"ControlName"      "ImagePanel"
+				"fieldName"        "MrsGlitchImage"
+				"xpos"             "2"
+				"ypos"             "0"
+				"zpos"             "100"
+				"wide"             "200"
+				"tall"             "112.5"
+				"visible"          "1"
+				"enabled"			"1"
+				"image"				"../console/background_mrsglitch"
+				"scaleImage"		"1"
+
+				"pin_to_sibling"		"SaladRedButton"
+				"pin_to_sibling_corner"		"PIN_topright"
+			}
+
+
+			"MrsGlitchButton"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"MrsGlitchButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"101"
+				"wide"			"200"
+				"tall"			"112.5"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"command"		"engine menu_bg_mrsglitch;hud_reloadscheme;toggle mat_aaquality;mat_reloadallmaterials"
+				"actionsignallevel"		"6"
+				"labelText"		""
+
+				"sound_depressed"	"UI/buttonclick.wav"	
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"armedBgColor_override"		"255 255 255 3"	
+				"defaultBgColor_override"	"0 0 0 0"	
+
+				"pin_to_sibling"		"MrsGlitchImage"
 			}
 
 			
