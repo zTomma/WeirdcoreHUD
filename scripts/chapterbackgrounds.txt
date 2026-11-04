@@ -4,6 +4,10 @@
 	2	"background_spy"
 	3	"background_hud"
 	4	"background_demo"
+	5	"background_mrsglitch"
+	6	"background_phoxbas"
+	7	"background_salad_blu"
+	8	"background_salad_red"
 }
 "BackgroundMaps"
 {
@@ -11,4 +15,8 @@
 	2	"background_spy"
 	3	"background_hud"
 	4	"background_demo"
+	5	"background_mrsglitch"
+	6	"background_phoxbas"
+	7	"background_salad_blu"
+	8	"background_salad_red"
 }
