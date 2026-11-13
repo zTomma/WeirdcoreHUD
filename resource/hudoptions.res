@@ -191,7 +191,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"wide"		"620"
-		"tall"		"4000"
+		"tall"		"4480"	// "IN-game ui container" ypos + tall: this is the scroll length
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -238,9 +238,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"IN-game ui container"
 		"xpos"		"0"
-		"ypos"		"30"
+		"ypos"		"322"	// below the "move hud elements" panel (_customizations/hudpos/editor.res)
 		"wide"		"700"
-		"tall"		"4000"
+		"tall"		"4150"	// must be taller than all the sections below, or the last one is cut off
 		"autoResize"		"0"
 		"pinCorner"		"1"
 		"visible"		"1"

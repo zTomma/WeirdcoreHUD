@@ -1,4 +1,6 @@
 #base "../hudoptions.res"
+#base "../../_customizations/hudpos/editor.res"
+#base "../../_customizations/hudpos/markers.res"
 #base "../../_welcome/welcome_screen.res"
 #base "../../_version/version_title.res"
 #base "../../_customizations/friends/friends.res"
@@ -2601,7 +2603,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"engine exec hud_customizations.cfg; exec menu_customizations.cfg; exec hud_commands.cfg; toggle cl_mainmenu_safemode"
+		"Command"		"engine exec hud_customizations.cfg; exec menu_customizations.cfg; exec hud_commands.cfg; exec hud_positions.cfg; toggle cl_mainmenu_safemode"
 
 		"navUp"			"VRModeButton"
 		"navLeft"		"AchievementsButton"
@@ -2641,7 +2643,7 @@
 		"enabled"		"1"
 		"paintbackground"	"0"
 		"labelText"			""
-		"command"		"engine exec hud_customizations.cfg; exec menu_customizations.cfg; exec hud_commands.cfg; toggle cl_mainmenu_safemode"
+		"command"		"engine exec hud_customizations.cfg; exec menu_customizations.cfg; exec hud_commands.cfg; exec hud_positions.cfg; toggle cl_mainmenu_safemode"
 		"sound_depressed"	"UI/sound5.wav"
 		
 		

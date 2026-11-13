@@ -9,6 +9,7 @@
 #base "../_customizations/hitmarker/hitmarkersize.res"
 #base "../_customizations/hitmarker/hitmarkercolor.res"
 #base "../_customizations/hitmarker/hitmarkerresolution.res"
+#base "../_customizations/hudpos/metal.res"
 
 
 "Resource/HudLayout.res"
@@ -232,8 +233,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-45"	
-		"ypos"					"c-100"	
+		// position: set in _customizations/hudpos/metal_base.res so the "move hud elements" panel can change it
 		"ypos_minmode"			"c10"	
 		"xpos_minmode"			"c-30"	
 		"wide"					"116"

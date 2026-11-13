@@ -5,6 +5,7 @@
 "#base"		"../../_customizations/ratio/ratio_health.res"
 "#base"		"../../_customizations/minmode/bgs_health.res"
 "#base"		"../../../../cfg/hud_health_color_bg.txt"
+"#base"		"../../_customizations/hudpos/health.res"
 
 
 
@@ -78,9 +79,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"PlayerStatusHealthImageBG"
-		"xpos"			"40"
+		// position: set in _customizations/hudpos/health_base.res so the "move hud elements" panel can change it
 		"xpos_minmode"		"99999"
-		"ypos"				"179"
 		"ypos_minmode"				"999"
 		"zpos"				"3"
 		"visible_minmode"							"0"
@@ -198,8 +198,7 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"PlayerStatus_Anchor"
-		"xpos"						"c-370"
-		"ypos"						"c0"
+		// position: set in _customizations/hudpos/health_base.res so the "move hud elements" panel can change it
 		"xpos_minmode"				"c-320"
 		"ypos_minmode"				"240"
 		"wide"						"80"

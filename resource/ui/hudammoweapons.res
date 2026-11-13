@@ -4,6 +4,7 @@
 #base "../../_customizations/ammobackgroundblue/ammobackgroundblue.res"
 "#base"	"../../_customizations/minmode/bgs_ammo.res"
 "#base"	"../../_customizations/fonts/fonts_ammo.res"
+#base "../../_customizations/hudpos/ammo.res"
 
 "Resource/UI/HudAmmoWeapons.res"
 
@@ -12,8 +13,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"363"
-		"ypos"			"190"
+		// position: set in _customizations/hudpos/ammo_base.res so the "move hud elements" panel can change it
+		"xpos_minmode"	"363"
 		"ypos_minmode"	"999"
 		"zpos"			"0"
 		"wide"			"132"
@@ -86,9 +87,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"fgcolor"		"purple1"
-		"xpos"			"341"
+		// position: set in _customizations/hudpos/ammo_base.res so the "move hud elements" panel can change it
 		"xpos_minmode"	"45"				
-		"ypos"			"198"
 		"ypos_minmode"	"63"
 		"zpos"			"5"
 		"wide"			"100"
@@ -106,9 +106,8 @@
 		"fieldName"		"AmmoInClipShadow"
 		"fgcolor"		"WHUDdarkpurple"
 		"fgcolor_minmode"		"WHUDblack"
-		"xpos"			"343"
+		// position: set in _customizations/hudpos/ammo_base.res so the "move hud elements" panel can change it
 		"xpos_minmode"	"47"
-		"ypos"			"200"
 		"ypos_minmode"	"65"
 		"zpos"			"5"
 		"wide"			"100"
@@ -130,10 +129,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"fgcolor"		"purple1"
-		"xpos"			"426"
+		// position: set in _customizations/hudpos/ammo_base.res so the "move hud elements" panel can change it
 		"xpos_minmode"	"130"
 		"ypos_minmode"	"60"
-		"ypos"			"202"
 		"ypos_lodef"	"10"
 		"zpos"			"7"
 		"wide"			"100"
@@ -151,10 +149,9 @@
 		"fgcolor"		"WHUDdarkpurple"
 		"fgcolor_minmode"		"WHUDdarkpurple"
 		"fgcolor_minmode"		"WHUDblack"
-		"xpos"			"427"
+		// position: set in _customizations/hudpos/ammo_base.res so the "move hud elements" panel can change it
 		"xpos_minmode"	"132"
 		"ypos_minmode"	"62"
-		"ypos"			"203"
 		"ypos_lodef"	"11"
 		"zpos"			"7"
 		"wide"			"100"
@@ -170,8 +167,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
 		"fgcolor"		"purple1"
-		"xpos"			"325"
-		"ypos"			"190"
+		// position: set in _customizations/hudpos/ammo_base.res so the "move hud elements" panel can change it
 		"xpos_minmode"	"15"
 		"ypos_minmode"	"65"
 		"zpos"			"5"
@@ -190,12 +186,11 @@
 		"fieldName"		"AmmoNoClipShadow"
 		"fgcolor"		"WHUDdarkpurple"
 		"fgcolor_minmode"		"WHUDblack"
-		"xpos"			"327"
+		// position: set in _customizations/hudpos/ammo_base.res so the "move hud elements" panel can change it
 		"xpos_hidef"	"2"
 		"xpos_lodef"	"2"
 		"xpos_minmode"	"16"
 		"ypos_minmode"	"68"
-		"ypos"			"192"
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"60"

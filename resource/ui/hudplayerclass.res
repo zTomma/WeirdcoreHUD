@@ -1,6 +1,7 @@
 #base "../../_customizations/playermodelbackgroundred/playermodelbackgroundred.res"
 #base "../../_customizations/playermodelbackgroundblue/playermodelbackgroundblue.res"
 #base "../../_customizations/ratio/playermodelbg.res"
+#base "../../_customizations/hudpos/class.res"
 "Resource/UI/HudPlayerClass.res"
 {
 	// player class data
@@ -77,8 +78,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"0"
-		"ypos"			"0"
+		// position: set in _customizations/hudpos/class_base.res so the "move hud elements" panel can change it
+		"xpos_minmode"	"0"
 		"ypos_minmode"	"18"
 		"zpos"			"1"
 		"wide"			"f0"

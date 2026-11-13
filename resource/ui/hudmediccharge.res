@@ -1,4 +1,5 @@
 #base "../../_customizations/uber/uber.res"
+#base "../../_customizations/hudpos/uber.res"
 
 "Resource/UI/HudMedicCharge.res"
 {	
@@ -6,8 +7,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"c-106"
-		"ypos"			"c120"
+		// position: set in _customizations/hudpos/uber_base.res so the "move hud elements" panel can change it
 		"xpos_minmode"	"c0"
 		"ypos_minmode"	"c0"
 		"zpos"			"10"
@@ -26,8 +26,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c-40"
-		"ypos"			"c124"
+		// position: set in _customizations/hudpos/uber_base.res so the "move hud elements" panel can change it
 		"xpos_minmode"			"10"
 		"ypos_minmode"			"39"
 		"zpos"			"50"
@@ -105,8 +104,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"c-85"
-		"ypos"			"c125"
+		// position: set in _customizations/hudpos/uber_base.res so the "move hud elements" panel can change it
 		"xpos_minmode"	"20"
 		"ypos_minmode"	"40"
 		"zpos"			"2"
@@ -129,8 +127,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"c-85"
-		"ypos"			"c125"
+		// position: set in _customizations/hudpos/uber_base.res so the "move hud elements" panel can change it
 		"zpos"			"2"
 		"wide"			"42"
 		"tall"			"12"
@@ -152,8 +149,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"c-44"
-		"ypos"			"c125"
+		// position: set in _customizations/hudpos/uber_base.res so the "move hud elements" panel can change it
 		"zpos"			"2"
 		"wide"			"43"
 		"tall"			"13"
@@ -175,8 +171,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"c-2"
-		"ypos"			"c125"
+		// position: set in _customizations/hudpos/uber_base.res so the "move hud elements" panel can change it
 		"zpos"			"2"
 		"wide"			"44"
 		"tall"			"12"
@@ -198,8 +193,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"c42"
-		"ypos"			"c125"
+		// position: set in _customizations/hudpos/uber_base.res so the "move hud elements" panel can change it
 		"zpos"			"2"
 		"wide"			"42"
 		"tall"			"12"
@@ -235,8 +229,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"c-90"
-		"ypos"										"c100"
+		// position: set in _customizations/hudpos/uber_base.res so the "move hud elements" panel can change it
 		"xpos_minmode"								"10"
 		"ypos_minmode"								"0"
 		"wide"										"0"

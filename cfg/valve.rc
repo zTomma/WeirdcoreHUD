@@ -13,6 +13,7 @@ exec hud_always.cfg
 exec hud_customizations.cfg
 exec menu_customizations.cfg
 exec hud_commands.cfg
+exec hud_positions.cfg
 
 // manage the firstrun file
 alias chud_firstrun "exec hud_firstrun"
