@@ -27,6 +27,10 @@ click on a cell runs two console aliases (one for the column, one for the row)
 that write small KeyValues files into tf/cfg, then reloads the HUD. The HUD
 files #base those files, so the element is drawn at the new position.
 
+The reload is the hpos_reload alias, not just hud_reloadscheme: that command
+does not redraw the main menu, so the markers and the highlight of the picked
+element would never change. See RELOAD_COMMANDS below.
+
 Each element has a marker on the picture. The markers are buttons too and sit
 above the grid: a click on one picks that element, which points the grid at
 the aliases of that element. The picked marker goes below the grid, so a click
@@ -151,6 +155,14 @@ ELEMENTS = [
 
 # the element that is picked until the user picks another one
 DEFAULT = "health"
+
+# Alias that every button of the editor runs last, to show what it changed.
+# hud_reloadscheme redraws the HUD in game but NOT the main menu, where the
+# editor lives. The other two commands make the game rebuild the main menu
+# too. They are the same ones the friends list, welcome screen and background
+# buttons of this HUD use, and they are why those buttons freeze for a moment.
+RELOAD = "hpos_reload"
+RELOAD_COMMANDS = "hud_reloadscheme; toggle mat_aaquality; mat_reloadallmaterials"
 GRID_ZPOS = 30
 
 for _el in ELEMENTS:
@@ -269,10 +281,14 @@ def build_cfg():
         "//",
         "// Console aliases behind the move hud elements panel in HUD Settings.",
         "// Each alias writes a small KeyValues file into tf/cfg. The HUD files",
-        "// #base those files, so the element moves after hud_reloadscheme.",
+        "// #base those files, so the element moves when the HUD is reloaded.",
         "",
         'con_timestamp "0"',
         'alias "console_unlog" "con_filter_enable 0; con_logfile console.log"',
+        "",
+        "// Reloads the HUD and the main menu. hud_reloadscheme alone does not",
+        "// redraw the main menu, so the editor would not show what changed.",
+        check_alias(RELOAD, RELOAD_COMMANDS),
         "",
     ]
 
@@ -510,7 +526,7 @@ def build_editor():
             ("visible", 1), ("enabled", 1), ("labelText", ""),
             ("border_default", "noborder"), ("PaintBackgroundType", 0),
             ("actionsignallevel", SIGNAL_LEVEL + 1),
-            ("command", f"engine hpos_sel_{eid}; hud_reloadscheme"),
+            ("command", f"engine hpos_sel_{eid}; {RELOAD}"),
             ("armedBgColor_override", "255 255 255 90"),
             ("defaultBgColor_override", "0 0 0 0"),
             ("sound_depressed", "UI/1.wav"),
@@ -525,20 +541,20 @@ def build_editor():
     parts.append(label("step1", "1. click an element", SIDE_X, PY, SIDE_W, 12, ind=ind))
     for el in ELEMENTS:
         eid = el["id"]
-        parts.append(button(f"b_{eid}", el["label"], f"engine hpos_sel_{eid}; hud_reloadscheme",
+        parts.append(button(f"b_{eid}", el["label"], f"engine hpos_sel_{eid}; {RELOAD}",
                             SIDE_X, button_y[eid], SIDE_W, 22, SIGNAL_LEVEL, ind=ind))
     y += 4
     parts.append(label("step2", "2. click its new spot", SIDE_X, y, SIDE_W, 12, ind=ind))
     y += 16
-    parts.append(button("reset", "reset selected", "engine hpos_rs; hud_reloadscheme",
+    parts.append(button("reset", "reset selected", f"engine hpos_rs; {RELOAD}",
                         SIDE_X, y, SIDE_W, 22, SIGNAL_LEVEL, ind=ind))
     y += 25
-    parts.append(button("resetall", "reset all", "engine hpos_rs_all; hud_reloadscheme",
+    parts.append(button("resetall", "reset all", f"engine hpos_rs_all; {RELOAD}",
                         SIDE_X, y, SIDE_W, 22, SIGNAL_LEVEL, ind=ind))
     y += 26
     notes = [
         "no dragging: it takes two clicks",
-        "the hud reloads at every click",
+        "each click reloads the menu: short freeze",
         "dark area = out of reach",
         "minmode keeps its own layout",
     ]
@@ -560,7 +576,7 @@ def build_editor():
                 ("wide", CELL), ("tall", CELL), ("visible", 1), ("enabled", 1),
                 ("labelText", ""), ("border_default", "noborder"),
                 ("PaintBackgroundType", 0), ("actionsignallevel", SIGNAL_LEVEL),
-                ("command", f"engine hpos_x{i}; hpos_y{j}; hud_reloadscheme"),
+                ("command", f"engine hpos_x{i}; hpos_y{j}; {RELOAD}"),
                 ("armedBgColor_override", "255 255 255 90"),
                 ("defaultBgColor_override", "0 0 0 0"),
                 ("sound_depressed", "UI/1.wav"),
