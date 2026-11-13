@@ -9,15 +9,15 @@
 			{
 				"hpos"
 				{
-					"mk_health"{"xpos" "85" "ypos" "215" "zpos" "25" "sel"{"visible" "1"}}
+					"mk_health"{"xpos" "85" "ypos" "215" "zpos" "25" "mouseinputenabled" "0" "sel"{"visible" "1"}}
 					"s_health"{"visible" "1"}
-					"mk_ammo"{"xpos" "333" "ypos" "202" "zpos" "11" "sel"{"visible" "0"}}
+					"mk_ammo"{"xpos" "333" "ypos" "202" "zpos" "41" "mouseinputenabled" "1" "sel"{"visible" "0"}}
 					"s_ammo"{"visible" "0"}
-					"mk_class"{"xpos" "34" "ypos" "189" "zpos" "12" "sel"{"visible" "0"}}
+					"mk_class"{"xpos" "34" "ypos" "189" "zpos" "42" "mouseinputenabled" "1" "sel"{"visible" "0"}}
 					"s_class"{"visible" "0"}
-					"mk_uber"{"xpos" "178" "ypos" "202" "zpos" "13" "sel"{"visible" "0"}}
+					"mk_uber"{"xpos" "178" "ypos" "202" "zpos" "43" "mouseinputenabled" "1" "sel"{"visible" "0"}}
 					"s_uber"{"visible" "0"}
-					"mk_metal"{"xpos" "219" "ypos" "161" "zpos" "14" "sel"{"visible" "0"}}
+					"mk_metal"{"xpos" "219" "ypos" "161" "zpos" "44" "mouseinputenabled" "1" "sel"{"visible" "0"}}
 					"s_metal"{"visible" "0"}
 				}
 			}

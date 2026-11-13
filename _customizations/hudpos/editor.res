@@ -141,7 +141,6 @@
 						"tall"		"30"
 						"visible"		"1"
 						"enabled"		"1"
-						"mouseinputenabled"		"0"
 						"img"
 						{
 							"ControlName"		"ImagePanel"
@@ -256,6 +255,26 @@
 								"visible"		"1"
 							}
 						}
+						"btn"
+						{
+							"ControlName"		"CExButton"
+							"fieldName"		"btn"
+							"xpos"		"0"
+							"ypos"		"0"
+							"zpos"		"5"
+							"wide"		"66"
+							"tall"		"30"
+							"visible"		"1"
+							"enabled"		"1"
+							"labelText"		""
+							"border_default"		"noborder"
+							"PaintBackgroundType"		"0"
+							"actionsignallevel"		"6"
+							"command"		"engine hpos_sel_health; hud_reloadscheme"
+							"armedBgColor_override"		"255 255 255 90"
+							"defaultBgColor_override"		"0 0 0 0"
+							"sound_depressed"		"UI/1.wav"
+						}
 					}
 					"s_ammo"
 					{
@@ -319,7 +338,6 @@
 						"tall"		"46"
 						"visible"		"1"
 						"enabled"		"1"
-						"mouseinputenabled"		"0"
 						"img"
 						{
 							"ControlName"		"ImagePanel"
@@ -434,6 +452,26 @@
 								"visible"		"1"
 							}
 						}
+						"btn"
+						{
+							"ControlName"		"CExButton"
+							"fieldName"		"btn"
+							"xpos"		"0"
+							"ypos"		"0"
+							"zpos"		"5"
+							"wide"		"70"
+							"tall"		"46"
+							"visible"		"1"
+							"enabled"		"1"
+							"labelText"		""
+							"border_default"		"noborder"
+							"PaintBackgroundType"		"0"
+							"actionsignallevel"		"6"
+							"command"		"engine hpos_sel_ammo; hud_reloadscheme"
+							"armedBgColor_override"		"255 255 255 90"
+							"defaultBgColor_override"		"0 0 0 0"
+							"sound_depressed"		"UI/1.wav"
+						}
 					}
 					"s_class"
 					{
@@ -469,7 +507,6 @@
 						"tall"		"74"
 						"visible"		"1"
 						"enabled"		"1"
-						"mouseinputenabled"		"0"
 						"img"
 						{
 							"ControlName"		"ImagePanel"
@@ -584,6 +621,26 @@
 								"visible"		"1"
 							}
 						}
+						"btn"
+						{
+							"ControlName"		"CExButton"
+							"fieldName"		"btn"
+							"xpos"		"0"
+							"ypos"		"0"
+							"zpos"		"5"
+							"wide"		"87"
+							"tall"		"74"
+							"visible"		"1"
+							"enabled"		"1"
+							"labelText"		""
+							"border_default"		"noborder"
+							"PaintBackgroundType"		"0"
+							"actionsignallevel"		"6"
+							"command"		"engine hpos_sel_class; hud_reloadscheme"
+							"armedBgColor_override"		"255 255 255 90"
+							"defaultBgColor_override"		"0 0 0 0"
+							"sound_depressed"		"UI/1.wav"
+						}
 					}
 					"s_uber"
 					{
@@ -633,7 +690,6 @@
 						"tall"		"11"
 						"visible"		"1"
 						"enabled"		"1"
-						"mouseinputenabled"		"0"
 						"img"
 						{
 							"ControlName"		"ImagePanel"
@@ -748,6 +804,26 @@
 								"visible"		"1"
 							}
 						}
+						"btn"
+						{
+							"ControlName"		"CExButton"
+							"fieldName"		"btn"
+							"xpos"		"0"
+							"ypos"		"0"
+							"zpos"		"5"
+							"wide"		"113"
+							"tall"		"11"
+							"visible"		"1"
+							"enabled"		"1"
+							"labelText"		""
+							"border_default"		"noborder"
+							"PaintBackgroundType"		"0"
+							"actionsignallevel"		"6"
+							"command"		"engine hpos_sel_uber; hud_reloadscheme"
+							"armedBgColor_override"		"255 255 255 90"
+							"defaultBgColor_override"		"0 0 0 0"
+							"sound_depressed"		"UI/1.wav"
+						}
 					}
 					"s_metal"
 					{
@@ -783,7 +859,6 @@
 						"tall"		"14"
 						"visible"		"1"
 						"enabled"		"1"
-						"mouseinputenabled"		"0"
 						"img"
 						{
 							"ControlName"		"ImagePanel"
@@ -897,6 +972,26 @@
 								"visible"		"1"
 							}
 						}
+						"btn"
+						{
+							"ControlName"		"CExButton"
+							"fieldName"		"btn"
+							"xpos"		"0"
+							"ypos"		"0"
+							"zpos"		"5"
+							"wide"		"29"
+							"tall"		"14"
+							"visible"		"1"
+							"enabled"		"1"
+							"labelText"		""
+							"border_default"		"noborder"
+							"PaintBackgroundType"		"0"
+							"actionsignallevel"		"6"
+							"command"		"engine hpos_sel_metal; hud_reloadscheme"
+							"armedBgColor_override"		"255 255 255 90"
+							"defaultBgColor_override"		"0 0 0 0"
+							"sound_depressed"		"UI/1.wav"
+						}
 					}
 					"step1"
 					{
@@ -910,7 +1005,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"font"		"pixel8"
-						"labelText"		"1. pick an element"
+						"labelText"		"1. click an element"
 						"textAlignment"		"west"
 						"fgcolor"		"WHUDwhite"
 						"mouseinputenabled"		"0"
@@ -1052,7 +1147,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"font"		"pixel8"
-						"labelText"		"2. click where you want it"
+						"labelText"		"2. click its new spot"
 						"textAlignment"		"west"
 						"fgcolor"		"WHUDwhite"
 						"mouseinputenabled"		"0"
@@ -1112,7 +1207,41 @@
 						"ControlName"		"CExLabel"
 						"fieldName"		"note1"
 						"xpos"		"469"
-						"ypos"		"240"
+						"ypos"		"238"
+						"zpos"		"5"
+						"wide"		"140"
+						"tall"		"10"
+						"visible"		"1"
+						"enabled"		"1"
+						"font"		"pixel6"
+						"labelText"		"no dragging: it takes two clicks"
+						"textAlignment"		"west"
+						"fgcolor"		"WHUDwhite"
+						"mouseinputenabled"		"0"
+					}
+					"note2"
+					{
+						"ControlName"		"CExLabel"
+						"fieldName"		"note2"
+						"xpos"		"469"
+						"ypos"		"249"
+						"zpos"		"5"
+						"wide"		"140"
+						"tall"		"10"
+						"visible"		"1"
+						"enabled"		"1"
+						"font"		"pixel6"
+						"labelText"		"the hud reloads at every click"
+						"textAlignment"		"west"
+						"fgcolor"		"WHUDwhite"
+						"mouseinputenabled"		"0"
+					}
+					"note3"
+					{
+						"ControlName"		"CExLabel"
+						"fieldName"		"note3"
+						"xpos"		"469"
+						"ypos"		"260"
 						"zpos"		"5"
 						"wide"		"140"
 						"tall"		"10"
@@ -1124,12 +1253,12 @@
 						"fgcolor"		"WHUDwhite"
 						"mouseinputenabled"		"0"
 					}
-					"note2"
+					"note4"
 					{
 						"ControlName"		"CExLabel"
-						"fieldName"		"note2"
+						"fieldName"		"note4"
 						"xpos"		"469"
-						"ypos"		"251"
+						"ypos"		"271"
 						"zpos"		"5"
 						"wide"		"140"
 						"tall"		"10"

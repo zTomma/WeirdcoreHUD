@@ -19,11 +19,18 @@ again. Do not edit the generated files by hand: they are overwritten.
 
 HOW IT WORKS
 ------------
-A .res file cannot read the mouse, so real drag and drop is impossible. The
-editor is a grid of invisible buttons laid over a picture of the screen. A
+A .res file cannot read the mouse, so real drag and drop is impossible. It is
+two clicks instead: one on an element to pick it, one on its new spot.
+
+The editor is a grid of invisible buttons laid over a picture of the screen. A
 click on a cell runs two console aliases (one for the column, one for the row)
 that write small KeyValues files into tf/cfg, then reloads the HUD. The HUD
 files #base those files, so the element is drawn at the new position.
+
+Each element has a marker on the picture. The markers are buttons too and sit
+above the grid: a click on one picks that element, which points the grid at
+the aliases of that element. The picked marker goes below the grid, so a click
+on it moves it like a click anywhere else.
 
 Two engine rules shape everything here:
 
@@ -144,13 +151,17 @@ ELEMENTS = [
 
 # the element that is picked until the user picks another one
 DEFAULT = "health"
+GRID_ZPOS = 30
 
 for _el in ELEMENTS:
     # marker size in the preview: the real size, but never too small to read
     _el["marker"] = dict(w=max(26, round(_el["box"][2] * SX)),
                          h=max(11, round(_el["box"][3] * SY)))
-    _el["zpos"] = 10 + ELEMENTS.index(_el)
-SELECTED_ZPOS = 25
+    # markers sit above the grid, so a click on one picks that element...
+    _el["zpos"] = GRID_ZPOS + 10 + ELEMENTS.index(_el)
+# ...except the marker of the picked element: it sits below the grid and takes
+# no mouse input, so a click on it reaches the cell underneath
+SELECTED_ZPOS = GRID_ZPOS - 5
 SELECT_COLOR = "255 221 87 255"   # frame of the picked marker, bar next to its button
 
 # ---------------------------------------------------------------------------
@@ -243,11 +254,12 @@ def write_helper(name, filename):
 def selection_kv(el):
     """KeyValues that highlight one element in the menu."""
     eid = el["id"]
-    kv = f"s_{eid}{{visible 1}}mk_{eid}{{zpos {SELECTED_ZPOS} sel{{visible 1}}}}"
+    kv = f"s_{eid}{{visible 1}}mk_{eid}{{zpos {SELECTED_ZPOS} mouseinputenabled 0 sel{{visible 1}}}}"
     if eid != DEFAULT:
         # the default element is highlighted by markers_base.res: turn it off
         d = next(e for e in ELEMENTS if e["id"] == DEFAULT)
-        kv += f"s_{DEFAULT}{{visible 0}}mk_{DEFAULT}{{zpos {d['zpos']} sel{{visible 0}}}}"
+        kv += (f"s_{DEFAULT}{{visible 0}}"
+               f"mk_{DEFAULT}{{zpos {d['zpos']} mouseinputenabled 1 sel{{visible 0}}}}")
     return menu_kv(kv)
 
 
@@ -308,8 +320,8 @@ def build_cfg():
             "; ".join(f"hpos_q_{eid}_{n}" for n in range(len(chunks))),
         ))
 
-        # hudpos_sel.txt highlights the picked element in the menu;
-        # hudpos_selq.txt is a one-line script that picks it again (see below)
+        # hudpos_pick.txt highlights the picked element in the menu;
+        # hudpos_pickq.txt is a one-line script that picks it again (see below)
         out.append(check_alias(
             f"hpos_sel_{eid}",
             f"hpos_q_{eid}; hpos_selw; echo x{{{selection_kv(el)}}}; console_unlog; "
@@ -318,8 +330,8 @@ def build_cfg():
         out.append("")
 
     out.append("//--------------------------- shared ---------------------------//")
-    out.append(write_helper("hpos_selw", "hudpos_sel.txt"))
-    out.append(write_helper("hpos_selqw", "hudpos_selq.txt"))
+    out.append(write_helper("hpos_selw", "hudpos_pick.txt"))
+    out.append(write_helper("hpos_selqw", "hudpos_pickq.txt"))
     out.append(check_alias("hpos_rs_all", "; ".join(f"hpos_rs_{el['id']}" for el in ELEMENTS)))
     out += [
         "",
@@ -327,7 +339,7 @@ def build_cfg():
         "// is restored from tf/cfg. That file does not exist before the first pick,",
         "// so the console says it is not present: that message is harmless.",
         f"hpos_q_{DEFAULT}",
-        "exec hudpos_selq.txt",
+        "exec hudpos_pickq.txt",
         "",
     ]
     return "\n".join(out)
@@ -434,7 +446,7 @@ def build_editor():
         # everything that is shown only while this element is picked: dark
         # strips over the area it cannot reach and a bar next to its button.
         # No "visible" here: markers_base.res hides the group and
-        # cfg/hudpos_sel.txt shows the one of the picked element.
+        # cfg/hudpos_pick.txt shows the one of the picked element.
         shown = []
         if el["reach"] is not None:
             x0, y0, x1, y1 = el["reach"]
@@ -456,8 +468,8 @@ def build_editor():
             ("enabled", 1), ("mouseinputenabled", 0),
         ], shown, indent=ind))
 
-        # the marker; no xpos/ypos/zpos here, they come from the saved files
-        # or from markers_base.res
+        # the marker; no xpos/ypos/zpos/mouseinputenabled here, they come from
+        # the saved files or from markers_base.res
         pieces = []
         if el["image"]:
             pieces.append(block("img", [
@@ -477,7 +489,7 @@ def build_editor():
         pieces.append(label("lbl", el["tag"], 0, 0, m["w"], m["h"], font="pixel6",
                             align="center", z=3, ind=ind + 1))
         # frame around the picked marker. No "visible" here either:
-        # markers_base.res hides it, cfg/hudpos_sel.txt shows it.
+        # markers_base.res hides it, cfg/hudpos_pick.txt shows it.
         frame = [
             fill("t", SELECT_COLOR, 0, 0, m["w"], 2, 1, ind + 2, [("visible", 1)]),
             fill("b", SELECT_COLOR, 0, m["h"] - 2, m["w"], 2, 1, ind + 2, [("visible", 1)]),
@@ -489,41 +501,62 @@ def build_editor():
             ("xpos", 0), ("ypos", 0), ("zpos", 4), ("wide", m["w"]), ("tall", m["h"]),
             ("enabled", 1), ("mouseinputenabled", 0),
         ], frame, indent=ind + 1))
+        # a click on the marker picks the element (same as its button on the
+        # right). The engine turns this off together with the mouse input of
+        # the marker, so the picked marker lets clicks through to the grid.
+        pieces.append(block("btn", [
+            ("ControlName", "CExButton"), ("fieldName", "btn"),
+            ("xpos", 0), ("ypos", 0), ("zpos", 5), ("wide", m["w"]), ("tall", m["h"]),
+            ("visible", 1), ("enabled", 1), ("labelText", ""),
+            ("border_default", "noborder"), ("PaintBackgroundType", 0),
+            ("actionsignallevel", SIGNAL_LEVEL + 1),
+            ("command", f"engine hpos_sel_{eid}; hud_reloadscheme"),
+            ("armedBgColor_override", "255 255 255 90"),
+            ("defaultBgColor_override", "0 0 0 0"),
+            ("sound_depressed", "UI/1.wav"),
+        ], indent=ind + 1))
         parts.append(block(f"mk_{eid}", [
             ("ControlName", "EditablePanel"), ("fieldName", f"mk_{eid}"),
             ("wide", m["w"]), ("tall", m["h"]),
-            ("visible", 1), ("enabled", 1), ("mouseinputenabled", 0),
+            ("visible", 1), ("enabled", 1),
         ], pieces, indent=ind))
 
     # right column
-    parts.append(label("step1", "1. pick an element", SIDE_X, PY, SIDE_W, 12, ind=ind))
+    parts.append(label("step1", "1. click an element", SIDE_X, PY, SIDE_W, 12, ind=ind))
     for el in ELEMENTS:
         eid = el["id"]
         parts.append(button(f"b_{eid}", el["label"], f"engine hpos_sel_{eid}; hud_reloadscheme",
                             SIDE_X, button_y[eid], SIDE_W, 22, SIGNAL_LEVEL, ind=ind))
     y += 4
-    parts.append(label("step2", "2. click where you want it", SIDE_X, y, SIDE_W, 12, ind=ind))
+    parts.append(label("step2", "2. click its new spot", SIDE_X, y, SIDE_W, 12, ind=ind))
     y += 16
     parts.append(button("reset", "reset selected", "engine hpos_rs; hud_reloadscheme",
                         SIDE_X, y, SIDE_W, 22, SIGNAL_LEVEL, ind=ind))
     y += 25
     parts.append(button("resetall", "reset all", "engine hpos_rs_all; hud_reloadscheme",
                         SIDE_X, y, SIDE_W, 22, SIGNAL_LEVEL, ind=ind))
-    y += 28
-    parts.append(label("note1", "dark area = out of reach", SIDE_X, y, SIDE_W, 10,
-                       font="pixel6", ind=ind))
-    parts.append(label("note2", "minmode keeps its own layout", SIDE_X, y + 11, SIDE_W, 10,
-                       font="pixel6", ind=ind))
-    assert y + 21 <= PANEL_H, "right column does not fit"
+    y += 26
+    notes = [
+        "no dragging: it takes two clicks",
+        "the hud reloads at every click",
+        "dark area = out of reach",
+        "minmode keeps its own layout",
+    ]
+    for n, text in enumerate(notes):
+        parts.append(label(f"note{n + 1}", text, SIDE_X, y + n * 11, SIDE_W, 10,
+                           font="pixel6", ind=ind))
+    assert y + len(notes) * 11 <= PANEL_H, "right column does not fit"
+    assert PANEL_Y + y + len(notes) * 11 <= 320, "right column does not fit above the fold"
 
-    # the grid: one invisible button per cell, drawn above everything else
+    # the grid: one invisible button per cell, above the preview and the
+    # picked marker, below the other markers
     pad = "\t" * ind
     grid = []
     for j in range(ROWS):
         for i in range(COLS):
             grid.append(pad + inline(f"g{i}_{j}", [
                 ("ControlName", "CExButton"), ("fieldName", f"g{i}_{j}"),
-                ("xpos", PX + i * CELL), ("ypos", PY + j * CELL), ("zpos", 30),
+                ("xpos", PX + i * CELL), ("ypos", PY + j * CELL), ("zpos", GRID_ZPOS),
                 ("wide", CELL), ("tall", CELL), ("visible", 1), ("enabled", 1),
                 ("labelText", ""), ("border_default", "noborder"),
                 ("PaintBackgroundType", 0), ("actionsignallevel", SIGNAL_LEVEL),
@@ -556,7 +589,7 @@ def build_markers_base():
         zpos = SELECTED_ZPOS if picked else el["zpos"]
         parts.append(
             f'{pad}"mk_{eid}"{{"xpos" "{marker_pos(el, "x", 0)}" "ypos" "{marker_pos(el, "y", 0)}"'
-            f' "zpos" "{zpos}" "sel"{{"visible" "{picked}"}}}}'
+            f' "zpos" "{zpos}" "mouseinputenabled" "{1 - picked}" "sel"{{"visible" "{picked}"}}}}'
         )
         parts.append(f'{pad}"s_{eid}"{{"visible" "{picked}"}}')
     pad = "\t" * len(MENU_PATH)
@@ -573,7 +606,7 @@ def build_markers():
     for el in ELEMENTS:
         lines.append(f'#base "../../../../cfg/hudpos_{el["id"]}_mx.txt"')
         lines.append(f'#base "../../../../cfg/hudpos_{el["id"]}_my.txt"')
-    lines.append('#base "../../../../cfg/hudpos_sel.txt"')
+    lines.append('#base "../../../../cfg/hudpos_pick.txt"')
     lines.append('#base "markers_base.res"')
     return "\n".join(lines) + "\n"
 

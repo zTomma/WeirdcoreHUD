@@ -11,5 +11,5 @@
 #base "../../../../cfg/hudpos_uber_my.txt"
 #base "../../../../cfg/hudpos_metal_mx.txt"
 #base "../../../../cfg/hudpos_metal_my.txt"
-#base "../../../../cfg/hudpos_sel.txt"
+#base "../../../../cfg/hudpos_pick.txt"
 #base "markers_base.res"
