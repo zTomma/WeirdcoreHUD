@@ -480,7 +480,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -488,7 +488,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -497,7 +497,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -506,7 +506,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -515,7 +515,7 @@ Scheme
 			}
 			"1200"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"27"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -524,7 +524,7 @@ Scheme
 			}
 			"1600"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"40"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -533,7 +533,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -541,14 +541,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -868,7 +868,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -878,7 +878,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -888,7 +888,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -897,7 +897,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -906,7 +906,7 @@ Scheme
 			}
 			"1200"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"64"
 				"weight"	"500"
 				"additive"	"0"
@@ -915,7 +915,7 @@ Scheme
 			}
 			"1600"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"96"
 				"weight"	"500"
 				"additive"	"0"
@@ -924,7 +924,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -935,7 +935,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -948,7 +948,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -961,7 +961,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -973,7 +973,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -984,7 +984,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -995,7 +995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -1007,7 +1007,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Upheaval TT -BRK-"
+                "name"        "Upheaval TT (BRK)"
                 "tall"        "24"
                 "weight"    "500"
                 "yres"        "1 1199"
@@ -1016,7 +1016,7 @@ Scheme
             }
             "2" // Misyl: Proportional
             {
-                "name"        "Upheaval TT -BRK-"
+                "name"        "Upheaval TT (BRK)"
                 "tall"        "10"
                 "weight"    "500"
                 "additive"    "0"
@@ -1027,7 +1027,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1038,7 +1038,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"15"
 				"weight"	"500"
 				"additive"	"0"
@@ -1049,7 +1049,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1062,7 +1062,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1075,7 +1075,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1087,7 +1087,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1098,7 +1098,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1109,7 +1109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1121,7 +1121,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1132,7 +1132,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1144,7 +1144,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"5"
 				"weight"	"500"
 				"additive"	"0"
@@ -1155,7 +1155,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1166,7 +1166,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1177,7 +1177,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1188,7 +1188,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1199,7 +1199,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1210,7 +1210,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1221,7 +1221,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1234,7 +1234,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1309,7 +1309,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1322,7 +1322,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1382,7 +1382,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1392,7 +1392,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1403,7 +1403,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1412,7 +1412,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1421,7 +1421,7 @@ Scheme
 			}
 			"1200"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"28"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1430,7 +1430,7 @@ Scheme
 			}
 			"1600"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"42"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1439,7 +1439,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1605,7 +1605,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1615,7 +1615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1626,7 +1626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1651,7 +1651,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Upheaval TT -BRK-"
+				"name"			"Upheaval TT (BRK)"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1666,7 +1666,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Upheaval TT -BRK-"
+				"name"			"Upheaval TT (BRK)"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1681,7 +1681,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1694,7 +1694,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Upheaval TT -BRK-"
+				"name"			"Upheaval TT (BRK)"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -1732,7 +1732,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1745,7 +1745,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1757,7 +1757,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1769,7 +1769,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1783,7 +1783,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1795,7 +1795,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1807,7 +1807,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1822,7 +1822,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1834,7 +1834,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1844,7 +1844,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1854,7 +1854,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1863,7 +1863,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1872,7 +1872,7 @@ Scheme
 			}
 			"1200"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"187"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1881,7 +1881,7 @@ Scheme
 			}
 			"1600"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"280"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1890,7 +1890,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1902,7 +1902,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1914,7 +1914,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1925,7 +1925,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1936,7 +1936,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1947,7 +1947,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1958,7 +1958,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1970,7 +1970,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -2043,7 +2043,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -2051,7 +2051,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -2059,7 +2059,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -2067,7 +2067,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -2075,7 +2075,7 @@ Scheme
 			}
 			"1200"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"27"
 				"weight"	"700"
 				"yres"		"1200 1599"
@@ -2083,7 +2083,7 @@ Scheme
 			}
 			"1600"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"40"
 				"weight"	"700"
 				"yres"		"1600 10000"
@@ -2091,7 +2091,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -2175,7 +2175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2188,7 +2188,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2200,7 +2200,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2253,7 +2253,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2263,7 +2263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2273,7 +2273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2301,7 +2301,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2310,7 +2310,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2349,7 +2349,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2360,7 +2360,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2371,7 +2371,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2457,7 +2457,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2468,7 +2468,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2479,7 +2479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2490,7 +2490,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2501,7 +2501,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2522,7 +2522,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2533,7 +2533,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2544,7 +2544,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2556,7 +2556,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2567,7 +2567,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2727,7 +2727,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2736,7 +2736,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2745,7 +2745,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2758,7 +2758,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2768,7 +2768,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2778,7 +2778,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2792,7 +2792,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2801,7 +2801,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2810,7 +2810,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2823,7 +2823,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2835,7 +2835,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2847,7 +2847,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2973,7 +2973,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3055,7 +3055,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3066,7 +3066,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3077,7 +3077,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -3090,7 +3090,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3101,7 +3101,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -3118,7 +3118,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3129,7 +3129,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3141,7 +3141,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3154,7 +3154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -3166,7 +3166,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -3177,7 +3177,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -3190,7 +3190,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3405,7 +3405,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"15"
 				"antialias" "1"
 			}
@@ -3414,7 +3414,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"8"
 				"antialias" "1"
 			}
@@ -3423,7 +3423,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"5"
 				"antialias" "1"
 			}
@@ -3432,7 +3432,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"6"
 				"antialias" "1"
 			}
@@ -3441,7 +3441,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"7"
 				"antialias" "1"
 			}
@@ -3450,7 +3450,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"9"
 				"antialias" "1"
 			}
@@ -3459,7 +3459,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"17"
 				"antialias" "1"
 			}
@@ -3468,7 +3468,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -3477,7 +3477,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3487,7 +3487,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"20"
 				"antialias" "1"
 				"outline"	"3"
@@ -3498,7 +3498,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"30"
 				"antialias" "1"
 			}
@@ -3507,7 +3507,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Dogica bold"
+				"name"		"Dogica"
 				"tall"		"40"
 				"antialias" "1"
 			}
@@ -3517,7 +3517,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DS-Digital Bold Italic"
+				"name"		"DS-Digital"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -3528,7 +3528,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DS-Digital Bold Italic"
+				"name"		"DS-Digital"
 				"tall"		"15"
 				"antialias" "1"
 			}
@@ -3538,7 +3538,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DS-Digital Bold Italic"
+				"name"		"DS-Digital"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3547,7 +3547,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DS-Digital Bold Italic"
+				"name"		"DS-Digital"
 				"tall"		"30"
 				"antialias" "1"
 			}
@@ -3556,7 +3556,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DS-Digital Bold Italic"
+				"name"		"DS-Digital"
 				"tall"		"40"
 				"antialias" "1"
 			}
@@ -3566,7 +3566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DS-Digital Bold Italic"
+				"name"		"DS-Digital"
 				"tall"		"100"
 				"antialias" "1"
 			}
@@ -3576,7 +3576,7 @@ Scheme
 		{
 			"1"					
 			{
-				"name"		"DS-Digital Bold Italic"
+				"name"		"DS-Digital"
 				"tall"		"35"
 				"antialias" "1"
 			}
@@ -3585,7 +3585,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"6"
 				"antialias" "1"
 			}
@@ -3595,7 +3595,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"8"
 				"antialias" "1"
 			}
@@ -3604,7 +3604,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -3616,7 +3616,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"15"
 				"antialias" "1"
 			}
@@ -3626,7 +3626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"17"
 				"antialias" "1"
 			}
@@ -3636,7 +3636,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"11"
 				"antialias" "1"
 			}
@@ -3647,7 +3647,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"30"
 				"outline"	"1"
 			}
@@ -3657,7 +3657,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"8"
 				"outline"	"1"
 			}
@@ -3667,7 +3667,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"10"
 				"outline"	"1"
 			}
@@ -3677,7 +3677,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"15"
 				"outline"	"1"
 			}
@@ -3687,7 +3687,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"20"
 				"outline"	"1"
 			}
@@ -3697,7 +3697,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"40"
 				"outline"	"1"
 			}
@@ -3707,7 +3707,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"50"
 				"outline"	"1"
 			}
@@ -3717,7 +3717,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"60"
 				"outline"	"1"
 			}
@@ -3727,7 +3727,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3737,7 +3737,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"30"
 				"antialias" "1"
 			}
@@ -3747,7 +3747,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"40"
 				"antialias" "1"
 			}
@@ -3757,7 +3757,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"50"
 				"antialias" "1"
 			}
@@ -3767,7 +3767,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"60"
 				"antialias" "1"
 			}
@@ -3777,7 +3777,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"80"
 				"antialias" "1"
 			}
@@ -3787,7 +3787,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Upheaval TT -BRK-"
+				"name"		"Upheaval TT (BRK)"
 				"tall"		"120"
 				"antialias" "1"
 			}
@@ -3797,7 +3797,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorecrosshairs Regular"
+				"name"		"Weirdcorecrosshairs"
 				"tall"		"5"
 				"antialias" "1"
 			}
@@ -3807,7 +3807,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorecrosshairs Regular"
+				"name"		"Weirdcorecrosshairs"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -3817,7 +3817,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorecrosshairs Regular"
+				"name"		"Weirdcorecrosshairs"
 				"tall"		"15"
 				"antialias" "1"
 			}
@@ -3827,7 +3827,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorecrosshairs Regular"
+				"name"		"Weirdcorecrosshairs"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3837,7 +3837,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorecrosshairs Regular"
+				"name"		"Weirdcorecrosshairs"
 				"tall"		"25"
 				"antialias" "1"
 			}
@@ -3847,7 +3847,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorecrosshairs Regular"
+				"name"		"Weirdcorecrosshairs"
 				"tall"		"30"
 				"antialias" "1"
 			}
@@ -3857,7 +3857,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorecrosshairs Regular"
+				"name"		"Weirdcorecrosshairs"
 				"tall"		"35"
 				"antialias" "1"
 			}
@@ -3867,7 +3867,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorecrosshairs Regular"
+				"name"		"Weirdcorecrosshairs"
 				"tall"		"40"
 				"antialias" "1"
 			}
@@ -3877,7 +3877,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorecrosshairs Regular"
+				"name"		"Weirdcorecrosshairs"
 				"tall"		"45"
 				"antialias" "1"
 			}
@@ -3887,7 +3887,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorecrosshairs Regular"
+				"name"		"Weirdcorecrosshairs"
 				"tall"		"50"
 				"antialias" "1"
 			}
@@ -3897,7 +3897,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorecrosshairs Regular"
+				"name"		"Weirdcorecrosshairs"
 				"tall"		"50"
 				"antialias" "1"
 			}
@@ -3907,7 +3907,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorehitmarker Regular"
+				"name"		"Weirdcorehitmarker"
 				"tall"		"5"
 				"antialias" "1"
 			}
@@ -3917,7 +3917,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorehitmarker Regular"
+				"name"		"Weirdcorehitmarker"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -3927,7 +3927,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorehitmarker Regular"
+				"name"		"Weirdcorehitmarker"
 				"tall"		"15"
 				"antialias" "1"
 			}
@@ -3937,7 +3937,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorehitmarker Regular"
+				"name"		"Weirdcorehitmarker"
 				"tall"		"20"
 				"antialias" "1"
 			}
@@ -3947,7 +3947,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorehitmarker Regular"
+				"name"		"Weirdcorehitmarker"
 				"tall"		"25"
 				"antialias" "1"
 			}
@@ -3957,7 +3957,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorehitmarker Regular"
+				"name"		"Weirdcorehitmarker"
 				"tall"		"30"
 				"antialias" "1"
 			}
@@ -3967,7 +3967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorehitmarker Regular"
+				"name"		"Weirdcorehitmarker"
 				"tall"		"35"
 				"antialias" "1"
 			}
@@ -3977,7 +3977,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorehitmarker Regular"
+				"name"		"Weirdcorehitmarker"
 				"tall"		"40"
 				"antialias" "1"
 			}
@@ -3987,7 +3987,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorehitmarker Regular"
+				"name"		"Weirdcorehitmarker"
 				"tall"		"45"
 				"antialias" "1"
 			}
@@ -3997,7 +3997,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorehitmarker Regular"
+				"name"		"Weirdcorehitmarker"
 				"tall"		"50"
 				"antialias" "1"
 			}
@@ -4007,7 +4007,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Weirdcorehitmarker Regular"
+				"name"		"Weirdcorehitmarker"
 				"tall"		"50"
 				"antialias" "1"
 			}
@@ -4284,7 +4284,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tommas Icons Regular"
+				"name"		"Tommas Icons"
 				"tall"		"10"
 				"antialias" "1"
 			}
@@ -4294,7 +4294,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tommas Icons Regular"
+				"name"		"Tommas Icons"
 				"tall"		"15"
 				"antialias" "1"
 			}
@@ -4304,7 +4304,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tommas Icons Regular"
+				"name"		"Tommas Icons"
 				"tall"		"25"
 				"antialias" "1"
 			}
@@ -4315,7 +4315,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tommas Icons Regular"
+				"name"		"Tommas Icons"
 				"tall"		"60"
 				"antialias" "1"
 			}
@@ -4445,7 +4445,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Justice Laser Big Regular"
+				"name"		"Justice Laser Big"
 				"tall"		"120"
 				"antialias" "1"
 			}
@@ -4597,7 +4597,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Justice Halftone Big Regular"
+				"name"		"Justice Halftone Big"
 				"tall"		"50"
 				"antialias" "1"
 			}
@@ -7749,30 +7749,30 @@ Scheme
 		"9"
 		{
 			"font" "resource/fonts/dogicabold.ttf"
-			"name" "Dogica bold"
+			"name" "Dogica"
 		}
 		
 		"10"
 		{
 			"font" "resource/fonts/DS-DIGIT.TTF"
-			"name" "DS-Digital Bold Italic"
+			"name" "DS-Digital"
 		}
 		
 		"11"
 		{
-			"font" "resource/fonts/upheavtt.TTF"
-			"name" "Upheaval TT -BRK-"
+			"font" "resource/fonts/upheavtt.ttf"
+			"name" "Upheaval TT (BRK)"
 		}
 		
 		"12"
 		{
-			"font" "resource/fonts/HotRush-SansStripedItalic.TTF"
+			"font" "resource/fonts/HotRush-SansStripedItalic.ttf"
 			"name" "Hot Rush Sans Striped Italic"
 		}
 		
 		"13"
 		{
-			"font" "resource/fonts/HotRush-SansItalic.TTF"
+			"font" "resource/fonts/HotRush-SansItalic.ttf"
 			"name" "Hot Rush Sans Italic"
 		}
 		
@@ -7785,7 +7785,7 @@ Scheme
 		"15"
 		{
 			"font" "resource/fonts/TommasIcons-Regular.ttf"
-			"name" "Tommas Icons Regular"
+			"name" "Tommas Icons"
 		}
 		"16"
 		{
@@ -7844,25 +7844,25 @@ Scheme
 			"25"
 		{
 			"font" "resource/fonts/JusticeHalftoneBig-Regular.ttf"
-			"name" "Justice Halftone Big Regular"
+			"name" "Justice Halftone Big"
 		}
 
 			"26"
 		{
 			"font" "resource/fonts/JusticeLaserBig-Regular.ttf"
-			"name" "Justice Laser Big Regular"
+			"name" "Justice Laser Big"
 		}
 
 		"27"
 		{
 			"font" "resource/fonts/Weirdcorecrosshairs-Regular.ttf"
-			"name" "Weirdcorecrosshairs Regular"
+			"name" "Weirdcorecrosshairs"
 		}
 
-			"27"
+			"28"
 		{
 			"font" "resource/fonts/Weirdcorehitmarker-Regular.ttf"
-			"name" "Weirdcorehitmarker Regular"
+			"name" "Weirdcorehitmarker"
 		}
 	}
 }
